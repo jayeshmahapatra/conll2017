@@ -1,15 +1,23 @@
-import dynet as dy
+from __future__ import print_function
+from sys import argv, stderr
 import random
-from sys import argv
+
+import dynet as dy
+
+from augment import augment
 
 EOS = "<EOS>"
-characters = set(list("abcdefghijklmnopqrstuvwxyz "))
-characters.add(EOS)
+
+LSTM_NUM_OF_LAYERS = 2
+EMBEDDINGS_SIZE = 32
+STATE_SIZE = 32
+ATTENTION_SIZE = 32
 
 
 def embed_sentence(sentence):
     sentence = [EOS] + list(sentence) + [EOS]
-    sentence = [char2int[c] for c in sentence]
+    # Skip unknown characters.
+    sentence = [char2int[c] for c in sentence if c in char2int]
 
     global input_lookup
 
@@ -123,64 +131,82 @@ def get_loss(input_sentence, output_sentence, enc_fwd_lstm, enc_bwd_lstm, dec_ls
     return decode(dec_lstm, encoded, output_sentence)
 
 
-def train(model, isentences,osentences, idevsentences,odevsentences):
-    trainer = dy.SimpleSGDTrainer(model)
+def train(model, isentences,osentences, idevsentences,odevsentences,itestsentences, ofile):
+    trainer = dy.SimpleSGDTrainer(model,e0=.01)
     iopairs = list(zip(isentences,osentences))
-    for i in range(600):
+    random.shuffle(iopairs)
+    for i in range(EPOCHS):
         loss_value = 0
-        random.shuffle(iopairs)
+#        random.shuffle(iopairs)
         for isentence, osentence in iopairs:
             loss = get_loss(isentence, osentence, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
             loss_value += loss.value()
             loss.backward()
             trainer.update()
-        print(loss_value/len(iopairs))
+
         corr = 0
-        k = 0
-
-        for i,o in zip(idevsentences,odevsentences):
+        for ip,op in zip(idevsentences,odevsentences):
             dy.renew_cg()
-            sys_o = generate(i, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
-            if k % 100 == 0:
-                print(''.join(o),sys_o)
-            k+=1
-            if ''.join(o) == sys_o:
+            sys_o = generate(ip, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
+            if ''.join(op) == sys_o:
                 corr += 1
-        print("DEV ACC %.2f\n" % (corr * 100.0 / len(idevsentences)))
+        print("EPOCH %u: LOSS %.2f, DEV ACC %.2f" % (i+1, loss_value/len(iopairs), corr * 100.0 / len(idevsentences)))
+        
+    for ilemma,ilabels in itestsentences:
+        dy.renew_cg()
+        sys_o = generate(ilemma+ilabels, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
+        ofile.write("%s\t%s\t%s\n" % (''.join(ilemma),sys_o,';'.join(ilabels)))
 
-data = [l.strip().split('\t') for l in open(argv[1]).read().split('\n') if l.strip() != '']
-idata = [[c for c in lemma] + tags.split(';') for lemma, _, tags in data]
-odata = [[c for c in wf] for _, wf, _ in data]
+if __name__=='__main__':
+    # This is so ugly.
+    global characters, char2int, int2char, EPOCHS
 
-devdata = [l.strip().split('\t') for l in open(argv[2]).read().split('\n') if l.strip() != '']
-idevdata = [[c for c in lemma] + tags.split(';') for lemma, _, tags in devdata]
-odevdata = [[c for c in wf] for _, wf, _ in devdata]
+    if len(argv) != 7:
+        stderr.write(("USAGE: python3 %s train_file dev_file "+
+                      "test_file aug_factor num_epochs ofile\n") % argv[0])
+        exit(1)
 
-for wf in idata + odata + idevdata + odevdata:
-    for c in wf:
-        characters.add(c)
+    TRAIN_FN=argv[1]
+    DEV_FN=argv[2]
+    TEST_FN=argv[3]
+    AUG_FACTOR=int(argv[4])
+    EPOCHS=int(argv[5])
+    O_FN = argv[6]
 
-int2char = list(characters)
-char2int = {c:i for i,c in enumerate(characters)}
-VOCAB_SIZE = len(characters)
+    data = augment([l.strip().split('\t') for l in open(TRAIN_FN).read().split('\n') if l.strip() != ''],AUG_FACTOR)
+    
+    idata = [[c for c in lemma] + tags.split(';') for lemma, _, tags in data]
+    odata = [[c for c in wf] for _, wf, _ in data]
+    
+    devdata = [l.strip().split('\t') for l in open(DEV_FN).read().split('\n') if l.strip() != '']
+    idevdata = [[c for c in lemma] + tags.split(';') for lemma, _, tags in devdata]
+    odevdata = [[c for c in wf] for _, wf, _ in devdata]
+    
+    testdata = [l.strip().split('\t') for l in open(TEST_FN).read().split('\n') if l.strip() != '']
+    itestdata = [([c for c in lemma],tags.split(';')) for lemma, tags in testdata]
 
-LSTM_NUM_OF_LAYERS = 2
-EMBEDDINGS_SIZE = 32
-STATE_SIZE = 32
-ATTENTION_SIZE = 32
+    characters = set([EOS])
+    
+    for wf in idata + odata + idevdata + odevdata:
+        for c in wf:
+            characters.add(c)
 
-model = dy.Model()
-
-enc_fwd_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, EMBEDDINGS_SIZE, STATE_SIZE, model)
-enc_bwd_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, EMBEDDINGS_SIZE, STATE_SIZE, model)
-dec_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, STATE_SIZE*2+EMBEDDINGS_SIZE, STATE_SIZE, model)
-
-input_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
-attention_w1 = model.add_parameters( (ATTENTION_SIZE, STATE_SIZE*2))
-attention_w2 = model.add_parameters( (ATTENTION_SIZE, STATE_SIZE*LSTM_NUM_OF_LAYERS*2))
-attention_v = model.add_parameters( (1, ATTENTION_SIZE))
-decoder_w = model.add_parameters( (VOCAB_SIZE, STATE_SIZE))
-decoder_b = model.add_parameters( (VOCAB_SIZE))
-output_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
-
-train(model, idata,odata,idevdata,odevdata)
+    int2char = list(characters)
+    char2int = {c:i for i,c in enumerate(characters)}
+    VOCAB_SIZE = len(characters)
+    
+    model = dy.Model()
+    
+    enc_fwd_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, EMBEDDINGS_SIZE, STATE_SIZE, model)
+    enc_bwd_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, EMBEDDINGS_SIZE, STATE_SIZE, model)
+    dec_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, STATE_SIZE*2+EMBEDDINGS_SIZE, STATE_SIZE, model)
+    
+    input_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
+    attention_w1 = model.add_parameters( (ATTENTION_SIZE, STATE_SIZE*2))
+    attention_w2 = model.add_parameters( (ATTENTION_SIZE, STATE_SIZE*LSTM_NUM_OF_LAYERS*2))
+    attention_v = model.add_parameters( (1, ATTENTION_SIZE))
+    decoder_w = model.add_parameters( (VOCAB_SIZE, STATE_SIZE))
+    decoder_b = model.add_parameters( (VOCAB_SIZE))
+    output_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
+    
+    train(model, idata,odata,idevdata,odevdata,itestdata,open(O_FN,'w'))

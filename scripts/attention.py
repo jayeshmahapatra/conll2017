@@ -1,6 +1,7 @@
 from __future__ import print_function
 from sys import argv, stderr
 import random
+import pickle
 
 import dynet as dy
 
@@ -131,7 +132,7 @@ def get_loss(input_sentence, output_sentence, enc_fwd_lstm, enc_bwd_lstm, dec_ls
     return decode(dec_lstm, encoded, output_sentence)
 
 
-def train(model, isentences,osentences, idevsentences,odevsentences,itestsentences, alpha, ofile):
+def train(isentences,osentences, idevsentences,odevsentences, alpha):
     trainer = dy.SimpleSGDTrainer(model,e0=alpha)
     iopairs = list(zip(isentences,osentences))
     random.shuffle(iopairs)
@@ -151,53 +152,35 @@ def train(model, isentences,osentences, idevsentences,odevsentences,itestsentenc
             if ''.join(op) == sys_o:
                 corr += 1
         print("EPOCH %u: LOSS %.2f, DEV ACC %.2f" % (i+1, loss_value/len(iopairs), corr * 100.0 / len(idevsentences)))
-        
+
+    
+def test(itestsentences, ofile):
     for ilemma,ilabels in itestsentences:
         dy.renew_cg()
         sys_o = generate(ilemma+ilabels, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
         ofile.write("%s\t%s\t%s\n" % (''.join(ilemma),sys_o,';'.join(ilabels)))
 
-if __name__=='__main__':
-    # This is so ugly.
-    global characters, char2int, int2char, EPOCHS
-
-    if len(argv) != 8:
-        stderr.write(("USAGE: python3 %s train_file dev_file "+
-                      "test_file aug_factor num_epochs alpha ofile\n") % argv[0])
-        exit(1)
-
-    TRAIN_FN=argv[1]
-    DEV_FN=argv[2]
-    TEST_FN=argv[3]
-    AUG_FACTOR=int(argv[4])
-    EPOCHS=int(argv[5])
-    ALPHA=float(argv[6])
-    O_FN = argv[7]
-
-    data = augment([l.strip().split('\t') for l in open(TRAIN_FN).read().split('\n') if l.strip() != ''],AUG_FACTOR)
+def init_models(chars, fn=None):
+    global characters, int2char, char2int, model, enc_fwd_lstm, enc_bwd_lstm, \
+        dec_lstm, input_lookup, attention_w1, attention_w2, attention_v, \
+        decoder_w, decoder_b, output_lookup
     
-    idata = [[c for c in lemma] + tags.split(';') for lemma, _, tags in data]
-    odata = [[c for c in wf] for _, wf, _ in data]
-    
-    devdata = [l.strip().split('\t') for l in open(DEV_FN).read().split('\n') if l.strip() != '']
-    idevdata = [[c for c in lemma] + tags.split(';') for lemma, _, tags in devdata]
-    odevdata = [[c for c in wf] for _, wf, _ in devdata]
-    
-    testdata = [l.strip().split('\t') for l in open(TEST_FN).read().split('\n') if l.strip() != '']
-    itestdata = [([c for c in lemma],tags.split(';')) for lemma, tags in testdata]
+    characters = None
+    int2char = None
+    char2int = None
 
-    characters = set([EOS])
-    
-    for wf in idata + odata + idevdata + odevdata:
-        for c in wf:
-            characters.add(c)
+    if fn:
+        characters, int2char, char2int = \
+            pickle.load(open('%s.chars.pkl' % fn,'rb'))
+    else:
+        characters = chars
+        int2char = sorted(list(characters))
+        char2int = {c:i for i,c in enumerate(int2char)}
 
-    int2char = list(characters)
-    char2int = {c:i for i,c in enumerate(characters)}
     VOCAB_SIZE = len(characters)
     
     model = dy.Model()
-    
+
     enc_fwd_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, EMBEDDINGS_SIZE, STATE_SIZE, model)
     enc_bwd_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, EMBEDDINGS_SIZE, STATE_SIZE, model)
     dec_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, STATE_SIZE*2+EMBEDDINGS_SIZE, STATE_SIZE, model)
@@ -209,5 +192,13 @@ if __name__=='__main__':
     decoder_w = model.add_parameters( (VOCAB_SIZE, STATE_SIZE))
     decoder_b = model.add_parameters( (VOCAB_SIZE))
     output_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
+
+def save_model(ofilen):
+    model.save(ofilen)    
+    pickle.dump((characters,int2char,char2int),open("%s.chars.pkl" % ofilen,"wb"))
+
+def load_model(ifilen):
+    global model
+    model.load(ifilen)
+
     
-    train(model, idata,odata,idevdata,odevdata,itestdata,ALPHA,open(O_FN,'w'))

@@ -1,0 +1,100 @@
+চেষ্টা করা	V;3;FUT;INFM
+চেষ্টা করা	V;3;PRS;PRF;POL
+চাওয়া	V;3;PST;PRF;POL
+ঘুমানো	V;2;PST;HAB;POL
+ফেলা	V;2;PST;PROG;POL
+চুম্বন করা	V;1;PRS;PROG
+আচরণ করা	V;2;PRS;PROG;LGSPEC1
+ভুলে যাওয়া	V;3;PST;PRF;POL
+চাওয়া	V;3;PST;POL
+পাওয়া	V;2;PRS;PROG;LGSPEC1
+তরঙ্গ	N;GEN;PL;DEF
+ঘামা	V;3;PST;PROG;INFM
+ডিফ্র্যাগমেন্ট করা	V;2;PRS;PRF;POL
+উল্কি আঁকা	V;3;PRS;PROG;POL
+লুকানো	V;3;PST;INFM
+কেনা	V;2;PST;PROG;POL
+খাওয়া	V;3;PST;PROG;POL
+অনুরোধ করা	V;3;PST;PRF;POL
+মারা	V;2;FUT;LGSPEC1
+জ্বালাতন করা	V;1;PST;HAB
+ভাঙা	V;2;FUT;POL
+নাচা	V;2;PRS;PRF;POL
+চালানো	V;V.PTCP;PROG
+মারা	V;1;PRS
+মরা	V;3;PST;INFM
+কারণ	N;GEN;PL;DEF
+হওয়া	V;3;PST;PRF;POL
+ডিফ্র্যাগমেন্ট করা	V;V.MSDR
+আগানো	V;2;PRS;POL
+কারণ	N;LOC;SG;DEF
+ভুলে যাওয়া	V;V.PTCP;PROG
+চেষ্টা করা	V;3;PST;HAB;INFM
+খোঁজা	V;2;PRS;PROG;LGSPEC1
+অপেক্ষা করা	V;3;PRS;INFM
+দেখানো	V;2;FUT;LGSPEC1
+খোলা	V;2;PST;PRF;POL
+শব্দ	N;NOM;PL;DEF
+অঙ্গ	N;NOM;SG;DEF
+সাহায্য করা	V;2;PRS;POL
+আগানো	V;2;PST;LGSPEC1
+ইচ্ছা হওয়া	V;3;PRS;PRF;POL
+ভাবা	V;2;PST;PRF;POL
+মাল ফেলা	V;2;FUT;LGSPEC1
+ভালোবাসা	V;1;PST;PROG
+জাগানো	V;2;PST;PRF;LGSPEC1
+ধরা	V;3;FUT;INFM
+বিশেষ করা	V;2;PRS;POL
+খোঁজা	V;2;PRS;PROG;POL
+আগানো	V;3;PST;PRF;INFM
+খোলা	V;1;PRS;PROG
+মরা	V;3;PRS;PROG;INFM
+জাগানো	V;2;PST;PROG;LGSPEC1
+ঢোকা	V;3;PRS;PRF;POL
+চেষ্টা করা	V;3;PST;PRF;INFM
+চুম্বন করা	V;1;PRS;PRF
+জাগানো	V;2;PRS;PRF;LGSPEC1
+পাছা	N;ACC;PL;DEF
+ঘামানো	V;3;FUT;POL
+খোঁজা	V;2;FUT;POL
+সাহায্য করা	V;2;PRS;PRF;POL
+নেশাখোর	N;GEN;PL;DEF
+প্রশ্ন করা	V;2;PST;POL
+ভাঙা	V;2;PST;HAB;LGSPEC1
+হাগা	V;2;PRS;PRF;LGSPEC1
+দেখানো	V;3;PRS;PRF;POL
+ধরা	V;1;FUT
+দেখা	V;2;PST;POL
+ভুলে যাওয়া	V;3;PST;INFM
+অনুরোধ করা	V;V.PTCP;COND
+বোঝা	V;3;PST;HAB;INFM
+করা	V;2;PST;HAB;LGSPEC1
+ভালবাসা	V;3;PRS;PRF;POL
+শিশু	N;NOM;SG;DEF
+জানা	V;2;PST;PRF;POL
+ব্যবহার করা	V;3;PRS;POL
+ভরা	V;1;PST;PRF
+বান্ধবী	N;ACC;SG;DEF
+হাঁটা	V;2;PRS;PROG;LGSPEC1
+ফেলা	V;2;PST;HAB;POL
+বলা	V;3;PST;PRF;POL
+জাগানো	V;2;PST;POL
+ধন	N;LOC;NDEF
+চাটা	V;2;PST;PROG;POL
+চাপা	V;3;PST;INFM
+টাইপ করা	V;3;PST;PROG;POL
+উল্কি আঁকা	V;2;PST;PRF;LGSPEC1
+বোঝা	V;2;PRS;LGSPEC1
+আসা	V;1;PRS;PROG
+উদ্দেশ্য	N;NOM;SG;DEF
+ঘুমানো	V;3;PRS;PROG;POL
+করা	V;1;PST
+নেওয়া	V;2;PST;POL
+রাখা	V;V.PTCP;PROG
+যাওয়া	V;V.PTCP;HAB
+পাওয়া	V;V.MSDR
+আচরণ করা	V;3;PRS;PRF;INFM
+দেখা	V;2;FUT;POL
+উল্কি আঁকা	V;3;FUT;POL
+ঘামা	V;3;PRS;PROG;INFM
+বলা	V;V.PTCP;PROG

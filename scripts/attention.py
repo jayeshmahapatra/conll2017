@@ -131,8 +131,8 @@ def get_loss(input_sentence, output_sentence, enc_fwd_lstm, enc_bwd_lstm, dec_ls
     return decode(dec_lstm, encoded, output_sentence)
 
 
-def train(model, isentences,osentences, idevsentences,odevsentences,itestsentences, ofile):
-    trainer = dy.SimpleSGDTrainer(model,e0=.01)
+def train(model, isentences,osentences, idevsentences,odevsentences,itestsentences, alpha, ofile):
+    trainer = dy.SimpleSGDTrainer(model,e0=alpha)
     iopairs = list(zip(isentences,osentences))
     random.shuffle(iopairs)
     for i in range(EPOCHS):
@@ -161,9 +161,9 @@ if __name__=='__main__':
     # This is so ugly.
     global characters, char2int, int2char, EPOCHS
 
-    if len(argv) != 7:
+    if len(argv) != 8:
         stderr.write(("USAGE: python3 %s train_file dev_file "+
-                      "test_file aug_factor num_epochs ofile\n") % argv[0])
+                      "test_file aug_factor num_epochs alpha ofile\n") % argv[0])
         exit(1)
 
     TRAIN_FN=argv[1]
@@ -171,7 +171,8 @@ if __name__=='__main__':
     TEST_FN=argv[3]
     AUG_FACTOR=int(argv[4])
     EPOCHS=int(argv[5])
-    O_FN = argv[6]
+    ALPHA=float(argv[6])
+    O_FN = argv[7]
 
     data = augment([l.strip().split('\t') for l in open(TRAIN_FN).read().split('\n') if l.strip() != ''],AUG_FACTOR)
     
@@ -209,4 +210,4 @@ if __name__=='__main__':
     decoder_b = model.add_parameters( (VOCAB_SIZE))
     output_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
     
-    train(model, idata,odata,idevdata,odevdata,itestdata,open(O_FN,'w'))
+    train(model, idata,odata,idevdata,odevdata,itestdata,ALPHA,open(O_FN,'w'))

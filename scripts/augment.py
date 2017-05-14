@@ -26,6 +26,14 @@ class LanModel:
             for c,nc,nnc in zip(wf,wf[1:],wf[2:]+'#'):
                 self.trigram_counts[(c,nc,nnc)] += 1
 
+    def get_random_string(self):
+        length = random.randint(5,10)
+        string = ''
+        chars = [c for c in self.characters if c != '#']
+        for i in range(length):
+            string += random.choice(chars)
+        return string
+
     def resample_letter(self, i, wf):
         assert(0 < i and i < len(wf) - 1)
  
@@ -90,7 +98,9 @@ def augment(data, factor):
         for lemma, wf, labels in data:
             stem_starts, stem_len = lcs(wf,lemma)
             new_wf = m.resample_letters(stem_starts[0] + 1, stem_starts[0] + stem_len, '#' + wf + '#')[1:len(wf)+1]
-            new_stem = new_wf[stem_starts[0]:stem_starts[0]+stem_len]
+#            new_stem = new_wf[stem_starts[0]:stem_starts[0]+stem_len]
+            new_stem = m.get_random_string()
+            new_wf = wf[:stem_starts[0]] + new_stem + wf[stem_starts[0]+stem_len:]
             new_lemma = lemma[:stem_starts[1]] + new_stem + lemma[stem_starts[1]+stem_len:]
             aug_data.append((new_lemma,new_wf,labels))
     aug_data += data

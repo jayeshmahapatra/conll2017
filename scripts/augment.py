@@ -1,8 +1,15 @@
 from sys import argv
 from collections import defaultdict
 import random
+from math import exp
 
 ALPHA = 0.0
+
+def normalize_ll_distr(char_ll_pairs):
+    min_ll = min([x[1] for x in char_ll_pairs])
+    char_ll_pairs = [(c, exp(ll - min_ll)) for c,ll in char_ll_pairs]
+    tot = sum([x[1] for x in char_ll_pairs])
+    return [(c, ll/tot) for c,ll in char_ll_pairs]
 
 def sample(probs):
     comp = random.random()

@@ -1,7 +1,7 @@
 from __future__ import print_function
 from sys import argv, stderr
 import random
-import pickle
+from post_correction import *
 
 import dynet as dy
 
@@ -132,13 +132,16 @@ def get_loss(input_sentence, output_sentence, enc_fwd_lstm, enc_bwd_lstm, dec_ls
   return decode(dec_lstm, encoded, output_sentence)
 
 
-def train(isentences, osentences, idevsentences, odevsentences, alpha):
+def train(model, baseline_model, isentences, osentences, devsentences, testsentences, alpha, ofile):
   trainer = dy.SimpleSGDTrainer(model, e0=alpha)
+
   iopairs = list(zip(isentences, osentences))
   random.shuffle(iopairs)
+
   for i in range(EPOCHS):
     loss_value = 0
     #        random.shuffle(iopairs)
+    '''
     for isentence, osentence in iopairs:
       loss = get_loss(isentence, osentence, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
       loss_value += loss.value()
@@ -146,38 +149,75 @@ def train(isentences, osentences, idevsentences, odevsentences, alpha):
       trainer.update()
 
     corr = 0
-    for ip, op in zip(idevsentences, odevsentences):
+    for devsentence in devsentences:
+      # Make devsentence a list, because this method expexts a list
+      base_preds = get_baseline_predictions(baseline_model, [devsentence])
+      # Just use base_preds at 0 inde, because it will return a list of
+      # size input_dimensions (in this case 1)
+      guess, wf, tags = base_preds[0]
+      ip = [c for c in guess] + list(tags)
+      op = [c for c in wf] + list(tags)
       dy.renew_cg()
       sys_o = generate(ip, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
-      if ''.join(op) == sys_o:
+      if wf == sys_o:
         corr += 1
-    print("EPOCH %u: LOSS %.2f, DEV ACC %.2f" % (i + 1, loss_value / len(iopairs), corr * 100.0 / len(idevsentences)))
-
-
-def test(itestsentences, ofile):
-  for ilemma, ilabels in itestsentences:
+    print("EPOCH %u: LOSS %.2f, DEV ACC %.2f" % (i + 1, loss_value / len(iopairs), corr * 100.0 / len(devsentences)))
+'''
+  for testsentence in testsentences:
+    print([testsentence[0], tuple(testsentence[1].split(";"))])
+    # Format for base preds, add empty string 
+    base_preds = get_baseline_predictions(baseline_model, [testsentence[0], "", tuple(testsentence[1].split(";"))])
+    print(base_preds)
+    guess, tags = base_preds[0]
+    itest = [c for c in guess] + list(tags)
     dy.renew_cg()
-    sys_o = generate(ilemma + ilabels, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
-    ofile.write("%s\t%s\t%s\n" % (''.join(ilemma), sys_o, ';'.join(ilabels)))
+    sys_o = generate(itest, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
+    # Output the lemma from testsentences, the guess after running attention over baseline preds,
+    # and the tags from testsentence
+    ofile.write("%s\t%s\t%s\n" % (testsentence[0], sys_o, testsentence[1]))
 
 
-def init_models(chars, fn=None):
-  global characters, int2char, char2int, model, enc_fwd_lstm, enc_bwd_lstm, \
-    dec_lstm, input_lookup, attention_w1, attention_w2, attention_v, \
-    decoder_w, decoder_b, output_lookup
+if __name__ == '__main__':
+  # This is so ugly.
+  global characters, char2int, int2char, EPOCHS
 
-  characters = None
-  int2char = None
-  char2int = None
+  if len(argv) != 8:
+    stderr.write(("USAGE: python3 %s train_file dev_file " +
+                  "test_file aug_factor num_epochs alpha ofile\n") % argv[0])
+    exit(1)
 
-  if fn:
-    characters, int2char, char2int = \
-      pickle.load(open('%s.chars.pkl' % fn, 'rb'))
-  else:
-    characters = chars
-    int2char = sorted(list(characters))
-    char2int = {c: i for i, c in enumerate(int2char)}
+  TRAIN_FN = argv[1]
+  DEV_FN = argv[2]
+  TEST_FN = argv[3]
+  AUG_FACTOR = int(argv[4])
+  EPOCHS = int(argv[5])
+  ALPHA = float(argv[6])
+  O_FN = argv[7]
 
+  data = augment([l.strip().split('\t') for l in open(TRAIN_FN).read().split('\n') if l.strip() != ''], AUG_FACTOR)
+  data = [[lemma, wf, tuple(wsd.split(";"))] for lemma, wf, wsd in data]
+  baseline_model = get_baseline_model(data)
+  # baseline guess  -  correct  -  msd
+  correction_data = get_correction_data(data, baseline_model)
+  idata = [[c for c in guess] + list(tags) for guess, _, tags in correction_data]
+  odata = [[c for c in wf] for _, wf, _ in correction_data]
+
+  devdata = [l.strip().split('\t') for l in open(DEV_FN).read().split('\n') if l.strip() != '']
+  devdata = [[l, wf, tuple(msd.split(";"))] for l, wf, msd in devdata]
+  # FOR int2char
+  idevdata = [[c for c in lemma] + list(tags) for lemma, _, tags in devdata]
+  odevdata = [[c for c in wf] for _, wf, _ in devdata]
+
+  testdata = [l.strip().split('\t') for l in open(TEST_FN).read().split('\n') if l.strip() != '']
+
+  characters = set([EOS])
+
+  for wf in idata + odata + idevdata + odevdata:
+    for c in wf:
+      characters.add(c)
+
+  int2char = list(characters)
+  char2int = {c: i for i, c in enumerate(characters)}
   VOCAB_SIZE = len(characters)
 
   model = dy.Model()
@@ -194,12 +234,20 @@ def init_models(chars, fn=None):
   decoder_b = model.add_parameters((VOCAB_SIZE))
   output_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
 
+  eval_baseline = get_baseline_predictions(baseline_model, [[l, wf, msd] for l, wf, msd in devdata])
+  b_corr = 0
+  for line in eval_baseline:
+    if line[0] == line[1]:
+      b_corr += 1
+  print("baseline_acc with data augmentation is %.2f" % (b_corr * 100.0 / float(len(eval_baseline))))
 
-def save_model(ofilen):
-  model.save(ofilen)
-  pickle.dump((characters, int2char, char2int), open("%s.chars.pkl" % ofilen, "wb"))
+  no_aug_train = [l.strip().split('\t') for l in open(TRAIN_FN).read().split('\n') if l.strip() != '']
+  eval_data = [[lemma, wf, tuple(wsd.split(";"))] for lemma, wf, wsd in no_aug_train]
+  eval_baseline_model = get_baseline_model(eval_data)
+  b_no_aug_corr = 0
+  for line in get_baseline_predictions(eval_baseline_model, devdata):
+    if line[0] == line[1]:
+      b_no_aug_corr += 1
+  print("baseline_acc with no aug is %.2f" % (b_corr * 100.0 / float(len(devdata))))
 
-
-def load_model(ifilen):
-  global model
-  model.load(ifilen)
+  train(model, baseline_model, idata, odata, devdata, testdata, ALPHA, open(O_FN, 'w'))

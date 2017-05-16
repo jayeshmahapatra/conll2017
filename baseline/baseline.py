@@ -127,15 +127,25 @@ def apply_best_rule(lemma, msd, allprules, allsrules):
 
     if msd in allsrules:
         applicablerules = [(x[0],x[1],y) for x,y in allsrules[msd].iteritems() if x[0] in base]
+        #print("SUFFIX applicablerules")
+        #print(applicablerules)
         if applicablerules:
+            #print([(x, len(x[0]))for x in applicablerules])
+            #print(max(applicablerules, key = lambda x: (len(x[0]), x[2], len(x[1]))))
             bestrule = max(applicablerules, key = lambda x: (len(x[0]), x[2], len(x[1])))           
             base = string.replace(base, bestrule[0], bestrule[1])
+            #print(base)
+            #print(bestrule)
         
     if msd in allprules:
         applicablerules = [(x[0],x[1],y) for x,y in allprules[msd].iteritems() if x[0] in base]
+        #print("PREFIX applicablerules")
+        #print(applicablerules)
         if applicablerules:
             bestrule = max(applicablerules, key = lambda x: (x[2]))
             base = string.replace(base, bestrule[0], bestrule[1])
+            #print(base)
+            #print(bestrule)
                 
     base = string.replace(base, '<', '')
     base = string.replace(base, '>', '')
@@ -173,8 +183,8 @@ def main(argv):
     
     for task in [1,2]:
         runningavgLow, runningavgMed, runningavgHigh, numiterLow, numiterMed, numiterHigh = 0.0, 0.0, 0.0, 0, 0, 0
-        for lang in sorted(set(x.split('-train')[0] for x in os.listdir(PATH + "task" + str(task) + "/"))):
-            for quantity in ['low','medium','high']:
+        for lang in ["english"]:#sorted(set(x.split('-train')[0] for x in os.listdir(PATH + "task" + str(task) + "/"))):
+            for quantity in ['low','medium']:
                 allprules, allsrules = {}, {}
                 if not os.path.isfile(PATH + "task" + str(task) + "/" + lang + "-train-" + quantity):
                     continue
@@ -196,6 +206,12 @@ def main(argv):
                         lemma = lemma[::-1]
                         form = form[::-1]
                     prules, srules = prefix_suffix_rules_get(lemma, form)
+                    #print("lemma, form:")
+                    #print (lemma, form)
+                    #print("prules")
+                    #print(prules)
+                    #print("srules")
+                    #print(srules)
         
                     if msd not in allprules and len(prules) > 0:
                         allprules[msd] = {}
@@ -213,7 +229,9 @@ def main(argv):
                             allsrules[msd][(r[0],r[1])] = allsrules[msd][(r[0],r[1])] + 1
                         else:
                             allsrules[msd][(r[0],r[1])] = 1
-
+                print(apply_best_rule(lemma, msd, allprules, allsrules))
+                print("===============================")
+'''
                 # Run eval on dev
                 if task == 1:
                     devlines = [line.strip() for line in codecs.open(PATH + "task" + str(task) + "/" + lang + "-dev", "r", encoding="utf-8")]
@@ -223,8 +241,6 @@ def main(argv):
             
                 numcorrect = 0
                 numguesses = 0
-                if OUTPUT:
-                    outfile = codecs.open(PATH + "task" + str(task) + "/" + lang + "-" + quantity + "-out", "w", encoding="utf-8")
                 if task == 1:
                     for l in devlines:
                         lemma, correct, msd, = l.split(u'\t')
@@ -273,6 +289,7 @@ def main(argv):
         print("Average[medium]:", str(runningavgMed/float(numiterMed)))
         print("Average[high]:", str(runningavgHigh/float(numiterHigh)))
         print("------------------------------------\n")
+'''
 
-if __name__ == "__main__":
-    main(sys.argv)
+#if __name__ == "__main__":
+    #main(sys.argv)

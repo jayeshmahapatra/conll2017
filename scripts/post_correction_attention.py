@@ -1,7 +1,8 @@
 from __future__ import print_function
+from post_correction import *
 from sys import argv, stderr
 import random
-from post_correction import *
+import pickle
 
 import dynet as dy
 
@@ -141,13 +142,14 @@ def train(model, baseline_model, isentences, osentences, devsentences, testsente
   for i in range(EPOCHS):
     loss_value = 0
     #        random.shuffle(iopairs)
-    '''
+    # TRAIN
     for isentence, osentence in iopairs:
       loss = get_loss(isentence, osentence, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
       loss_value += loss.value()
       loss.backward()
       trainer.update()
 
+    # DEV
     corr = 0
     for devsentence in devsentences:
       # Make devsentence a list, because this method expexts a list
@@ -162,13 +164,12 @@ def train(model, baseline_model, isentences, osentences, devsentences, testsente
       if wf == sys_o:
         corr += 1
     print("EPOCH %u: LOSS %.2f, DEV ACC %.2f" % (i + 1, loss_value / len(iopairs), corr * 100.0 / len(devsentences)))
-'''
+
+  # TEST
   for testsentence in testsentences:
-    print([testsentence[0], tuple(testsentence[1].split(";"))])
-    # Format for base preds, add empty string 
-    base_preds = get_baseline_predictions(baseline_model, [testsentence[0], "", tuple(testsentence[1].split(";"))])
-    print(base_preds)
-    guess, tags = base_preds[0]
+    # Format for base preds, add empty string in place of "correct"
+    base_preds = get_baseline_predictions(baseline_model, [[testsentence[0], "", tuple(testsentence[1].split(";"))]])
+    guess, correct, tags = base_preds[0]
     itest = [c for c in guess] + list(tags)
     dy.renew_cg()
     sys_o = generate(itest, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
@@ -177,13 +178,57 @@ def train(model, baseline_model, isentences, osentences, devsentences, testsente
     ofile.write("%s\t%s\t%s\n" % (testsentence[0], sys_o, testsentence[1]))
 
 
+def init_models(chars, fn=None):
+  global characters, int2char, char2int, model, enc_fwd_lstm, enc_bwd_lstm, \
+    dec_lstm, input_lookup, attention_w1, attention_w2, attention_v, \
+    decoder_w, decoder_b, output_lookup
+
+  characters = None
+  int2char = None
+  char2int = None
+
+  if fn:
+    characters, int2char, char2int = \
+      pickle.load(open('%s.chars.pkl' % fn, 'rb'))
+  else:
+    characters = chars
+    int2char = sorted(list(characters))
+    char2int = {c: i for i, c in enumerate(int2char)}
+
+  VOCAB_SIZE = len(characters)
+
+  model = dy.Model()
+
+  enc_fwd_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, EMBEDDINGS_SIZE, STATE_SIZE, model)
+  enc_bwd_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, EMBEDDINGS_SIZE, STATE_SIZE, model)
+  dec_lstm = dy.LSTMBuilder(LSTM_NUM_OF_LAYERS, STATE_SIZE * 2 + EMBEDDINGS_SIZE, STATE_SIZE, model)
+
+  input_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
+  attention_w1 = model.add_parameters((ATTENTION_SIZE, STATE_SIZE * 2))
+  attention_w2 = model.add_parameters((ATTENTION_SIZE, STATE_SIZE * LSTM_NUM_OF_LAYERS * 2))
+  attention_v = model.add_parameters((1, ATTENTION_SIZE))
+  decoder_w = model.add_parameters((VOCAB_SIZE, STATE_SIZE))
+  decoder_b = model.add_parameters((VOCAB_SIZE))
+  output_lookup = model.add_lookup_parameters((VOCAB_SIZE, EMBEDDINGS_SIZE))
+
+
+def save_model(ofilen):
+  model.save(ofilen)
+  pickle.dump((characters, int2char, char2int), open("%s.chars.pkl" % ofilen, "wb"))
+
+
+def load_model(ifilen):
+  global model
+  model.load(ifilen)
+
+
 if __name__ == '__main__':
   # This is so ugly.
   global characters, char2int, int2char, EPOCHS
 
-  if len(argv) != 8:
+  if len(argv) != 9:
     stderr.write(("USAGE: python3 %s train_file dev_file " +
-                  "test_file aug_factor num_epochs alpha ofile\n") % argv[0])
+                  "test_file aug_factor num_epochs alpha ofile model_ofile\n") % argv[0])
     exit(1)
 
   TRAIN_FN = argv[1]
@@ -193,6 +238,7 @@ if __name__ == '__main__':
   EPOCHS = int(argv[5])
   ALPHA = float(argv[6])
   O_FN = argv[7]
+  O_MODEL_FN = argv[8]
 
   data = augment([l.strip().split('\t') for l in open(TRAIN_FN).read().split('\n') if l.strip() != ''], AUG_FACTOR)
   data = [[lemma, wf, tuple(wsd.split(";"))] for lemma, wf, wsd in data]
@@ -250,4 +296,6 @@ if __name__ == '__main__':
       b_no_aug_corr += 1
   print("baseline_acc with no aug is %.2f" % (b_corr * 100.0 / float(len(devdata))))
 
+  init_models(characters, None)
   train(model, baseline_model, idata, odata, devdata, testdata, ALPHA, open(O_FN, 'w'))
+  save_model(O_MODEL_FN)

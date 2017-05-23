@@ -14,7 +14,6 @@ EMBEDDINGS_SIZE = 32
 STATE_SIZE = 32
 ATTENTION_SIZE = 32
 
-
 def embed_sentence(sentence):
     sentence = [EOS] + list(sentence) + [EOS]
     # Skip unknown characters.
@@ -124,6 +123,47 @@ def generate(in_seq, enc_fwd_lstm, enc_bwd_lstm, dec_lstm):
         out += int2char[next_char]
     return out
 
+BEAM=5
+from math import log
+
+def beam_generate(in_seq, enc_fwd_lstm, enc_bwd_lstm, dec_lstm):
+    embedded = embed_sentence(in_seq)
+    encoded = encode_sentence(enc_fwd_lstm, enc_bwd_lstm, embedded)
+
+    w = dy.parameter(decoder_w)
+    b = dy.parameter(decoder_b)
+    w1 = dy.parameter(attention_w1)
+    input_mat = dy.concatenate_cols(encoded)
+    w1dt = None
+
+    histories = [[0.0,output_lookup[char2int[EOS]],'',None]]
+
+    s = dec_lstm.initial_state().add_input(dy.concatenate([dy.vecInput(STATE_SIZE * 2), histories[0][1]]))
+    histories[0][3] = s
+
+    count_EOS = 0
+    for i in range(len(in_seq)*2):
+        if count_EOS == 2: break
+        # w1dt can be computed and cached once for the entire decoding phase
+        presents = []
+        for ll, embedding, out, s in histories:
+            w1dt = w1dt or w1 * input_mat        
+            vector = dy.concatenate([attend(input_mat, s, w1dt), embedding])
+            new_s = s.add_input(vector)
+            out_vector = w * new_s.output() + b
+            probs = dy.softmax(out_vector).vec_value()            
+            probs = sorted([(prob,j) for j, prob in enumerate(probs)], key = lambda x:x[0], reverse=1)
+            for prob, j in probs:      
+                next_embedding = output_lookup[j]                
+                presents.append([ll + log(prob), next_embedding, out + int2char[j], new_s])
+
+        presents.sort(reverse=1,key=lambda x:x[0])
+        histories = presents[:BEAM]
+        if presents[0][2].endswith(EOS) and presents[0][2] != EOS:
+            return presents[0][2].replace(EOS,'')
+
+    return histories[0][2].replace(EOS,'')
+
 
 def get_loss(input_sentence, output_sentence, enc_fwd_lstm, enc_bwd_lstm, dec_lstm):
     dy.renew_cg()
@@ -132,10 +172,11 @@ def get_loss(input_sentence, output_sentence, enc_fwd_lstm, enc_bwd_lstm, dec_ls
     return decode(dec_lstm, encoded, output_sentence)
 
 
-def train(isentences,osentences, idevsentences,odevsentences, alpha):
-    trainer = dy.SimpleSGDTrainer(model,e0=alpha)
+def train(isentences,osentences, idevsentences,odevsentences, alpha, beta, ofilen):
+    trainer = dy.SimpleSGDTrainer(model,e0=alpha,edecay=beta)
     iopairs = list(zip(isentences,osentences))
     random.shuffle(iopairs)
+    best_dev_acc = 0
     for i in range(EPOCHS):
         loss_value = 0
 #        random.shuffle(iopairs)
@@ -151,7 +192,13 @@ def train(isentences,osentences, idevsentences,odevsentences, alpha):
             sys_o = generate(ip, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
             if ''.join(op) == sys_o:
                 corr += 1
-        print("EPOCH %u: LOSS %.2f, DEV ACC %.2f" % (i+1, loss_value/len(iopairs), corr * 100.0 / len(idevsentences)))
+        dev_acc = corr * 100.0 / len(idevsentences)
+
+        print("EPOCH %u: LOSS %.2f, DEV ACC %.2f" % (i+1, loss_value/len(iopairs), dev_acc))
+        if dev_acc > best_dev_acc:
+            best_dev_acc = dev_acc
+            print("SAVING!")
+            save_model(ofilen)
 
     
 def test(itestsentences, ofile):

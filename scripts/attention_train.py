@@ -9,9 +9,9 @@ from augment import augment
 import attention
 
 if __name__=='__main__':
-    if len(argv) != 7:
+    if len(argv) != 8:
         stderr.write(("USAGE: python3 %s train_file dev_file "+
-                      "aug_factor num_epochs alpha modeloutfile\n") % argv[0])
+                      "aug_factor num_epochs alpha beta modeloutfile\n") % argv[0])
         exit(1)
 
     TRAIN_FN=argv[1]
@@ -19,9 +19,11 @@ if __name__=='__main__':
     AUG_FACTOR=int(argv[3])
     attention.EPOCHS=int(argv[4])
     ALPHA=float(argv[5])
-    O_FN = argv[6]
+    BETA=float(argv[6])
+    O_FN = argv[7]
 
     data = augment([l.strip().split('\t') for l in open(TRAIN_FN).read().split('\n') if l.strip() != ''],AUG_FACTOR)
+
     
     idata = [[c for c in lemma] + tags.split(';') for lemma, _, tags in data]
     odata = [[c for c in wf] for _, wf, _ in data]    
@@ -36,6 +38,6 @@ if __name__=='__main__':
             characters.add(c)
 
     attention.init_models(characters, None)
-    attention.train(idata,odata,idevdata,odevdata,ALPHA)
-    attention.save_model(O_FN)
+    attention.train(idata,odata,idevdata,odevdata,ALPHA, BETA, O_FN)
+
 

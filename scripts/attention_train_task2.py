@@ -1,5 +1,5 @@
 from __future__ import print_function
-from sys import argv, stderr
+from sys import argv, stderr,stdout
 import random
 import pickle
 
@@ -16,7 +16,7 @@ if __name__=='__main__':
 
     TRAIN_FN=argv[1]
     DEV_FN=argv[2]
-    MAX_SIZE=45000
+    MAX_SIZE=int(argv[3])
     attention.EPOCHS=int(argv[4])
     ALPHA=float(argv[5])
     BETA=float(argv[6])
@@ -25,7 +25,8 @@ if __name__=='__main__':
     orig_data = [l.strip().split('\t') for l in open(TRAIN_FN).read().split('\n') if l.strip() != '']
     AUG_FACTOR = max(1,int(MAX_SIZE / len(orig_data)))
     data = augment(orig_data,AUG_FACTOR)
-
+    print(len(data))
+    stdout.flush()
     idata = [[c for c in lemma] + tags.split(';') for lemma, _, tags in data]
     odata = [[c for c in wf] for _, wf, _ in data]    
     devdata = [l.strip().split('\t') for l in open(DEV_FN).read().split('\n') if l.strip() != '']

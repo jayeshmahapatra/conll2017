@@ -4,6 +4,7 @@ import random
 from math import exp
 
 ALPHA = 0.0
+COPY="%"
 
 def normalize_ll_distr(char_ll_pairs):
     min_ll = min([x[1] for x in char_ll_pairs])
@@ -20,9 +21,19 @@ def sample(probs):
             return c
     assert(0)
 
+def resample_letters(start, end, letters, alphabet, model):
+    new_letters = list(letters)
+    for k in range(start,end):
+        scores = []
+        for c in alphabet:
+            new_letters[k] = c
+            scores.append((c, model.score(' '.join(new_letters))))
+        new_letters[k] = sample([(p,c) for c,p in normalize_ll_distr(scores)])
+    return new_letters
+
 class LanModel:
     def __init__(self,words):
-        self.characters = list(set([c for wf in words for c in wf] + ['#']))
+        self.characters = list(set([c for wf in words for c in wf] + ['#',COPY]))
         self.trigram_counts = {(c1,c2,c3):ALPHA 
                                for c1 in self.characters 
                                for c2 in self.characters 

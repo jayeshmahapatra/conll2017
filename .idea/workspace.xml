@@ -2,8 +2,235 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d7b2c0-bc9b-4936-accb-55edf938820f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/armenian.high.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/armenian.high.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/armenian.high.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/armenian.high.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/basque.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/basque.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/basque.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/basque.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.high.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.high.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.high.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.5.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.low.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.low.2.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.low.3.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.low.4.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.medium.1.model.chars.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/armenian.high.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/armenian.high.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/armenian.high.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/armenian.high.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/basque.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/basque.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/basque.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/basque.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.high.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.high.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/bulgarian.medium.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.high.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/catalan.medium.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.high.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.high.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.high.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/czech.medium.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/danish.medium.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/dutch.medium.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/english.medium.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.low.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/estonian.medium.5.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.low.1.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.low.2.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.low.3.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.low.4.model" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2_models/faroese.medium.1.model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_models/armenian.high.1.model.chars.pkl" afterPath="$PROJECT_DIR$/task2_models/armenian.high.1.model.chars.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_models/basque.low.1.model.chars.pkl" afterPath="$PROJECT_DIR$/task2_models/basque.low.1.model.chars.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_models/bengali.medium.1.model.chars.pkl" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.1.model.chars.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/attention_train_task2.py" afterPath="$PROJECT_DIR$/scripts/attention_train_task2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_models/armenian.high.1.model" afterPath="$PROJECT_DIR$/task2_models/armenian.high.1.model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_models/basque.low.1.model" afterPath="$PROJECT_DIR$/task2_models/basque.low.1.model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2_models/bengali.medium.1.model" afterPath="$PROJECT_DIR$/task2_models/bengali.medium.1.model" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_task2_high_adam.sh" afterPath="$PROJECT_DIR$/train_task2_high_adam.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_task2_high_miikka.sh" afterPath="$PROJECT_DIR$/train_task2_high_miikka.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_task2_low_adam.sh" afterPath="$PROJECT_DIR$/train_task2_low_adam.sh" />
@@ -44,7 +271,7 @@
         <entry file="file://$PROJECT_DIR$/train_task2_high.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <caret line="6" column="292" selection-start-line="6" selection-start-column="292" selection-end-line="6" selection-end-column="292" />
               <folding />
             </state>
           </provider>
@@ -53,8 +280,8 @@
       <file leaf-file-name="train_task2_high_adam.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_task2_high_adam.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,28 +290,38 @@
       <file leaf-file-name="train_task2_low_adam.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_task2_low_adam.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_task2_medium_adam.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train_task2_low_miikka.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train_task2_low_miikka.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="263" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="263" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train_task2_medium_adam.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_task2_medium_adam.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <caret line="6" column="212" selection-start-line="6" selection-start-column="207" selection-end-line="6" selection-end-column="212" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -180,10 +417,11 @@
         <option value="$PROJECT_DIR$/encdec_results/finnish-test.low.sys.weighted-votes-basic" />
         <option value="$PROJECT_DIR$/encdec_results/finnish-test.low.sys.weighted-votes" />
         <option value="$PROJECT_DIR$/train_task2_high.sh" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/train_task2_high_adam.sh" />
-        <option value="$PROJECT_DIR$/train_task2_low_adam.sh" />
+        <option value="$PROJECT_DIR$/train_task2_low_miikka.sh" />
         <option value="$PROJECT_DIR$/train_task2_medium_adam.sh" />
+        <option value="$PROJECT_DIR$/train_task2_low_adam.sh" />
+        <option value="$PROJECT_DIR$/train_task2_high_adam.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -238,6 +476,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="conll2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conll2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conll2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task2_models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -673,13 +925,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/all/task2/basque-train-medium">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105584">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/all/task1/albanian-train-medium">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14609">
@@ -956,23 +1201,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_task2_high.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train_task2_high_adam.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_task2_low_adam.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -980,10 +1217,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_task2_low_adam.sh">
+    <entry file="file://$PROJECT_DIR$/train_task2_low_miikka.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="6" column="263" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="263" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_task2_high.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="292" selection-start-line="6" selection-start-column="292" selection-end-line="6" selection-end-column="292" />
           <folding />
         </state>
       </provider>
@@ -991,7 +1236,15 @@
     <entry file="file://$PROJECT_DIR$/train_task2_medium_adam.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <caret line="6" column="212" selection-start-line="6" selection-start-column="207" selection-end-line="6" selection-end-column="212" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>

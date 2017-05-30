@@ -1,5 +1,5 @@
 from __future__ import print_function
-from sys import argv, stderr
+from sys import argv, stderr, stdout
 import random
 import pickle
 
@@ -190,12 +190,16 @@ def train(isentences,osentences, idevsentences,odevsentences, alpha, beta, ofile
     for i in range(EPOCHS):
         loss_value = 0
 #        random.shuffle(iopairs)
+        j = 0
         for isentence, osentence in iopairs:
             loss = get_loss(isentence, osentence, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
             loss_value += loss.value()
             loss.backward()
             trainer.update()
-
+            j+=1
+            stdout.write("%u of %u\r"% (j,len(iopairs)))            
+            stdout.flush()
+        print()
         corr = 0
         for ip,op in zip(idevsentences,odevsentences):
             dy.renew_cg()
@@ -215,11 +219,17 @@ def train(isentences,osentences, idevsentences,odevsentences, alpha, beta, ofile
             save_model(ofilen)
 
     
-def test(itestsentences, ofile):
-    for ilemma,ilabels in itestsentences:
-        dy.renew_cg()
-        sys_o = generate(ilemma+ilabels, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
-        ofile.write("%s\t%s\t%s\n" % (''.join(ilemma),sys_o,';'.join(ilabels)))
+def test(testsentences, ofile):
+    for ilemma,wf,ilabels in testsentences:
+        if wf == '':
+            dy.renew_cg()
+            ip = ilemma+ilabels
+            ip, copy_list = encode_str(ip)
+            sys_o = generate(ip, enc_fwd_lstm, enc_bwd_lstm, dec_lstm)
+            sys_o = decode_str(sys_o,copy_list)  
+            ofile.write("%s\t%s\t%s\n" % (''.join(ilemma),sys_o,';'.join(ilabels)))
+        else:
+            ofile.write("%s\t%s\t%s\n" % (''.join(ilemma),wf,';'.join(ilabels)))
 
 def init_models(chars, fn=None):
     global characters, int2char, char2int, model, enc_fwd_lstm, enc_bwd_lstm, \

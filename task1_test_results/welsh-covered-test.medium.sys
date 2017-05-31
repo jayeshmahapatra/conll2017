@@ -1,0 +1,101 @@
+defaultdict(<function <lambda> at 0x1006bb840>, {0: 0.19474241967407277, 1: 0.11523702633930166, 2: 0.08547210309860574, 3: 0.019142967360224313, 4: 0.06343013443769345, 5: 0.0612921243872542, 6: 0.11693634608785708, 7: 0.12167325320332083, 8: 0.11983775124953819, 9: 0.10223587416213331})
+ymddwyn	ymddyget ti	V;COL;2;SG;IND;IPFV
+cyfarfod	cyfarfodon nhw	V;COL;3;PL;IND;PST
+rhwygo	rhwygid	V;LIT;4;IND;IPFV
+llanw	llanwom	V;LIT;1;PL;SBJV
+gadael	gadawyd	V;LIT;4;IND;PST
+cyffwrdd	cyffyrddoch	V;LIT;2;PL;SBJV
+cynnwys	cynhwyswn ni	V;COL;1;PL;IND;PRS
+rhoi	rhoi	V;LIT;2;SG;IND;PRS
+marchogaeth	marchogwyd	V;LIT;4;IND;PST
+llyfu	llyfent	V;LIT;3;PL;IMP
+cenhedlu	cenhedlwn	V;LIT;1;PL;IMP
+lladd	lladdasant	V;LIT;3;PL;IND;PST
+braenu	braenodd o	V;COL;3;SG;IND;PST
+plannu	plannon ni	V;COL;1;PL;IND;PST
+cofio	cofiasech	V;LIT;2;PL;IND;PST;PFV
+llosgi	llosgwyf	V;LIT;1;SG;SBJV
+lluddias	lluddioch	V;LIT;2;PL;SBJV
+pydru	pydron ni	V;COL;1;PL;IND;PST
+gorffen	gorffenasom	V;LIT;1;PL;IND;PST
+cysgu	cysgasant	V;LIT;3;PL;IND;PST
+ennill	enilliasit	V;LIT;2;SG;IND;PST;PFV
+penderfynu	penderfynen nhw	V;COL;3;PL;IND;IPFV
+croesi	croeswch	V;LIT;2;PL;IND;PRS
+siafio	siafioch	V;LIT;2;PL;SBJV
+smygu	smygech	V;LIT;2;PL;IND;IPFV
+casáu	casáasom	V;LIT;1;PL;IND;PST
+elwa	elwwch	V;LIT;2;PL;IMP
+clywed	clywasech	V;LIT;2;PL;IND;PST;PFV
+siafio	siafio	V;V.MSDR
+caru	carasid	V;LIT;4;IND;PST;PFV
+credu	credan nhw	V;COL;3;PL;IND;PRS
+anfon	anfonedig	V;V.PTCP
+gweld	gweldoch	V;LIT;2;PL;SBJV
+ysbrydoli	ysbrydolodd	V;LIT;3;SG;IND;PST
+nyddu	nyddai fo	V;COL;3;SG;IND;IPFV
+crynu	crynid	V;LIT;4;IND;IPFV
+pwyso	pwysi	V;LIT;2;SG;IND;PRS
+gwario	gwariwn ni	V;COL;1;PL;IND;PRS
+ffili	ffila	V;LIT;2;SG;IMP
+diolch	diolchent	V;LIT;3;PL;IMP
+gwylio	gwyliech chi	V;COL;2;PL;IND;IPFV
+methu	methodd o	V;COL;3;SG;IND;PST
+bwyta	bwytai fo	V;COL;3;SG;IND;IPFV
+croesi	croesi di	V;COL;2;SG;IND;PRS
+claddu	claddasit	V;LIT;2;SG;IND;PST;PFV
+siarad	siaradem	V;LIT;1;PL;IND;IPFV
+parhau	parhaa	V;LIT;3;SG;IND;PRS
+clywed	clywasem	V;LIT;1;PL;IND;PST;PFV
+amnewid	amnewidwn ni	V;COL;1;PL;IND;PRS
+coelio	coeliaswn	V;LIT;1;SG;IND;PST;PFV
+dileu	dilewch	V;COL;2;PL;IMP
+medru	medraf	V;LIT;1;SG;IND;PRS
+anafu	anafech chi	V;COL;2;PL;IND;IPFV
+cenhedlu	cenhedlwn	V;LIT;1;SG;IND;IPFV
+teimlo	teimlodd o	V;COL;3;SG;IND;PST
+lleoli	lleolwn i	V;COL;1;SG;IND;IPFV
+cynnau	cyneuaswn	V;LIT;1;SG;IND;PST;PFV
+pasio	pasia	V;COL;2;SG;IMP
+ysbrydoli	ysbrydolen nhw	V;COL;3;PL;IND;IPFV
+cerdded	cerddid	V;LIT;4;IND;IPFV
+pydru	pydra	V;LIT;2;SG;IMP
+rhuthro	rhuthraswn	V;LIT;1;SG;IND;PST;PFV
+siarad	siaradith o	V;COL;3;SG;IND;PRS
+gafael	gafaais i	V;COL;1;SG;IND;PST
+uno	unasech	V;LIT;2;PL;IND;PST;PFV
+ysbrydoli	ysbrydoli	V;V.MSDR
+sylwi	sylwasit	V;LIT;2;SG;IND;PST;PFV
+lleihau	lleihaont	V;LIT;3;PL;SBJV
+ffili	ffilai	V;LIT;3;SG;IND;IPFV
+cenhedlu	cenhedla i	V;COL;1;SG;IND;PRS
+atal	atalwn	V;LIT;1;PL;IMP
+tybio	tybient	V;LIT;3;PL;IMP
+darllen	darllenant	V;LIT;3;PL;IND;PRS
+colli	collych	V;LIT;2;SG;SBJV
+poeni	poenwch	V;LIT;2;PL;IMP
+hedfan	hedfanwyf	V;LIT;1;SG;SBJV
+deall	deallasem	V;LIT;1;PL;IND;PST;PFV
+gafael	gafawsoch	V;LIT;2;PL;IND;PST
+claddu	claddasoch	V;LIT;2;PL;IND;PST
+canlyn	canlynen ni	V;COL;1;PL;IND;IPFV
+tacluso	taclusasant	V;LIT;3;PL;IND;PST
+croeshoelio	croeshoeliasent	V;LIT;3;PL;IND;PST;PFV
+dileu	dilewn	V;LIT;1;SG;IND;IPFV
+siarad	siaradaist ti	V;COL;2;SG;IND;PST
+hedfan	hedfanwyd	V;LIT;4;IND;PST
+lluddias	lluddia	V;LIT;3;SG;IND;PRS
+difetha	difethwyd	V;LIT;4;IND;PST
+gwerthu	gwerthi di	V;COL;2;SG;IND;PRS
+siarad	siaradont	V;LIT;3;PL;SBJV
+clymu	clymwyf	V;LIT;1;SG;SBJV
+deall	deallwch	V;COL;2;PL;IMP
+cloi	cloon nhw	V;COL;3;PL;IND;PST
+golchi	golchan nhw	V;COL;3;PL;IND;PRS
+cynnull	cynnullid	V;LIT;4;IND;IPFV
+medru	medrasom	V;LIT;1;PL;IND;PST
+plannu	plannoch chi	V;COL;2;PL;IND;PST
+llyfu	llyfi	V;LIT;2;SG;IND;PRS
+amgyffred	amgyffraist ti	V;COL;2;SG;IND;PST
+ennill	enhilliet ti	V;COL;2;SG;IND;IPFV
+cynnig	cynigiasom	V;LIT;1;PL;IND;PST

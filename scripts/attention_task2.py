@@ -10,9 +10,9 @@ from augment import augment, COPY
 EOS = "<EOS>"
 
 LSTM_NUM_OF_LAYERS = 2
-EMBEDDINGS_SIZE = 100
-STATE_SIZE = 100
-ATTENTION_SIZE = 100
+EMBEDDINGS_SIZE = 32
+STATE_SIZE = 32
+ATTENTION_SIZE = 32
 
 def embed_sentence(sentence):
     sentence = [EOS] + list(sentence) + [EOS]

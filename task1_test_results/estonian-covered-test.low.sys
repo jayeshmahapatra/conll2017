@@ -1,0 +1,1001 @@
+defaultdict(<function <lambda> at 0x1006bb840>, {0: 0.14756766859474854, 1: 0.061260437940278537, 2: 0.04051995273581179, 3: 0.12106783006224378, 4: 0.08998259636181044, 5: 0.152055886036863, 6: 0.14412712227984273, 7: 0.08272492671793127, 8: 0.0915263014637549, 9: 0.06916727780671461})
+kadakas	kadakase	N;GEN;SG
+vaatama	vaatasid	V;ACT;PST;POS;IND;3;SG
+fallos	fallosele	N;AT+ALL;SG
+tahtma	tahtb	V.PTCP;ACT;PRS
+naerma	naersid	V;ACT;PST;POS;IND;2;PL
+võtma	olevat võtnud	V;ACT;PRS;PRF;POS;QUOT
+kohvimasin	kohvimasinini	N;TERM;SG
+ütlev	ütleva	N;GEN;SG
+kaltsedon	kaltsedonas	N;IN+ESS;SG
+kee	are	N;PRT;SG
+kodanlane	kodanlasel	N;AT+ESS;SG
+kajastama	oleksid kajastanud	V;ACT;PRS;PRF;POS;COND;3;PL
+kesköö	keskööed	N;FRML;PL
+ajama	ajaaku	V;ACT;PRS;POS;COND;1;SG
+pallaadium	pallaadiumdesse	N;IN+ALL;PL
+diisel	diiserele	N;AT+ABL;PL
+võitma	olevat võittud	V;PASS;PRS;PRF;POS;COND
+erinema	erineaksime	V;ACT;PRS;POS;IMP;1;PL
+olema	olead	V;ACT;PRS;POS;IND;2;SG
+vasar	vasariteks	N;PRT;PL
+koristama	koristaku	V;ACT;PRS;POS;QUOT
+öökima	õ kerite	V;ACT;PST;NEG;IND
+austama	austasin	V;ACT;PST;POS;IND;1;SG
+diiler	diileriteni	N;TERM;PL
+ester	esteritena	N;FRML;PL
+tegema	olin tegenud	V;ACT;PRS;PRF;POS;COND;2;SG
+jäätisemasin	jäätisemasini	N;PRIV;SG
+välde	väldedele	N;TERM;PL
+ingellik	ingelliku	N;IN+ALL;SG
+poolakas	poolakasteks	N;TRANS;PL
+õhufilter	õhufilteriteks	N;IN+ABL;PL
+väeti	väetnitel	N;AT+ABL;PL
+vannituba	vannitubateni	N;TERM;PL
+nikkel	nikkel	N;TRANS;SG
+einsteinium	einsteiniumdes	N;TRANS;PL
+palataliseerima	palatalrserisid	V;ACT;PST;POS;IND;3;SG
+pudel	pudels	N;IN+ESS;SG
+aktiinium	aktiiniumi	N;AT+ESS;SG
+ehitama	ei ehitavat	V;ACT;PRS;NEG;IND
+ajama	ajaa	V;ACT;PRS;POS;IND;1;SG
+põldpüü	põldpüürele	N;AT+ABL;PL
+euro	eurdus	N;IN+ABL;SG
+punker	punkeriteta	N;PRIV;PL
+katma	katad	V;ACT;PRS;POS;COND;2;SG
+gadoliinium	gadoliiniumis	N;IN+ESS;SG
+järgnema	oli järgnenud	V;ACT;PRS;PRF;POS;IND;2;SG
+aitama	on aitanud	V;ACT;PRS;PRF;POS;IND;2;PL
+hüvitama	oli hüvitadud	V;PASS;PST;PRF;POS;IND
+loendama	oleksid loendanud	V;ACT;PRS;PRF;POS;COND
+selgitama	selgitaksime	V;ACT;PRS;POS;COND;1;SG
+ostma	osttakse	V;PASS;PRS;POS;COND
+liibuma	õliibunrid	V;ACT;PST;NEG;IND
+häirima	häirisid	V;ACT;PST;POS;IND;3;SG
+asuma	ei asutud	V;PASS;PRS;NEG;COND
+sõiduk	sõiduku	N;COM;SG
+pilu	pilute	N;GEN;PL
+lemmik	lemmikutena	N;GEN;PL
+nakkus	nakkusele	N;AT+ALL;SG
+oksendama	oksendavad	V;ACT;PRS;POS;IND;3;PL
+kajastama	kajastasid	V;ACT;PST;POS;IND;2;SG
+ohutu	ohutule	N;AT+ALL;SG
+ütrium	ütriums	N;IN+ESS;SG
+sipelgas	sipelgastel	N;GEN;PL
+vibutama	vibutatud	V.PTCP;PASS;PST
+kapital	kapitarit	N;PRT;SG
+heinakuu	heinakuud	N;NOM;PL
+hõberebane	hõberebaniteks	N;TRANS;PL
+paarituma	paarituksite	V;ACT;PRS;POS;COND;2;PL
+vannituba	vannitubates	N;AT+ABL;PL
+naerma	ära naerka	V;ACT;PRS;NEG;IMP;2;SG
+lugema	lugeb	V;ACT;PRS;POS;IND;3;SG
+kasvama	kasvasid	V;ACT;PST;POS;IND;2;SG
+türklane	türklase	N;ACC;SG
+teadmine	teadmistes	N;TRANS;PL
+hakkama	hakkaa	V;ACT;PRS;POS;IMP;2;PL
+eitama	ei olevat eitanudp	V;ACT;PRS;PRF;NEG;QUOT
+sõnaraamat	sõnaraamata	N;GEN;SG
+kihutama	olgu kihutanud	V;ACT;PRS;PRF;POS;IMP;PL
+kapten	kaptnalt	N;AT+ABL;SG
+paluma	palusid	V;ACT;PST;POS;IND;3;SG
+diisel	diisel	N;TRANS;SG
+kaevur	kaevuriteni	N;TERM;PL
+tüdruk	tüdruku	N;IN+ALL;SG
+kana	kanale	N;AT+ALL;SG
+sarnaluu	sarnaluuteta	N;PRIV;PL
+jugapuu	jugapuutele	N;AT+ALL;PL
+sidrun	sidrunite	N;NOM;PL
+hoidja	hoidjatesse	N;COM;PL
+ununbium	ununbiumdest	N;IN+ABL;PL
+haridus	haridus	N;ACC;SG
+liivlane	liivlane	N;GEN;SG
+oimuluu	oimuluutena	N;FRML;PL
+otsmikuluu	otsmikuluu	N;COM;SG
+trofee	trofe	N;AT+ESS;SG
+maantee	maantee	N;GEN;SG
+kirjutama	kirjutasid	V;ACT;PST;POS;IND;2;PL
+mõtlemine	mõtlemist	N;IN+ALL;SG
+luterlane	luterlassi	N;IN+ESS;SG
+higistama	higistati	V;PASS;PST;POS;IND
+orhidee	orhideedes	N;IN+ESS;PL
+riietumine	riietumined	N;NOM;PL
+läbistama	läbistati	V;PASS;PST;POS;IND
+palataliseerima	ärgem palataliserikem	V;ACT;PRS;NEG;IMP;1;PL
+aste	astedele	N;AT+ALL;PL
+valetaja	valetajateta	N;PRT;PL
+kohtama	kohtaa	V;ACT;PRS;POS;IND;1;SG
+tseerium	tseeriumdel	N;PRT;PL
+kahjum	kahjumi	N;GEN;SG
+leedulane	leedulastena	N;FRML;PL
+vesiveski	vesiveskris	N;NOM;SG
+taanlane	taanlased	N;ACC;PL
+ahven	ahvenitel	N;AT+ALL;PL
+ujuma	olgu ujunud	V;ACT;PRS;PRF;POS;IMP;SG
+suitsetama	suitsetati	V;PASS;PST;POS;IND
+roojama	roojadav	V.PTCP;PASS;PRS
+kustutama	kustutab	V;ACT;PRS;POS;IND;3;SG
+embama	embasid	V;ACT;PST;POS;IND;2;SG
+helmekuu	helmekuud	N;ACC;PL
+pesema	olgu pesenud	V;ACT;PRS;PRF;POS;IMP;PL
+paarituma	paarituti	V;PASS;PST;POS;IND
+rikastuma	rikastuku	V;ACT;PRS;POS;IMP;3;PL
+pisaraluu	pisaraluutesse	N;IN+ALL;PL
+peenendama	peenendasin	V;ACT;PST;POS;IND;1;SG
+minema	ei minetud	V;PASS;PRS;NEG;COND
+inglane	inglassi	N;IN+ESS;SG
+peldik	peldikud	N;ACC;PL
+õppima	ei õppitud	V;PASS;PRS;NEG;COND
+kaklema	olgu kakletud	V;PASS;PRS;PRF;POS;IMP
+narkar	narkari	N;NOM;SG
+öökima	ei öökivat	V;ACT;PRS;NEG;QUOT
+vanaadium	vanaadiumina	N;FRML;SG
+saba	sabatel	N;AT+ABL;PL
+paluma	olevat palutud	V;PASS;PRS;PRF;POS;QUOT
+hoiatama	hoiatatavat	V;PASS;PRS;POS;COND
+naerma	oli naerdud	V;PASS;PST;PRF;POS;IND
+rikastuma	ei rikastutud	V;PASS;PST;NEG;IND
+meeldima	meeldib	V;ACT;PRS;POS;IND;3;SG
+hukkama	hukkab	V;ACT;PRS;POS;IMP;3;SG
+kindralmajor	kindralmajorina	N;FRML;SG
+vibutama	oleksid vibutanud	V;ACT;PRS;PRF;POS;COND
+otsima	õšisinite	V;ACT;PST;NEG;IND
+minema	ärgu mineku	V;ACT;PRS;NEG;IMP;3;PL
+arvama	ärgu olgu arvanud	V;ACT;PRS;PRF;NEG;IMP;PL
+nioobium	nioobiumi	N;PRIV;SG
+hispaanlane	hispaanlasena	N;FRML;SG
+võitma	oli võittud	V;PASS;PRS;PRF;POS;IND
+rida	ridateni	N;TERM;PL
+langema	onunnengeri	V;ACT;PRS;PRF;POS;IMP;SG
+masturbeerima	oli masturbeerinud	V;ACT;PRS;PRF;POS;COND;3;SG
+kinkima	ärgem kinkikem	V;ACT;PRS;NEG;IMP;1;PL
+akvaarium	akvaariumdesse	N;IN+ALL;PL
+hirmuma	ei hirmutud	V;PASS;PST;NEG;IND
+manala	manalates	N;COM;PL
+ununpentium	ununpentiumina	N;FRML;SG
+oskama	ärgu olgu olgu olgu olg	V;PASS;PRS;PRF;NEG;IMP
+läbistama	ärgem läbistakem	V;ACT;PRS;NEG;IMP;2;PL
+sadama	ei sadatud	V;ACT;PST;NEG;IND
+pesema	pesetud	V.PTCP;PASS;PST
+ingellik	ingelliku	N;GEN;SG
+keiser	keiseri	N;ACC;SG
+looma	lootagu	V;PASS;PRS;POS;IMP
+vihik	vihikud	N;IN+ESS;PL
+jaanuar	jaanuaredel	N;AT+ESS;PL
+õnnelik	õnnelikudes	N;AT+ABL;PL
+hüüdma	hüüdsid	V;ACT;PST;POS;IND;2;SG
+ekvaator	ekvaatoritega	N;COM;PL
+palataliseerima	ei palataliserivat	V;ACT;PRS;NEG;QUOT
+oksendama	ei olevat oksendatudp	V;PASS;PRS;PRF;NEG;COND
+murdma	murda	V;ACT;PRS;POS;IMP;3;SG
+lintšima	ei olevat lintšietudp	V;PASS;PRS;PRF;NEG;QUOT
+kompuuter	kompuuterini	N;TERM;SG
+õigekeelsussõnaraamat	õigekeelsnetatiteni	N;TERM;PL
+rahvas	rahvastest	N;GEN;PL
+algaja	algajatel	N;AT+ALL;PL
+ehtima	ei ehtivat	V;ACT;PRS;NEG;QUOT
+hallitama	hallitaa	V.PTCP;ACT;PRS
+heitma	heitaksime	V;ACT;PRS;POS;QUOT
+tulema	tuleksid	V;ACT;PRS;POS;COND;2;SG
+oktoober	oktooberi	N;NOM;SG
+hoiduma	hoidutagu	V;PASS;PRS;POS;IMP
+kippuma	ei kipputud	V;PASS;PRS;NEG;IMP
+elutuba	elutubates	N;COM;PL
+kreeklane	kreeklanedele	N;AT+ALL;PL
+arutlema	olgu arutletud	V;PASS;PRS;PRF;POS;IMP
+käskiv	käskiva	N;NOM;SG
+meeldima	on meeldinud	V;ACT;PRS;PRF;POS;IND;3;SG
+reisima	ei reisitud	V;PASS;PST;NEG;IND
+peenendama	olite peenendanud	V;ACT;PRS;PRF;POS;COND;1;PL
+kõndima	kõndiaksime	V;ACT;PRS;POS;COND;1;PL
+nägema	olite nägenud	V;ACT;PRS;PRF;POS;COND;2;PL
+kerjama	ei kerjatud	V;PASS;PRS;NEG;IMP
+ruteenium	ruteeniumi	N;NOM;SG
+sündima	sündisid	V;ACT;PST;POS;IND;3;PL
+kaplan	kaplana	N;COM;SG
+püüdma	püüdad	V;ACT;PST;POS;IND;3;PL
+kinnitama	kinnitaa	V;ACT;PRS;POS;IMP;2;SG
+vaatama	ei vaatatud	V;PASS;PRS;NEG;IMP
+sipelgas	sipelgastena	N;FRML;PL
+kasutaja	kasutajateta	N;PRIV;PL
+mõla	mõlateta	N;PRIV;PL
+poloonium	polooniumdes	N;IN+ESS;PL
+jumalus	jumalusele	N;AT+ALL;SG
+üritama	ei olnud üritanudp	V;ACT;PST;PRF;NEG;IND
+küsima	küsiksime	V;ACT;PRS;POS;COND;1;SG
+küünal	küünalt	N;TRANS;PL
+rääkima	oli rääkinud	V;ACT;PRS;PRF;POS;COND;3;SG
+õpetama	ärgu olgu õpetanud	V;ACT;PRS;PRF;NEG;IMP;PL
+nägema	on nägenud	V;ACT;PRS;PRF;POS;IND;3;PL
+veenma	on veennud	V;ACT;PRS;PRF;POS;IND;3;SG
+võima	võia	V;ACT;PRS;POS;COND;1;SG
+kiilluu	kiilluutele	N;AT+ALL;PL
+siduma	ärgu olgu sidunud	V;ACT;PRS;PRF;NEG;IMP;PL
+observatoorium	observaboinumi	N;IN+ALL;SG
+kuulutama	ei kuulutatud	V;PASS;PST;NEG;IND
+käskima	ei olnud käskitudp	V;PASS;PRS;PRF;NEG;IND
+september	septemberitega	N;COM;PL
+šotlane	šotlaned	N;NOM;PL
+pealuu	pealuu	N;GEN;SG
+pürgima	olite pürginud	V;ACT;PRS;PRF;POS;COND;2;PL
+magustama	oli magustanud	V;ACT;PRS;PRF;POS;COND;3;SG
+võimalus	võimalus	N;IN+ESS;SG
+janu	janul	N;AT+ESS;SG
+sahkluu	sahkluule	N;AT+ALL;SG
+sõitma	oleksid sõitnud	V;ACT;PRS;PRF;POS;COND
+palataliseerima	on palataliserinud	V;ACT;PRS;PRF;POS;IND;3;PL
+teadma	oli teaddud	V;PASS;PST;PRF;POS;IND
+leidma	leidtakse	V;PASS;PRS;POS;IND
+kaasaütlev	kaasaütlevateta	N;PRIV;PL
+avama	avaa	V;ACT;PRS;POS;IMP;2;PL
+nioobium	nioobiumi	N;COM;SG
+peenis	peenistel	N;GEN;PL
+otsima	otsisid	V;ACT;PST;POS;IND;1;PL
+siduma	sidua	V;ACT;PRS;POS;IMP;2;PL
+valgus	valguseni	N;TERM;SG
+omandama	ärgu omandaku	V;ACT;PRS;NEG;IMP;2;PL
+rebane	rebasena	N;AT+ESS;SG
+lõpetama	lõpetasid	V;ACT;PST;POS;IND;3;PL
+hobune	hobuna	N;COM;SG
+hiir	hiired	N;IN+ALL;PL
+orhidee	orhideedele	N;AT+ESS;PL
+veebruar	veebruarisse	N;IN+ALL;SG
+vaikima	vaikia	V;ACT;PRS;POS;IMP;2;PL
+soo	sodat	N;PRT;SG
+apelsin	apelsinit	N;PRT;SG
+keerama	keeratavat	V;PASS;PRS;POS;COND
+aiamaa	aiamaana	N;FRML;SG
+kohvimasin	kohvimasiniteta	N;PRIV;PL
+raudtee	raudteed	N;NOM;PL
+omandama	ära omanda	V;ACT;PRS;NEG;IMP;3;SG
+frantsium	frantsiumdele	N;AT+ALL;PL
+türklane	türklasteni	N;TERM;PL
+varblane	varblasena	N;TRANS;SG
+seisma	oli seisnud	V;ACT;PRS;PRF;POS;IND;2;SG
+ookean	ookeanele	N;AT+ALL;PL
+roodium	roodiumdest	N;TRANS;PL
+kaevur	kaevuri	N;COM;SG
+hassium	hassiumisse	N;IN+ALL;SG
+itsitama	itsitaame	V;ACT;PRS;POS;IND;2;PL
+jumalus	jumalus	N;IN+ALL;SG
+vannituba	vannitubas	N;TRANS;SG
+keemik	keemikutesse	N;IN+ALL;PL
+euro	eurdavad	N;ACC;PL
+kaubanduskeskus	kaubanduaeausses	N;IN+ABL;SG
+isik	isikseni	N;TERM;SG
+arvama	arvatud	V.PTCP;PASS;PST
+kustutama	ärgem kustuta	V;ACT;PRS;PRF:POS;COND;2;PL
+panema	ärgu paneku	V;ACT;PRS;NEG;IMP;2;PL
+nõukogu	nõukogu	N;AT+ESS;SG
+lootma	ei lootvat	V;ACT;PRS;NEG;IND
+armuma	oli armunud	V;ACT;PRS;PRF;POS;IND;2;SG
+kaklema	kakleb	V;ACT;PRS;POS;IND;3;SG
+põhiseadus	põhiseadusteni	N;TERM;PL
+tähendama	tähendaa	V;ACT;PRS;POS;IMP;3;SG
+katkema	ei olevat katknudp	V;PASS;PRS;PRF;NEG;COND
+eestlane	eestlasteta	N;PRIV;PL
+sümptom	sümptomini	N;TERM;SG
+poolakas	poolakastel	N;AT+ESS;PL
+rikastuma	ei olevat rikastunudp	V;ACT;PRS;PRF;NEG;COND
+vadjalane	vadjalasena	N;AT+ABL;SG
+isa	isates	N;IN+ESS;PL
+omama	ära omanud	V;ACT;PRS;PRF;NEG;IMP;SG
+kääbus	kääbustel	N;AT+ESS;PL
+nussima	olevat nussinud	V;ACT;PRS;PRF;POS;QUOT
+ükssarvik	ükssarvikutes	N;IN+ESS;PL
+kannel	kannel	N;TRANS;SG
+mardikas	mardikasena	N;FRML;SG
+roimar	roimarile	N;AT+ALL;SG
+pubi	pubita	N;PRIV;SG
+tuba	tubatel	N;AT+ABL;PL
+peavoolustamine	peavoolunamisedele	N;AT+ALL;PL
+veenma	olgu veennud	V;ACT;PRS;PRF;POS;IMP;PL
+austama	austasid	V;ACT;PST;POS;IND;2;SG
+nõges	nõges	N;ACC;SG
+frantsium	frantsiumdele	N;TERM;PL
+vihkama	vihkasite	V.PTCP;ACT;PST
+ehitama	ehitaksi	V;ACT;PRS;POS;COND;3;SG
+reetma	reetsin	V;ACT;PST;POS;IND;1;SG
+jääma	jäädav	V.PTCP;PASS;PRS
+rästik	rästikutel	N;AT+ESS;PL
+mõla	mõlana	N;FRML;SG
+spioneerima	spioneerisid	V;ACT;PST;POS;IND;3;SG
+major	majori	N;NOM;SG
+vasar	vasari	N;GEN;SG
+peldik	peldiku	N;TRANS;SG
+gei	gee	N;COM;SG
+jätma	oleksid jätnud	V;ACT;PRS;PRF;POS;COND;3;PL
+hööveldama	orin oööveldanud	V;ACT;PRS;PRF;POS;IND;1;PL
+suur	suurite	N;AT+ABL;PL
+palataliseerima	olevat palataliserinud	V;ACT;PRS;PRF;POS;QUOT
+redel	redele	N;GEN;SG
+põlema	olin põlenud	V;ACT;PRS;PRF;POS;COND;1;SG
+vaidlema	vaidleaksime	V;ACT;PRS;POS;COND;1;PL
+magama	magaa	V;ACT;PRS;POS;IND;1;SG
+elama	ärgemõavat	V;ACT;PRS;PRF:POS;COND;2;PL
+võtma	onunvtnud	V;ACT;PRS;PRF;POS;IND;1;SG
+imema	ärgu imed	V;ACT;PRS;NEG;IMP;2;PL
+harima	oli harinud	V;ACT;PRS;PRF;POS;IND;1;SG
+vesi	vese	N;COM;SG
+sinatama	ei olevat sinatanudp	V;ACT;PRS;PRF;NEG;COND
+suhkur	suhkuredele	N;AT+ALL;PL
+aaloe	aaloed	N;AT+ABL;PL
+jalanõu	jalanõutest	N;IN+ABL;PL
+käituma	ei käitutud	V;PASS;PRS;NEG;IND
+suu	suule	N;FRML;PL
+kaplan	kaplanite	N;AT+ALL;PL
+kirjutusmasin	kirjutuntiini	N;PRIV;SG
+teietama	olevat teietatud	V;PASS;PRS;PRF;POS;QUOT
+aadel	aaderiteks	N;TRANS;PL
+fallos	fallosteks	N;TRANS;PL
+nõges	nõgesteta	N;PRIV;PL
+üritama	ei üritavat	V;ACT;PRS;NEG;IND
+tulema	tuleame	V;ACT;PRS;POS;IND;2;PL
+masturbeerima	masturbeeriaku	V;ACT;PRS;POS;IMP;3;PL
+koristama	ärgem koristakem	V;ACT;PRS;NEG;IMP;1;PL
+lebama	lebaksid	V;ACT;PRS;POS;COND;2;SG
+lebama	olgu lebatud	V;PASS;PRS;PRF;POS;IMP
+teietama	teietaa	V;ACT;PRS;POS;IMP;2;SG
+lehis	lehistesse	N;PRT;PL
+pöörama	pööratavat	V;PASS;PRS;POS;QUOT
+täi	tbrutel	N;FRML;PL
+sibulakuppel	sibulakupperid	N;COM;PL
+maja	majata	N;PRIV;SG
+kahju	kahjutest	N;IN+ABL;PL
+nülgima	nülgiksite	V;ACT;PRS;POS;COND;2;PL
+täitma	ei olevat täitretudp	V;PASS;PRS;PRF;NEG;QUOT
+kõndima	kõndisid	V;ACT;PST;POS;IND;2;SG
+keema	olin keenud	V;ACT;PRS;PRF;POS;COND;1;SG
+sõudma	sõudad	V;ACT;PRS;POS;COND;2;SG
+katkema	ära katkeku	V;ACT;PRS;NEG;IMP;3;SG
+koperniitsium	koperniitsiumdel	N;PRT;PL
+soolane	soolased	N;PRT;PL
+ihu	ihute	N;AT+ALL;PL
+tseesium	tseesiumi	N;COM;SG
+elama	elatagu	V;PASS;PRS;POS;IMP
+meeldima	olevat meelditud	V;PASS;PRS;PRF;POS;COND
+moldovlane	moldovlasena	N;FRML;SG
+kinnitama	ei olnud kinnitanudp	V;ACT;PST;PRF;NEG;IND
+hoidma	hoidsime	V;ACT;PST;POS;IND;1;PL
+norralane	norralasele	N;AT+ALL;SG
+rüütel	rüütered	N;NOM;PL
+õppima	õppiame	V;ACT;PRS;POS;IND;2;PL
+kanarbikukuu	kanarbikukuusse	N;IN+ALL;SG
+higistama	higistaa	V;ACT;PRS;POS;IMP;2;PL
+jaapanlane	jaapanlasel	N;AT+ESS;SG
+intervjuu	intervjuu	N;GEN;SG
+naaber	naaberitena	N;FRML;PL
+võtma	võtb	V;ACT;PRS;POS;IND;3;SG
+levik	leviku	N;NOM;SG
+higistama	olevat higistatud	V;PASS;PRS;PRF;POS;COND
+riidekoi	riidekori	N;GEN;SG
+otsima	oleksid otsinud	V;ACT;PRS;PRF;POS;COND;3;PL
+muusik	muusiku	N;COM;SG
+järgnema	olevat järgnenud	V;ACT;PRS;PRF;POS;QUOT
+sõdur	sõduritega	N;COM;PL
+baarium	baariumite	N;GEN;PL
+vahetusõpilane	vahetusõglassi	N;IN+ESS;SG
+püüdma	püüdb	V;ACT;PRS;POS;IND;3;SG
+lintšima	ei lintšitud	V;PASS;PRS;NEG;COND
+kiiruspiirik	kiiruspiiriku	N;COM;SG
+niisutama	ei olevat niisutanudp	V;ACT;PRS;PRF;NEG;COND
+asuma	asutakse	V;PASS;PRS;POS;IND
+murrak	murrakud	N;IN+ESS;PL
+murrak	murraku	N;TRANS;SG
+meeldima	meeldia	V;ACT;PRS;POS;IMP;2;PL
+kuurium	kuuriumid	N;ACC;PL
+kaarik	kaarika	N;AT+ABL;SG
+suur	suuritesse	N;IN+ALL;PL
+petma	petaksime	V;ACT;PRS;POS;COND;1;PL
+kaubanduskeskus	kaubanduskskusena	N;FRML;SG
+viitsima	ei viitsivat	V;ACT;PRS;NEG;QUOT
+petma	olgu petnud	V;ACT;PRS;PRF;POS;IMP;SG
+pudel	pudenid	N;ACC;PL
+reetma	oleksid reetnud	V;ACT;PRS;PRF;POS;COND
+karihiir	karihiiril	N;AT+ABL;SG
+draakon	draakonasse	N;IN+ALL;SG
+plutoonium	plutooniumiteks	N;TRANS;PL
+võrduma	võrduti	V;PASS;PST;POS;IND
+lugema	lugea	V.PTCP;ACT;PRS
+kala	kalana	N;FRML;SG
+punker	punkri	N;ACC;SG
+ujuma	ujuame	V;ACT;PRS;POS;IND;1;PL
+jäätis	jäätistel	N;AT+ALL;PL
+hobune	hobune	N;GEN;SG
+lendama	lennaku	V;ACT;PRS;POS;IMP;2;PL
+ehitama	olite ehitanud	V;ACT;PRS;PRF;POS;COND;1;PL
+heinakuu	heinakuuteta	N;PRIV;PL
+õhtu	õhtuteni	N;TERM;PL
+kaevama	kaevatakse	V;PASS;PRS;POS;IND
+maakeel	maakeeltega	N;COM;PL
+peldik	peldika	N;GEN;SG
+vabastama	vabastaame	V;ACT;PRS;POS;IND;1;PL
+raudtee	raudtedele	N;AT+ABL;PL
+reetma	reetsite	V.PTCP;ACT;PST
+vibutama	ei vibutatud	V;PASS;PST;NEG;IND
+leheneeger	leheneegerid	N;ACC;PL
+juuksur	juuksurid	N;ACC;PL
+reisija	reisijana	N;TRANS;SG
+avama	avaaksime	V;ACT;PRS;POS;QUOT
+poolkuu	poolkuutel	N;AT+ABL;PL
+käskiv	käskivale	N;AT+ALL;SG
+nokkima	nokkiaku	V;ACT;PRS;POS;COND;3;SG
+puu	puuni	N;TERM;SG
+keerama	ei keeravat	V;ACT;PRS;NEG;QUOT
+apelsin	apelsinas	N;IN+ESS;SG
+leidma	oli leidnud	V;ACT;PRS;PRF;POS;IND;2;SG
+võitma	olin võitnud	V;ACT;PRS;PRF;POS;COND;2;SG
+tulekahju	tulekahjutesse	N;IN+ALL;PL
+kaevur	kaevurid	N;PRT;SG
+sibul	sibultega	N;COM;PL
+langema	ei langetud	V;PASS;PRS;NEG;COND
+nokkima	nokkitakse	V;PASS;PRS;POS;IND
+vaba	vabana	N;FRML;SG
+lööma	lööb	V;ACT;PRS;POS;IND;3;SG
+haridus	haridustest	N;IN+ABL;PL
+pindluu	pindluu	N;NOM;SG
+higistama	ora higistanud	V;ACT;PRS;PRF;POS;IMP;SG
+sinatama	ei sinatatud	V;PASS;PST;NEG;IND
+masturbeerima	oli masturbeeridud	V;PASS;PST;PRF;POS;IND
+observatoorium	observatoriumdele	N;AT+ESS;PL
+pede	pede	N;NOM;SG
+malev	maleved	N;NOM;PL
+keraamik	keraamikseni	N;TERM;SG
+tingiv	tingivat	N;PRIV;SG
+ameriitsium	ameriitsiumina	N;FRML;SG
+ehtima	ei olevat ehtinudp	V;ACT;PRS;PRF;NEG;COND
+jalanõu	jalanõu	N;NOM;SG
+janu	janutega	N;COM;PL
+tundma	tundaksime	V;ACT;PRS;POS;QUOT
+einsteinium	einsteiniumdest	N;PRT;PL
+nioobium	nioobiumdel	N;NOM;PL
+kaevama	kaevatavat	V;PASS;PRS;POS;QUOT
+helistama	helistaksime	V;ACT;PRS;POS;IMP;1;PL
+kallas	kallaga	N;COM;SG
+arvutama	ärgu arvutaku	V;ACT;PRS;NEG;IMP;2;PL
+korjama	korjaa	V;ACT;PRS;POS;IMP;3;SG
+armuma	ei olevat armunudp	V;ACT;PRS;PRF;NEG;COND
+haruldus	haruldus	N;AT+ESS;SG
+hõberebane	hõberebasel	N;AT+ESS;SG
+saama	ei saatud	V;PASS;PRS;NEG;COND
+keeleteadus	keeleteadus	N;IN+ALL;SG
+lükkama	lükkaksime	V;ACT;PRS;POS;COND;1;SG
+vibutama	ei olnud vibutatudp	V;PASS;PRS;PRF;NEG;IND
+nikkuma	nikkuti	V;PASS;PST;POS;IND
+käsklus	käskluse	N;GEN;SG
+kinkima	kinkisid	V;ACT;PST;POS;IND;2;PL
+saav	saavates	N;IN+ESS;PL
+nülgima	ärgu nülginud	V;ACT;PRS;PRF;NEG;IMP;SG
+kaenal	kaenaltega	N;COM;PL
+panema	ei olevat panetudp	V;PASS;PRS;PRF;NEG;COND
+poolakas	poolakastega	N;COM;PL
+oluline	olulised	N;AT+ABL;PL
+nägu	nägu	N;AT+ABL;SG
+kroonu	kroonu	N;NOM;SG
+sündima	ei sünditudp	V;PASS;PRS;NEG;QUOT
+žürii	türiris	N;NOM;SG
+kuulutama	kuulutasin	V;ACT;PST;POS;IND;1;SG
+parameeter	parameeteritena	N;FRML;PL
+kaarik	kaariku	N;TRANS;SG
+kobedus	kobedustele	N;AT+ALL;PL
+veebruar	veebruarita	N;PRIV;SG
+aabe	aabe	N;PRIV;SG
+armuma	oli armunud	V;ACT;PRS;PRF;POS;IND;1;PL
+samaarium	samaariumdele	N;TERM;PL
+ploomipuu	ploomipuul	N;AT+ESS;SG
+sinine	sinine	N;NOM;SG
+orjus	orjusteta	N;PRIV;PL
+küsima	küsisid	V;ACT;PST;POS;IND;3;PL
+isadus	isadust	N;PRT;SG
+alumiinium	alumiiniumina	N;FRML;SG
+kiiruluu	kiiruluus	N;IN+ABL;SG
+õnnelik	õnneliku	N;NOM;SG
+käskiv	käskiva	N;ACC;SG
+murjan	murjanini	N;TERM;SG
+sünnitama	sünnitatud	V.PTCP;PASS;PST
+teietama	teietati	V;PASS;PST;POS;IND
+kange	kangseni	N;TERM;SG
+kasvama	kasvatud	V.PTCP;PASS;PST
+sünnitama	ärgem sünnitakem	V;ACT;PRS;NEG;IMP;2;PL
+kurat	kuramtesse	N;NOM;PL
+nussima	nussiti	V;PASS;PST;POS;IND
+šaakal	šaakari	N;COM;SG
+kalastama	kalastasid	V;ACT;PST;POS;IND;2;PL
+istuma	ei istutud	V;PASS;PRS;NEG;IND
+keiser	keiserita	N;PRIV;SG
+nägema	oli nägenud	V;ACT;PRS;PRF;POS;IND;1;SG
+nakkus	nakkus	N;AT+ESS;SG
+laulma	ei olnud laultudp	V;PASS;PRS;PRF;NEG;IND
+elu	eluledesse	N;IN+ALL;PL
+võrduma	ei võrdutud	V;PASS;PST;NEG;IND
+kaotama	olin kaotanud	V;ACT;PRS;PRF;POS;COND;1;SG
+arutlema	olite arutlenud	V;ACT;PRS;PRF;POS;COND;2;PL
+kiirendama	kiirendaa	V;ACT;PRS;POS;IMP;2;SG
+keel	keele	N;GEN;SG
+peenis	peenired	N;NOM;PL
+hoiatama	oleksid hoiatanud	V;ACT;PRS;PRF;POS;COND
+kasvama	olevat kasvatud	V;PASS;PRS;PRF;POS;QUOT
+hobune	hobustel	N;AT+ESS;PL
+hüppama	hüppaaksid	V;ACT;PRS;POS;IND;2;PL
+kannel	kannele	N;GEN;SG
+muuseum	muuseumi	N;AT+ESS;SG
+tulema	on tulenud	V;ACT;PRS;PRF;POS;IND;3;PL
+venelane	venelast	N;PRT;SG
+lõpetama	ärgu olgu lõpetanud	V;ACT;PRS;PRF;NEG;IMP;PL
+õppima	olite õppinud	V;ACT;PRS;PRF;POS;COND;1;PL
+maasikas	maasikast	N;IN+ALL;SG
+langema	onunnnnsteksid langeni	V;ACT;PRS;PRF;POS;IND;1;SG
+kinkima	kinkiksime	V;ACT;PRS;POS;COND;1;PL
+hobune	hobusnile	N;AT+ALL;SG
+kee	arel	N;AT+ESS;SG
+ümberlõikamine	ümberlõektisedele	N;AT+ESS;PL
+draakon	draakonite	N;AT+ALL;PL
+katma	katsid	V;ACT;PST;POS;IND;3;SG
+leedulane	leedulasteta	N;PRIV;PL
+hääletama	olite hääletanud	V;ACT;PRS;PRF;POS;COND;2;PL
+teadma	teada	V;ACT;PRS;POS;IND;1;SG
+katkema	oli matkenud	V;ACT;PRS;PRF;POS;COND;2;SG
+kasvama	on kasvanud	V;ACT;PRS;PRF;POS;IND;3;SG
+korsten	korsteniteta	N;PRIV;PL
+redis	redisena	N;FRML;SG
+riidekoi	riidekoides	N;IN+ESS;PL
+kallistama	kallistasite	V.PTCP;ACT;PST
+saatma	saata	V;ACT;PRS;POS;IMP;2;SG
+kala	kalatena	N;FRML;PL
+tätoveerima	ei olevat tätoveerinudp	V;ACT;PRS;PRF;NEG;COND
+pankur	pankuriteks	N;TRANS;PL
+harjama	olin harjanud	V;ACT;PRS;PRF;POS;COND;1;SG
+vaher	vaheril	N;TRANS;SG
+lõikuskuu	lõikuskuul	N;AT+ESS;SG
+summutama	oli summutanud	V;ACT;PRS;PRF;POS;COND;2;SG
+tseerium	tseeriumdesse	N;COM;PL
+fallos	falloseni	N;TERM;SG
+tütar	tütari	N;IN+ABL;SG
+nobeelium	nobeeliumdele	N;AT+ALL;PL
+vägi	vägnitesse	N;IN+ALL;PL
+pärdik	pärdikuteni	N;TERM;PL
+magama	ei olnud magatudp	V;PASS;PST;PRF;NEG;IND
+ettur	etturites	N;IN+ESS;PL
+põhiseadus	põhiseadustest	N;IN+ABL;PL
+meitneerium	meitneeriumi	N;PRIV;SG
+kaabel	kaabelga	N;IN+ESS;SG
+kalkun	kalkunid	N;COM;PL
+tegema	ei olevat tegenudp	V;ACT;PRS;PRF;NEG;QUOT
+muutma	muuta	V;ACT;PRS;POS;IMP;3;SG
+imetaja	imetajana	N;TERM;SG
+sündima	ärgu olgu olgu mõrdiretud	V;PASS;PRS;PRF;NEG;IMP
+liibuma	liibusid	V;ACT;PST;POS;IND;3;SG
+kaplan	kaplanite	N;PRT;PL
+viinakuu	viinakuuteta	N;PRIV;PL
+vares	varesteta	N;PRIV;PL
+tänama	ei tänatudp	V;PASS;PRS;NEG;QUOT
+aste	astedesse	N;IN+ALL;PL
+sibul	sibultest	N;IN+ABL;PL
+korsten	korstenina	N;FRML;SG
+kaevama	oli kaevanud	V;ACT;PRS;PRF;POS;IND;1;SG
+saabuma	saabusid	V;ACT;PST;POS;IND;3;SG
+suur	suuri	N;ACC;SG
+prantslane	prantslaned	N;NOM;PL
+naerma	olite naernud	V;ACT;PRS;PRF;POS;COND;2;PL
+käsipuu	käsipuu	N;COM;SG
+pesema	pesesid	V;ACT;PST;POS;IND;3;SG
+meitneerium	meitneeriumi	N;AT+ABL;SG
+elutuba	elutubateks	N;TRANS;PL
+saatma	saatsid	V;ACT;PST;POS;IND;3;SG
+klaver	klaveris	N;IN+ESS;SG
+rubiidium	rubiidiumdest	N;AT+ABL;PL
+ununoktium	ununoktiumdes	N;TRANS;PL
+kadakasakslane	kadakasaelasa	N;COM;SG
+ööbik	ööbikud	N;ACC;PL
+jooma	jootavat	V;PASS;PRS;POS;COND
+mägi	mägnid	N;IN+ALL;PL
+embama	oli embanud	V;ACT;PRS;PRF;POS;COND;3;SG
+jaatama	olevat jaatanud	V;ACT;PRS;PRF;POS;QUOT
+peenar	peenariteta	N;PRIV;PL
+kiirendama	kiirendasid	V;ACT;PST;POS;IND;2;SG
+teietama	teietaame	V;ACT;PRS;POS;IND;2;PL
+inglane	inglastesse	N;IN+ALL;PL
+taimer	taimerid	N;PRT;SG
+kuritöö	kuritö s	N;IN+ABL;SG
+keppima	keppiame	V;ACT;PRS;POS;IND;1;PL
+sööma	ärgem söökem	V;ACT;PRS;NEG;IMP;1;PL
+soovima	sooviaksime	V;ACT;PRS;POS;IMP;1;PL
+karu	karu	N;GEN;SG
+külastama	ei olevat külastanudp	V;ACT;PRS;PRF;NEG;COND
+õhtu	õhtutena	N;TRANS;PL
+jooma	jootud	V.PTCP;PASS;PST
+draakon	draakonid	N;COM;PL
+püüdma	ei püüdtud	V;PASS;PRS;NEG;COND
+jalus	jalustest	N;TRANS;PL
+inimkaubandus	inimkaubndust	N;PRT;SG
+tähendama	olite tähendanud	V;ACT;PRS;PRF;POS;COND;2;PL
+partii	partiris	N;IN+ABL;SG
+elav	elavad	N;PRT;SG
+rinnahoidja	rinnahoidjatest	N;IN+ABL;PL
+tõsi	tõsrud	N;IN+ESS;PL
+niisutama	oli niisutanud	V;ACT;PRS;PRF;POS;COND;3;SG
+pesema	ei pesetud	V;PASS;PRS;NEG;COND
+peeniseluu	peeniseluutest	N;IN+ABL;PL
+vaidlema	ära vaidleku	V;ACT;PRS;NEG;IMP;3;SG
+kallistama	kallistaku	V;ACT;PRS;POS;COND;3;SG
+vaatama	oleksid vaatanud	V;ACT;PRS;PRF;POS;COND
+kaklus	kaklust	N;ACC;PL
+tätoveerija	tätoveerija	N;NOM;SG
+ununheksium	ununheksiumi	N;IN+ABL;SG
+magama	olevat magatud	V;PASS;PRS;PRF;POS;QUOT
+rukis	rukis	N;ACC;SG
+sõltlane	sõltlastena	N;FRML;PL
+hirmuma	hirmua	V;ACT;PRS;POS;IMP;2;SG
+raudtee	raudteedele	N;AT+ESS;PL
+norralane	norralanedele	N;AT+ALL;PL
+rääkima	on rääkinud	V;ACT;PRS;PRF;POS;IND;2;PL
+algama	oli algadud	V;PASS;PST;PRF;POS;IND
+ehtima	ehtitagu	V;PASS;PRS;POS;IMP
+õpetamine	õpetamise	N;COM;SG
+omastav	omastava	N;ACC;SG
+saatma	ei olevat saatetudp	V;PASS;PRS;PRF;NEG;COND
+major	majori	N;ACC;SG
+peatus	peatusteta	N;PRIV;PL
+käsipuu	käsipuud	N;NOM;PL
+peeniseluu	peeniseluuteta	N;PRIV;PL
+järgnema	olin järgnenud	V;ACT;PRS;PRF;POS;COND;2;SG
+jäätisemasin	jäätisemasie	N;COM;SG
+oluline	olulisel	N;AT+ESS;SG
+apelsin	apelsina	N;NOM;SG
+kuldmedal	kuldmedaritena	N;FRML;PL
+aaker	aakeritest	N;IN+ABL;PL
+tähendama	ei tähendavat	V;ACT;PRS;NEG;IND
+kütma	ei olevat kütretudp	V;PASS;PRS;PRF;NEG;QUOT
+ühendama	ühendaku	V;ACT;PRS;POS;QUOT
+öökima	olgu öökinud	V;ACT;PRS;PRF;POS;IMP;PL
+jäätis	jäätistesse	N;IN+ALL;PL
+arvama	arvaavad	V;ACT;PRS;POS;IND;3;PL
+ameeriklane	ameeriklane	N;GEN;SG
+õppima	õppib	V;ACT;PRS;POS;IND;1;SG
+pärdik	pärdikuteta	N;PRIV;PL
+hakkama	hakkaksi	V;ACT;PRS;POS;COND;3;SG
+kapral	kaprarites	N;IN+ESS;PL
+kaalikas	kaalikastena	N;PRT;PL
+võlur	võluriteni	N;TERM;PL
+sünnitama	on sünnitanud	V;ACT;PRS;PRF;POS;IND;3;PL
+voolik	vooliked	N;NOM;PL
+lavastama	olgu lavastanud	V;ACT;PRS;PRF;POS;IND;3;SG
+muutus	muutus	N;NOM;SG
+berkeelium	berkeeliumisse	N;IN+ALL;SG
+kippuma	on kippunud	V;ACT;PRS;PRF;POS;IMP;PL
+roojamine	roojamined	N;NOM;PL
+kindel	kindenasse	N;IN+ALL;SG
+kesi	kesini	N;TERM;SG
+majandus	majandustega	N;COM;PL
+bohrium	bohriumi	N;COM;SG
+hoiatama	ei olevat hoiatanudp	V;ACT;PRS;PRF;NEG;QUOT
+nokkima	õlokkinite	V;ACT;PST;NEG;IND
+kindel	kindered	N;NOM;PL
+tingiv	tingivas	N;IN+ESS;SG
+liivlane	liivlasena	N;FRML;SG
+võima	võib	V;ACT;PRS;POS;IND;3;SG
+eitama	eitab	V;ACT;PRS;POS;IND;3;SG
+vaba	vabad	N;ACC;PL
+jalanõu	jalanõuteni	N;TERM;PL
+jäätama	jäätasin	V;ACT;PST;POS;IND;1;SG
+lugema	lugeame	V;ACT;PRS;POS;IND;1;PL
+lintšima	lintšisime	V;ACT;PST;POS;IND;1;PL
+andma	endksime	V;ACT;PRS;POS;COND;3;PL
+seesütlev	seesütlevateks	N;TRANS;PL
+tundma	oli tundnud	V;ACT;PRS;PRF;POS;IND;2;SG
+katkema	oli katknud	V;ACT;PRS;PRF;POS;COND;3;SG
+rinnahoidja	rinnahoidjatesse	N;IN+ALL;PL
+tahtma	ei tahtvat	V;PASS;PRS;NEG;QUOT
+tuletõrjuja	tuletõrjujalt	N;AT+ABL;SG
+bussipeatus	bussipeatuga	N;COM;SG
+kaklema	kaklea	V;ACT;PRS;POS;IMP;2;PL
+reisima	oleksid reisinud	V;ACT;PRS;PRF;POS;COND;3;PL
+lõvi	lõvrisse	N;IN+ALL;SG
+lõbu	lõbule	N;AT+ALL;SG
+gallium	galliumdele	N;TERM;PL
+haarama	ei olevat haaranudp	V;PASS;PRS;PRF;NEG;COND
+polüester	polüesterile	N;AT+ALL;SG
+vabastama	vabastadav	V.PTCP;PASS;PRS
+aabe	aabedesse	N;IN+ALL;PL
+võrduma	ei võrdutud	V;PASS;PRS;NEG;COND
+roojama	ära rooja	V;ACT;PRS;NEG;IMP;2;SG
+rootslane	rootslane	N;GEN;SG
+kirjutusmasin	kirjutuntiinid	N;COM;PL
+teietama	õiietanite	V;ACT;PST;NEG;IND
+rüütel	rüüteltest	N;IN+ABL;PL
+pesema	peseksite	V;ACT;PRS;POS;COND;2;PL
+surmama	surmama	V;NFIN
+kasvama	kasvaad	V;ACT;PRS;POS;IND;2;SG
+kaklus	kaklusele	N;AT+ALL;SG
+orhidee	orhideeteta	N;PRIV;PL
+pikkus	pikkust	N;ACC;PL
+vabastama	vabastasid	V;ACT;PST;POS;IND;3;PL
+kulles	kullega	N;COM;SG
+jäätis	jäätistest	N;AT+ABL;PL
+mõtlemine	mõtlemist	N;PRIV;SG
+neeger	neegeri	N;ACC;SG
+faasan	faasanile	N;AT+ALL;SG
+roojamine	roojamistel	N;AT+ESS;PL
+murdma	murdksite	V;ACT;PRS;POS;COND;2;PL
+järgnema	järgnetavat	V;PASS;PRS;POS;COND
+terbium	terbiumdest	N;AT+ABL;PL
+teietama	oli teietanud	V;ACT;PRS;PRF;POS;IND;2;SG
+holmium	holmiumdele	N;TERM;PL
+peenendama	on peenendanud	V;ACT;PRS;PRF;POS;IND;3;PL
+astuma	oli astutud	V;PASS;PRS;PRF;POS;IND
+rootslane	rootslaseni	N;TERM;SG
+summutama	onunnnnnnnnnnnsimnsmmõvrnuvatgn	V;ACT;PRS;PRF;POS;IMP;SG
+helmekuu	helmekuuta	N;PRIV;SG
+oletama	oletasid	V;ACT;PST;POS;IND;2;PL
+orjus	orjus	N;IN+ALL;SG
+võitma	võita	V;ACT;PRS;POS;IND;1;SG
+levik	levikud	N;IN+ESS;PL
+peatus	peatustes	N;IN+ESS;PL
+tsirkus	tsirkusena	N;FRML;SG
+vabastama	olevat vabastatud	V;PASS;PRS;PRF;POS;QUOT
+oras	oras	N;ACC;SG
+heitma	ärgem heitkem	V;ACT;PRS;NEG;IMP;1;PL
+kohvimasin	kohvimasinile	N;AT+ESS;SG
+orhidee	orhideeted	N;PRT;PL
+välde	väldele	N;AT+ALL;SG
+kiirendama	oli kiirendanud	V;ACT;PRS;PRF;POS;COND;3;SG
+jäätuma	ärgu olgu jäätunud	V;ACT;PRS;PRF;NEG;IMP;PL
+lugema	ei olevat lugenudp	V;ACT;PRS;PRF;NEG;QUOT
+luteetsium	luteetsiumdele	N;TERM;PL
+masturbeerima	masturbeerisime	V;ACT;PST;POS;IND;1;PL
+tsirkoonium	tsirkooniumi	N;AT+ABL;SG
+tundma	tundma	V;NFIN
+arutlema	arutlea	V;ACT;PRS;POS;IMP;3;SG
+hoidma	hoidtud	V.PTCP;PASS;PST
+raamatukoi	raamatukontesse	N;IN+ALL;PL
+üritama	olevat üritatud	V;PASS;PRS;PRF;POS;QUOT
+kaarik	kaarikutel	N;AT+ESS;PL
+tuletõrjuja	tuletõrjujates	N;IN+ESS;PL
+röntgeenium	röntgeeniumdele	N;TERM;PL
+peenar	peenarite	N;AT+ABL;PL
+peavoolustamine	peavoolunamisena	N;AT+ABL;SG
+käskima	olin käskinud	V;ACT;PRS;PRF;POS;COND;1;SG
+kobisema	kobisnaku	V;ACT;PRS;POS;IMP;3;PL
+pensionär	pensionärite	N;GEN;PL
+harjutama	ei harjutatud	V;PASS;PRS;NEG;IMP
+tanner	tanniri	N;PRIV;SG
+kasutama	oli kasutanud	V;ACT;PRS;PRF;POS;IND;1;SG
+hüüdma	hüüdb	V;ACT;PRS;POS;IND;3;SG
+lebama	lebatagu	V;PASS;PRS;POS;IMP
+armuma	ei armutud	V;PASS;PRS;NEG;QUOT
+nakkus	nakkured	N;NOM;PL
+lintšima	oli lintšidud	V;PASS;PST;PRF;POS;IND
+varblane	varblana	N;COM;SG
+korter	korterid	N;IN+ABL;SG
+seller	sellerid	N;PRT;SG
+küülik	küülikutena	N;FRML;PL
+kalastama	kalastaa	V;ACT;PRS;POS;IND;1;SG
+eitama	ei olevat eitanudp	V;PASS;PRS;PRF;NEG;COND
+tseerium	tseeriumi	N;PRIV;SG
+vennatütar	vennatütarite	N;GEN;PL
+ava	avades	N;IN+ESS;PL
+klubi	klubris	N;IN+ABL;SG
+elama	elasides	V.PTCP;ACT;PST
+soo	dokulenile	N;AT+ALL;SG
+keel	keerited	N;PRT;PL
+vesi	vesi	N;NOM;SG
+viitsima	ei viitsivat	V;ACT;PRS;NEG;IND
+masturbeerima	ei masturbeeritud	V;PASS;PRS;NEG;IND
+vandenõu	vandenõus	N;TRANS;SG
+lootma	ärgu lootku	V;ACT;PRS;NEG;IMP;2;PL
+sõltuvus	sõltuvus	N;IN+ALL;SG
+künnis	künnist	N;IN+ABL;SG
+hoidja	hoidjateks	N;TRANS;PL
+keeleteadus	keeleteadustel	N;AT+ABL;PL
+vars	varses	N;IN+ESS;SG
+jääma	olin jäänud	V;ACT;PRS;PRF;POS;COND;2;SG
+püüdma	olevat püüdtud	V;PASS;PRS;PRF;POS;COND
+sittuma	ärgu olgu sittunud	V;ACT;PRS;PRF;NEG;IMP;PL
+rõhukamber	rõhukamberiteta	N;PRIV;PL
+seisma	oli seisnud	V;ACT;PRS;PRF;POS;IMP;SG
+kreeklane	kreeklasteni	N;TERM;PL
+maa	maas	N;IN+ESS;SG
+vaidlema	vaidletakse	V;PASS;PRS;POS;IND
+raudne	rauds	N;AT+ABL;SG
+ununheksium	ununheksiumi	N;PRIV;SG
+isamaa	isamaana	N;TRANS;SG
+vanaadium	vanaadiumdele	N;TERM;PL
+hispaanlane	hispaanlasele	N;IN+ABL;SG
+šotlane	šotlasteta	N;PRIV;PL
+pürgima	ei pürgitud	V;PASS;PRS;NEG;IMP
+eesel	eeselak	N;TRANS;SG
+mendeleevium	mendeleeviumdena	N;FRML;PL
+vöö	dövrutel	N;TERM;PL
+imema	ei olnud imeetudp	V;PASS;PST;PRF;NEG;IND
+spioneerima	spioneerisid	V;ACT;PST;POS;IND;2;SG
+ukrainlane	ukrainlasena	N;AT+ABL;SG
+oskama	oskaksime	V;ACT;PRS;POS;IMP;1;PL
+türklane	türklasssses	N;IN+ABL;SG
+sadama	sadab	V.PTCP;ACT;PRS
+sirel	sireled	N;PRT;PL
+büroo	bürodus	N;IN+ESS;SG
+jäätama	jäätaaksime	V;ACT;PRS;POS;QUOT
+hoidma	ei hoidtud	V;PASS;PRS;NEG;COND
+kobedus	kobedus	N;AT+ESS;SG
+närima	oli närinud	V;ACT;PRS;PRF;POS;IND;1;PL
+istuma	ärgu olgu olgu olgu olg	V;PASS;PRS;PRF;NEG;IMP
+saabuma	on saabunud	V;ACT;PRS;PRF;POS;IND;2;PL
+haridus	haridustena	N;FRML;PL
+kinaver	kinaveredel	N;AT+ESS;PL
+elutuba	elutubatest	N;IN+ABL;PL
+mölder	möldrisse	N;IN+ALL;SG
+rukis	rukis	N;IN+ABL;SG
+võima	võiksime	V;ACT;PRS;POS;COND;3;PL
+kinaver	kinaverita	N;PRIV;SG
+helistama	helistaksite	V;ACT;PRS;POS;COND;3;PL
+leidma	olevat leidnud	V;ACT;PRS;PRF;POS;QUOT
+selgitama	on selgitanud	V;ACT;PRS;PRF;POS;IND;3;PL
+peenar	peenariteks	N;PRT;PL
+jõuluöö	jõuluöörini	N;TERM;SG
+võrduma	ei olnud võrduetudp	V;PASS;PST;PRF;NEG;IND
+vihik	vihikutest	N;IN+ABL;PL
+isadus	isaduseni	N;TERM;SG
+küsima	ei olevat küsietudp	V;PASS;PRS;PRF;NEG;QUOT
+vihkama	oli vihkanud	V;ACT;PRS;PRF;POS;COND;3;SG
+kalkun	kalkunitesse	N;IN+ALL;PL
+roojama	roojaaksime	V;ACT;PRS;POS;QUOT
+omastav	omastavatena	N;FRML;PL
+parameeter	parameeteredele	N;AT+ALL;PL
+kinkima	ära kinkia	V;ACT;PRS;NEG;IMP;2;SG
+ohutu	ohutuna	N;FRML;SG
+kesakuu	kesakuud	N;PRT;SG
+vesiveski	vesiveskutena	N;FRML;PL
+oletama	oletab	V;ACT;PRS;POS;IND;3;SG
+vaikus	vaikus	N;ACC;SG
+asjatundja	asjatundjalt	N;AT+ABL;SG
+kiirendama	ei olevat kiirendatudp	V;PASS;PRS;PRF;NEG;COND
+keeleteadus	keeleteadust	N;PRT;SG
+euroopium	euroopiumi	N;AT+ESS;SG
+keppima	oli keppidud	V;PASS;PST;PRF;POS;IND
+reenium	reeniumi	N;IN+ALL;SG
+peenis	peenistest	N;IN+ABL;PL
+rukis	rukise	N;GEN;SG
+rootslane	rootslas	N;AT+ABL;SG
+apelsin	apelsinini	N;TERM;SG
+otsima	otsiksime	V;ACT;PRS;POS;COND;1;SG
+küünlakuu	küünlakuutest	N;IN+ABL;PL
+harjama	harjaksime	V;ACT;PRS;POS;IMP;1;PL
+ankur	ankuri	N;ACC;SG
+mära	mära	N;NOM;SG
+veenma	olite veennud	V;ACT;PRS;PRF;POS;COND;2;PL
+raudtee	raudtek	N;TRANS;SG
+kohin	kohinasse	N;IN+ALL;SG
+aitama	aitaksi	V;ACT;PRS;POS;COND;3;SG
+õpetaja	õpetaja	N;ACC;SG
+püüdma	ärgu olgu olgu olgu olg	V;PASS;PRS;PRF;NEG;IMP
+rukis	rukiseni	N;TERM;SG
+loendama	olite loendanud	V;ACT;PRS;PRF;POS;COND;2;PL
+uba	ubana	N;TRANS;SG
+gadoliinium	gadoliiniumdest	N;GEN;PL
+arvutama	arvutadav	V.PTCP;PASS;PRS
+kesi	kesrid	N;ACC;PL
+hukkama	ei olevat hukatudp	V;PASS;PRS;PRF;NEG;IND
+sudenkuu	sudenkuuteks	N;TRANS;PL
+soolane	soolasteni	N;TERM;PL
+tätoveerima	oli tätoveerinud	V;ACT;PRS;PRF;POS;IND;1;SG
+aitama	on aitanud	V;ACT;PRS;PRF;POS;IND;3;PL
+vaidlema	vaidletavat	V;PASS;PRS;POS;QUOT
+promeetium	promeetiumi	N;COM;SG
+sittuma	ei olevat sittuetudp	V;PASS;PRS;PRF;NEG;QUOT
+orhidee	orhidee	N;NOM;SG
+kreeklane	kreeklasses	N;IN+ABL;SG
+pede	pededa	N;PRT;SG
+peatama	olgu peatatud	V;PASS;PRS;PRF;POS;IMP
+buldooser	buldooseritega	N;COM;PL
+ehitis	ehitired	N;NOM;PL
+mardikas	mardikas	N;IN+ALL;SG
+ununheksium	ununheksiumiks	N;TRANS;SG
+imik	imikutena	N;GEN;PL
+murrak	murrakutel	N;AT+ESS;PL
+vibutama	vibutaame	V;ACT;PRS;POS;IND;2;PL
+kippuma	kippusite	V.PTCP;ACT;PST
+mõla	mõlas	N;IN+ABL;SG
+käima	käitud	V.PTCP;PASS;PST
+omama	omasin	V;ACT;PST;POS;IND;1;SG
+liblikas	liblikastel	N;GEN;PL
+rääkima	rääkiksime	V;ACT;PRS;POS;COND;1;PL
+kalkun	kalkunite	N;FRML;PL
+panema	on kanena	V;ACT;PRS;PRF;POS;IND;3;SG
+gei	gerutes	N;IN+ESS;PL
+kaelakee	kaelakstena	N;FRML;PL
+heitma	heitdav	V.PTCP;PASS;PRS
+siduma	ei olevat sidunudp	V;PASS;PRS;PRF;NEG;COND
+nutma	ei olevat nutnudp	V;ACT;PRS;PRF;NEG;COND
+leidma	ära leida	V;ACT;PRS;NEG;IMP;3;SG
+aser	aseridel	N;AT+ESS;PL
+mölder	mölderi	N;GEN;SG
+peeniseluu	peeniseluus	N;IN+ESS;SG
+redel	rederisse	N;IN+ALL;SG
+ratsu	ratsule	N;AT+ABL;SG
+partii	partiina	N;FRML;SG
+kanarbikukuu	kanarbikukuuteta	N;PRIV;PL
+ala	alale	N;AT+ALL;SG
+tapma	oli tapnud	V;ACT;PRS;PRF;POS;COND;3;SG
+jäääär	jääääriteni	N;TERM;PL
+hüüdma	hüüdtud	V.PTCP;PASS;PST
+sõnavabadus	sõnavabadus	N;NOM;SG
+dubnium	dubniumdesse	N;IN+ALL;PL
+riietumine	riietumisteta	N;PRIV;PL
+teadlane	teadlasteni	N;TERM;PL
+tuletõrjuja	tuletõrjujana	N;FRML;SG
+sõudma	sõudsime	V;ACT;PST;POS;IND;1;PL
+sittuma	sittukud	V;ACT;PRS;POS;IND;3;PL
+rootslane	rootslastel	N;AT+ESS;PL
+kalastama	ei kalastavat	V;ACT;PRS;NEG;QUOT
+rootslane	rootslasses	N;IN+ABL;SG
+luterlane	luterlased	N;AT+ABL;PL
+metsis	metsistest	N;AT+ABL;PL
+haarama	haaraa	V;ACT;PRS;POS;IMP;3;SG
+šaakal	šaakanasse	N;IN+ALL;SG
+kaasaütlev	kaasaütlevusse	N;IN+ABL;SG
+jätma	jätsid	V;ACT;PST;POS;IND;2;PL
+ründama	oli ründatud	V;PASS;PRS;PRF;POS;IND
+tuba	tubad	N;ACC;PL
+nioobium	nioobiumdest	N;AT+ABL;PL
+pisar	pisaritele	N;AT+ALL;PL
+higistama	higistaku	V;ACT;PRS;POS;COND;3;SG
+vibutama	vibutaku	V;ACT;PRS;POS;COND;2;SG
+keskmine	keskmistes	N;TRANS;PL
+õunapuu	õunapuud	N;NOM;PL
+lebama	olite lebanud	V;ACT;PRS;PRF;POS;COND;2;PL
+kaklema	ära kaklenud	V;ACT;PRS;PRF;NEG;IMP;SG
+pilu	pilu	N;COM;SG
+sisseütlev	sisseütlevatesse	N;COM;PL
+ükssarvik	ükssarvikutena	N;GEN;PL
+tänav	tänavasse	N;IN+ALL;SG
+suvi	suvnile	N;AT+ALL;SG
+jäääär	jäääära	N;COM;SG
+jugapuu	jugapuuna	N;FRML;SG
+öökima	öökia	V;ACT;PRS;POS;IND;1;SG
+kolonel	koloneltesse	N;IN+ALL;PL
+vabastama	oli vabastanud	V;ACT;PRS;PRF;POS;IND;1;SG
+kinkima	kinkia	V;ACT;PRS;POS;IND;1;SG
+soolane	soolaseni	N;TERM;SG
+alus	alust	N;ACC;PL
+pronksmedal	pronksmedarid	N;COM;PL
+nikkuma	nikkudav	V.PTCP;PASS;PRS
+mõrsja	mõrsjatena	N;FRML;PL
+tõlkima	tõlkisime	V;ACT;PST;POS;IND;1;PL
+tooma	oli toonud	V;ACT;PRS;PRF;POS;IND;2;SG
+soovima	soovisite	V.PTCP;ACT;PST
+reisima	reisib	V;ACT;PRS;POS;IND;3;SG
+ala	alale	N;AT+ESS;SG
+statistika	statistika	N;GEN;SG
+lendur	lenduril	N;AT+ABL;SG
+kaas	kaast	N;PRIV;SG
+varrukas	varrukasele	N;AT+ALL;SG
+puhuma	ärgu puhuku	V;ACT;PRS;NEG;IMP;2;PL
+toorium	tooriumile	N;AT+ALL;SG
+liblikas	liblikast	N;PRT;SG
+kastan	kastanite	N;GEN;PL
+hallitama	oli hallitanud	V;ACT;PRS;PRF;POS;COND;3;SG
+nülgima	nülgia	V;ACT;PRS;POS;IMP;2;PL
+leiutis	leiutiseni	N;TERM;SG
+vaidlema	vaidleksite	V;ACT;PRS;POS;COND;2;PL
+õiglus	õiglus	N;AT+ESS;SG
+neptuunium	neptuuniumi	N;AT+ABL;SG
+rootslane	rootslases	N;IN+ALL;SG
+sünoptik	sünoptikutes	N;IN+ESS;PL
+purema	ei olnud puretudp	V;PASS;PST;PRF;NEG;IND
+astuma	astutavat	V;PASS;PRS;POS;QUOT
+ujuma	ujuku	V;ACT;PRS;POS;IMP;3;PL
+saama	ärgem saakem	V;ACT;PRS;NEG;IMP;1;PL
+leedulane	leedulas	N;IN+ALL;SG
+kai	kaia	N;COM;SG
+strontsium	strontsiumid	N;ACC;PL
+november	novemberitesse	N;IN+ALL;PL
+ava	kvale	N;AT+ESS;SG
+ehitama	ei ehitatud	V;PASS;PRS;NEG;IMP
+kala	kala	N;AT+ABL;SG
+liblikas	liblikasena	N;FRML;SG
+tüdruk	tüdruku	N;PRT;SG
+lavastaja	lavastajateni	N;TERM;PL
+aken	atnid	N;PRT;SG
+tüdruk	tüdrukutesse	N;IN+ALL;PL
+hallitama	ei olnud hallitatudp	V;PASS;PST;PRF;NEG;IND
+lootma	olite lootnud	V;ACT;PRS;PRF;POS;COND;2;PL

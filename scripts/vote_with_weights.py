@@ -25,8 +25,6 @@ if __name__ == '__main__':
   for i, weight in enumerate(weights_list):
     weights[i] = float(weight)
 
-  print(weights)
-
   data_sets = []
   for i in range(1, N + 1):
     data_sets.append(open("%s.%u.sys" % (argv[1], i)).read().split('\n'))

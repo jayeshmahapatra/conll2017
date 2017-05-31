@@ -20,14 +20,9 @@ if __name__=='__main__':
     testdata = [l.strip().split('\t') for l in open(TEST_FN).read().split('\n') if l.strip() != '']     
     testdata = [([c for c in x[0]],x[1],x[2].split(';')) for x in testdata]
 
-    try:
-        attention_task2.init_models(None,MODEL_FN)
-        attention_task2.load_model(MODEL_FN)
-        attention_task2.test(itestdata, open(O_FN,"w"))
-    except:
-        attention_task2.EMBEDDINGS_SIZE = 100
-        attention_task2.STATE_SIZE = 100
-        attention_task2.ATTENTION_SIZE = 100
-        attention_task2.init_models(None,MODEL_FN)
-        attention_task2.load_model(MODEL_FN)
-        attention_task2.test(testdata, open(O_FN,"w"))
+    attention_task2.EMBEDDINGS_SIZE = 32
+    attention_task2.STATE_SIZE = 32
+    attention_task2.ATTENTION_SIZE = 32
+    attention_task2.init_models(None, MODEL_FN)
+    attention_task2.load_model(MODEL_FN)
+    attention_task2.test(testdata, open(O_FN, "w"))

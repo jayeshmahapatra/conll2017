@@ -1,7 +1,8 @@
+.idea
 .idea/*
 *.pyc
-/models/
-/encdec_models/
-/encdec_results/
-/task2_models/
-/task2_results/
+models/*
+encdec_models/*
+encdec_results/*
+task2_models/*
+task2_results/*

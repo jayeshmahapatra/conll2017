@@ -5,6 +5,7 @@ def vote(i,data,n):
     counts = dd(lambda : 0)
     for j in range(n):
         counts[data[j][i]] += 1
+
     return sorted([(v,k) for k,v in counts.items()],reverse=1)[0][1]
 
 if __name__=='__main__':
@@ -13,7 +14,7 @@ if __name__=='__main__':
         exit(1)
 
     N = 10
-    if len(argv) == 3:
+    if len(argv) >= 3:
         N = int(argv[2])
 
     data_sets = []

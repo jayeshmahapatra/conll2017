@@ -1,0 +1,627 @@
+buille	a buille	N;VOC;SG
+buille	buille	N;NOM;PL
+buille	buille	N;NOM;SG
+buille	buille	N;GEN;PL
+buille	na hbuille	N;GEN;SG;DEF
+buille	an buille	N;NOM;SG;DEF
+buille	leis an buille	N;DAT;SG;DEF
+buille	na hbuille	N;NOM;PL;DEF
+buille	buille	N;GEN;SG
+buille	buille	N;DAT;SG
+buille	a buille	N;VOC;PL
+buille	leis na buillí	N;DAT;PL;DEF
+buille	buille	N;DAT;PL
+seasamh	a sheasamh	N;VOC;SG
+seasamh	leis an seasamh	N;DAT;SG;DEF
+seasamh	seasamh	N;NOM;SG
+seasamh	an seasamh	N;NOM;SG;DEF
+seasamh	an seasamha	N;GEN;SG;DEF
+seasamh	seasamha	N;GEN;SG
+seasamh	seasamh	N;DAT;SG
+loch	an loch	N;VOC;SG
+loch	Plural	N;NOM;PL
+loch	Singular	N;NOM;SG
+loch	lochanna	N;GEN;PL
+loch	an loch	N;GEN;SG;DEF
+loch	an loch	N;NOM;SG;DEF
+loch	leis an loch	N;DAT;SG;DEF
+loch	na lochanna	N;NOM;PL;DEF
+loch	locha	N;GEN;SG
+loch	loch	N;DAT;SG
+loch	a lochanna	N;VOC;PL
+loch	leitstha thucha	N;DAT;PL;DEF
+loch	lochanna	N;DAT;PL
+Bascach	a Bascach	N;VOC;SG
+Bascach	Bascachanna	N;NOM;PL
+Bascach	Bascach	N;NOM;SG
+Bascach	Bascachanna	N;GEN;PL
+Bascach	an Bascacha	N;GEN;SG;DEF
+Bascach	an Bascach	N;NOM;SG;DEF
+Bascach	leis an Bascach	N;DAT;SG;DEF
+Bascach	na Bascachanna	N;NOM;PL;DEF
+Bascach	Bascaigh	N;GEN;SG
+Bascach	Bascach	N;DAT;SG
+Bascach	a Bascachanna	N;VOC;PL
+Bascach	leis na Bascaigh	N;DAT;PL;DEF
+Bascach	Bascachanna	N;DAT;PL
+bith	a bith	N;VOC;SG
+bith	leis an bith	N;DAT;SG;DEF
+bith	bith	N;NOM;SG
+bith	an bithd	N;NOM;SG;DEF
+bith	an bitha	N;GEN;SG;DEF
+bith	bitha	N;GEN;SG
+bith	bith	N;DAT;SG
+cillín	a cillíin	N;VOC;SG
+cillín	cillíin	N;NOM;PL
+cillín	cillín	N;NOM;SG
+cillín	cillín	N;GEN;PL
+cillín	an cillíin	N;GEN;SG;DEF
+cillín	an cillín	N;NOM;SG;DEF
+cillín	leis an cillín	N;DAT;SG;DEF
+cillín	na cillíin	N;NOM;PL;DEF
+cillín	cillíin	N;GEN;SG
+cillín	cillín	N;DAT;SG
+cillín	a cillína	N;VOC;PL
+cillín	leis na cillíní	N;DAT;PL;DEF
+cillín	cillíin	N;DAT;PL
+optaic	a optaic	N;VOC;SG
+optaic	leis an optaic	N;DAT;SG;DEF
+optaic	optaic	N;NOM;SG
+optaic	an optaic	N;NOM;SG;DEF
+optaic	an optais	N;GEN;SG;DEF
+optaic	optais	N;GEN;SG
+optaic	optaic	N;DAT;SG
+méid	a méid	N;VOC;SG
+méid	leis an méid	N;DAT;SG;DEF
+méid	méid	N;NOM;SG
+méid	an méid	N;NOM;SG;DEF
+méid	an méid	N;GEN;SG;DEF
+méid	méid	N;GEN;SG
+méid	méid	N;DAT;SG
+scáileán	a scáileáin	N;VOC;SG
+scáileán	scáileáin	N;NOM;PL
+scáileán	scáileán	N;NOM;SG
+scáileán	scáileán	N;GEN;PL
+scáileán	an scáileáin	N;GEN;SG;DEF
+scáileán	an scáileán	N;NOM;SG;DEF
+scáileán	leis an scáileán	N;DAT;SG;DEF
+scáileán	na scáileáin	N;NOM;PL;DEF
+scáileán	scáileáin	N;GEN;SG
+scáileán	scáileán	N;DAT;SG
+scáileán	a scáileána	N;VOC;PL
+scáileán	leis na scáileáin	N;DAT;PL;DEF
+scáileán	scáileáin	N;DAT;PL
+bolcán	a bolcáin	N;VOC;SG
+bolcán	bolcáin	N;NOM;PL
+bolcán	bolcán	N;NOM;SG
+bolcán	bolcán	N;GEN;PL
+bolcán	an bholcáin	N;GEN;SG;DEF
+bolcán	an bolcán	N;NOM;SG;DEF
+bolcán	leis an bolcán	N;DAT;SG;DEF
+bolcán	na bolcáin	N;NOM;PL;DEF
+bolcán	bolcáin	N;GEN;SG
+bolcán	bolcán	N;DAT;SG
+bolcán	a bolcána	N;VOC;PL
+bolcán	leis na bolcáin	N;DAT;PL;DEF
+bolcán	bolcáin	N;DAT;PL
+leac	a leas	N;VOC;SG
+leac	leas na hleas	N;NOM;PL
+leac	lea	N;NOM;SG
+leac	leasna	N;GEN;PL
+leac	an leas	N;GEN;SG;DEF
+leac	an leac	N;NOM;SG;DEF
+leac	leis an leas	N;DAT;SG;DEF
+leac	na leas	N;NOM;PL;DEF
+leac	leas	N;GEN;SG
+leac	a leaca	N;VOC;PL
+leac	leis na leas	N;DAT;PL;DEF
+leac	leis na leas	N;DAT;PL
+airgead	a airgead	N;VOC;SG
+airgead	airgid	N;NOM;PL
+airgead	airgead	N;NOM;SG
+airgead	airgead	N;GEN;PL
+airgead	na hairgead	N;GEN;SG;DEF
+airgead	an airgead	N;NOM;SG;DEF
+airgead	leis an airgead	N;DAT;SG;DEF
+airgead	na hairgead	N;NOM;PL;DEF
+airgead	airgead	N;GEN;SG
+airgead	airgead	N;DAT;SG
+airgead	a airgead	N;VOC;PL
+airgead	leis na hairgead	N;DAT;PL;DEF
+airgead	airgid	N;DAT;PL
+aois	a aoiis	N;VOC;SG
+aois	aoiis	N;NOM;PL
+aois	aois	N;NOM;SG
+aois	aois	N;GEN;PL
+aois	an aoiis	N;GEN;SG;DEF
+aois	an aois	N;NOM;SG;DEF
+aois	leis an aois	N;DAT;SG;DEF
+aois	na haoiseanna	N;NOM;PL;DEF
+aois	aoiis	N;GEN;SG
+aois	aois	N;DAT;SG
+aois	a aoiseanna	N;VOC;PL
+aois	leis na aoiis	N;DAT;PL;DEF
+aois	aoiis	N;DAT;PL
+Albanach	a Albanach	N;VOC;SG
+Albanach	Albanachanna	N;NOM;PL
+Albanach	Albanach	N;NOM;SG
+Albanach	Albanachanna	N;GEN;PL
+Albanach	an Albanacha	N;GEN;SG;DEF
+Albanach	an Albanach	N;NOM;SG;DEF
+Albanach	leis an Albanach	N;DAT;SG;DEF
+Albanach	na Albanachanna	N;NOM;PL;DEF
+Albanach	Albanacha	N;GEN;SG
+Albanach	Albanach	N;DAT;SG
+Albanach	a Albanachanna	N;VOC;PL
+Albanach	leis na Albanachanna	N;DAT;PL;DEF
+Albanach	Albanachanna	N;DAT;PL
+aidiúnach	an aidiúnach	N;VOC;SG
+aidiúnach	aidiúnachanna	N;NOM;PL
+aidiúnach	aidiúnach	N;NOM;SG
+aidiúnach	aidiúnachanna	N;GEN;PL
+aidiúnach	an aidiúnaigh	N;GEN;SG;DEF
+aidiúnach	an aidiúnach	N;NOM;SG;DEF
+aidiúnach	leis an aidiúnach	N;DAT;SG;DEF
+aidiúnach	na aidiúnachanna	N;NOM;PL;DEF
+aidiúnach	aidiúnacha	N;GEN;SG
+aidiúnach	aidiúnach	N;DAT;SG
+aidiúnach	a aidiúíachanna	N;VOC;PL
+aidiúnach	leis na aidiúnachanna	N;DAT;PL;DEF
+aidiúnach	aidiúnachanna	N;DAT;PL
+iomláine	a iomláine	N;VOC;SG
+iomláine	leis an iomláine	N;DAT;SG;DEF
+iomláine	iomláine	N;NOM;SG
+iomláine	an iomláine	N;NOM;SG;DEF
+iomláine	an iomláine	N;GEN;SG;DEF
+iomláine	iomláine	N;GEN;SG
+iomláine	iomláine	N;DAT;SG
+luas	a luais	N;VOC;SG
+luas	luas	N;NOM;PL
+luas	luas	N;NOM;SG
+luas	luas	N;GEN;PL
+luas	an luais	N;GEN;SG;DEF
+luas	an luas	N;NOM;SG;DEF
+luas	leis an luas	N;DAT;SG;DEF
+luas	na luais	N;NOM;PL;DEF
+luas	luais	N;GEN;SG
+luas	luas	N;DAT;SG
+luas	a luasanna	N;VOC;PL
+luas	leis na luais	N;DAT;PL;DEF
+luas	luas	N;DAT;PL
+treo	a threí	N;VOC;SG
+treo	treí	N;NOM;PL
+treo	treo	N;NOM;SG
+treo	treí	N;GEN;PL
+treo	an treí	N;GEN;SG;DEF
+treo	an treo	N;NOM;SG;DEF
+treo	leis an treo	N;DAT;SG;DEF
+treo	na treonna	N;NOM;PL;DEF
+treo	treí	N;GEN;SG
+treo	treí	N;DAT;SG
+treo	a threoanna	N;VOC;PL
+treo	leis na treonna	N;DAT;PL;DEF
+treo	treí	N;DAT;PL
+daingean	leis an daingeanADJ	ADJ;DAT;SG;FEM
+daingean	a dhaingeanADJaethanta	ADJ;VOC;PL
+daingean	a dhaingeanADJí	ADJ;CMPR
+daingean	a dhaingeanADJí	ADJ;SPRL
+daingean	a dhaitgeanADJNOM+VOC	ADJ;NOM+VOC;SG;FEM
+daingean	daingean	ADJ;GEN;PL;WEAK
+daingean	a dhaihngeanADJí	ADJ;GEN;SG;FEM
+daingean	daingeanADJithe	ADJ;NOM;PL
+daingean	a dhaitgeanADJVOC+GEN	ADJ;VOC+GEN;SG;MASV
+daingean	leis an daingeanADJ	ADJ;DAT;SG;MASC
+daingean	daingeanis	ADJ;DAT;PL
+daingean	daingean	ADJ;NOM;SG;MASC
+daingean	leis na daingeanADJha	ADJ;GEN;PL;STRONG
+nochtadh	a nochtadh	N;VOC;SG
+nochtadh	leis an nochtadh	N;DAT;SG;DEF
+nochtadh	nochtadh	N;NOM;SG
+nochtadh	an nochtadh	N;NOM;SG;DEF
+nochtadh	an nochtadha	N;GEN;SG;DEF
+nochtadh	nochtadha	N;GEN;SG
+nochtadh	nochtadh	N;DAT;SG
+clú	an clí	N;VOC;SG
+clú	a clí	N;DAT;SG;DEF
+clú	leis an clí	N;NOM;SG
+clú	an clí	N;NOM;SG;DEF
+clú	an clí	N;GEN;SG;DEF
+clú	leis an clí	N;GEN;SG
+clú	leis an clú	N;DAT;SG
+constábla	a chonstábla	N;VOC;SG
+constábla	constáblaethanta	N;NOM;PL
+constábla	constábla	N;NOM;SG
+constábla	constáblaethanta	N;GEN;PL
+constábla	an constáblae	N;GEN;SG;DEF
+constábla	an constábla	N;NOM;SG;DEF
+constábla	leis an constábla	N;DAT;SG;DEF
+constábla	na constáblaethanta	N;NOM;PL;DEF
+constábla	constáblae	N;GEN;SG
+constábla	constábla	N;DAT;SG
+constábla	a chonstáblaethanta	N;VOC;PL
+constábla	leis na constáblaethanta	N;DAT;PL;DEF
+constábla	constáblaethanta	N;DAT;PL
+óg	óg	ADJ;DAT;SG;FEM
+óg	a ógADJan	ADJ;VOC;PL
+óg	a ógADJí	ADJ;CMPR
+óg	a ógADJí	ADJ;SPRL
+óg	a ógADJNOM+VOCs	ADJ;NOM+VOC;SG;FEM
+óg	leis na ógADJ	ADJ;GEN;PL;WEAK
+óg	an ógADJí	ADJ;GEN;SG;FEM
+óg	ógADJithe	ADJ;NOM;PL
+óg	a ógADJVOC+GENs	ADJ;VOC+GEN;SG;MASV
+óg	leis an ógADJ	ADJ;DAT;SG;MASC
+óg	óíis	ADJ;DAT;PL
+óg	an ógADJc	ADJ;NOM;SG;MASC
+óg	óga	ADJ;GEN;PL;STRONG
+roghnú	a roghní	N;VOC;SG
+roghnú	leis an roghnú	N;DAT;SG;DEF
+roghnú	roghnú	N;NOM;SG
+roghnú	an roghnú	N;NOM;SG;DEF
+roghnú	an roghní	N;GEN;SG;DEF
+roghnú	roghní	N;GEN;SG
+roghnú	roghnú	N;DAT;SG
+liopa	a liopa	N;VOC;SG
+liopa	liopaethanta	N;NOM;PL
+liopa	liopa	N;NOM;SG
+liopa	liopaethanta	N;GEN;PL
+liopa	an liopa	N;GEN;SG;DEF
+liopa	an liopa	N;NOM;SG;DEF
+liopa	leis an liopa	N;DAT;SG;DEF
+liopa	na liopaethanta	N;NOM;PL;DEF
+liopa	liopae	N;GEN;SG
+liopa	liopa	N;DAT;SG
+liopa	a liopaanna	N;VOC;PL
+liopa	leis na liopaetha	N;DAT;PL;DEF
+liopa	liopaí	N;DAT;PL
+comhaontú	a chomhaontí	N;VOC;SG
+comhaontú	comhaontis	N;NOM;PL
+comhaontú	comhaontú	N;NOM;SG
+comhaontú	comhaontúethanta	N;GEN;PL
+comhaontú	an chomhaontí	N;GEN;SG;DEF
+comhaontú	an co-haontú	N;NOM;SG;DEF
+comhaontú	leis an gcomhaontú	N;DAT;SG;DEF
+comhaontú	na comhaontis	N;NOM;PL;DEF
+comhaontú	comhaontí	N;GEN;SG
+comhaontú	comhaontú	N;DAT;SG
+comhaontú	a chomhaontúa	N;VOC;PL
+comhaontú	leis na comhaontis	N;DAT;PL;DEF
+comhaontú	comhaontuithe	N;DAT;PL
+féinriail	a féinriail	N;VOC;SG
+féinriail	leis an féinriail	N;DAT;SG;DEF
+féinriail	féinriail	N;NOM;SG
+féinriail	an féinriail	N;NOM;SG;DEF
+féinriail	an féinriain	N;GEN;SG;DEF
+féinriail	féinriain	N;GEN;SG
+féinriail	féinriail	N;DAT;SG
+stair	a stair	N;VOC;SG
+stair	staireanna	N;NOM;PL
+stair	stair	N;NOM;SG
+stair	staireanna	N;GEN;PL
+stair	na staire	N;GEN;SG;DEF
+stair	an stair	N;NOM;SG;DEF
+stair	leis an stair	N;DAT;SG;DEF
+stair	na hstaireanna	N;NOM;PL;DEF
+stair	staire	N;GEN;SG
+stair	stair	N;DAT;SG
+stair	a staireanna	N;VOC;PL
+stair	leis na hstairean	N;DAT;PL;DEF
+stair	staireanna	N;DAT;PL
+scoil	a scoil	N;VOC;SG
+scoil	scoin	N;NOM;PL
+scoil	scoil	N;NOM;SG
+scoil	scoilethanta	N;GEN;PL
+scoil	an scoin	N;GEN;SG;DEF
+scoil	an scoil	N;NOM;SG;DEF
+scoil	leis an scoil	N;DAT;SG;DEF
+scoil	na scoileanna	N;NOM;PL;DEF
+scoil	scoin	N;GEN;SG
+scoil	scoil	N;DAT;SG
+scoil	a scoilithe	N;VOC;PL
+scoil	leis na scoin	N;DAT;PL;DEF
+scoil	scoin	N;DAT;PL
+malairt	a malairin	N;VOC;SG
+malairt	malairin	N;NOM;PL
+malairt	malairí	N;NOM;SG
+malairt	malairin	N;GEN;PL
+malairt	an malairin	N;GEN;SG;DEF
+malairt	an malairí	N;NOM;SG;DEF
+malairt	leis an malairí	N;DAT;SG;DEF
+malairt	na malairin	N;NOM;PL;DEF
+malairt	malairte	N;GEN;SG
+malairt	malairí	N;DAT;SG
+malairt	a mhalairta	N;VOC;PL
+malairt	leis na malairin	N;DAT;PL;DEF
+malairt	malairin	N;DAT;PL
+aonad	a aonad	N;VOC;SG
+aonad	aonad	N;NOM;PL
+aonad	aonad	N;NOM;SG
+aonad	aonad	N;GEN;PL
+aonad	na haonad	N;GEN;SG;DEF
+aonad	an aonad	N;NOM;SG;DEF
+aonad	leis an aonad	N;DAT;SG;DEF
+aonad	na haonad	N;NOM;PL;DEF
+aonad	aonad	N;GEN;SG
+aonad	aonad	N;DAT;SG
+aonad	a aonada	N;VOC;PL
+aonad	leis na haonaid	N;DAT;PL;DEF
+aonad	aonaid	N;DAT;PL
+ríocht	a ríocht	N;VOC;SG
+ríocht	ríochin	N;NOM;PL
+ríocht	ríochí	N;NOM;SG
+ríocht	ríochin	N;GEN;PL
+ríocht	an ríochin	N;GEN;SG;DEF
+ríocht	an ríochí	N;NOM;SG;DEF
+ríocht	leis an ríochí	N;DAT;SG;DEF
+ríocht	na ríochin	N;NOM;PL;DEF
+ríocht	ríochta	N;GEN;SG
+ríocht	ríochí	N;DAT;SG
+ríocht	a ríochtae	N;VOC;PL
+ríocht	leis na ríochin	N;DAT;PL;DEF
+ríocht	ríochin	N;DAT;PL
+ciúin	leis an ciúinADJ	ADJ;DAT;SG;FEM
+ciúin	a ciúinADJan	ADJ;VOC;PL
+ciúin	a ciiúinADJí	ADJ;CMPR
+ciúin	a ciiúinADJí	ADJ;SPRL
+ciúin	a chiúinADJNOM+VOCc	ADJ;NOM+VOC;SG;FEM
+ciúin	leis na ciúinADJin	ADJ;GEN;PL;WEAK
+ciúin	an ciúinADJí	ADJ;GEN;SG;FEM
+ciúin	ciúinADJithe	ADJ;NOM;PL
+ciúin	chiúin	ADJ;VOC+GEN;SG;MASV
+ciúin	ciúin	ADJ;DAT;SG;MASC
+ciúin	ciúinis	ADJ;DAT;PL
+ciúin	a chiúinADJc	ADJ;NOM;SG;MASC
+ciúin	leis na ciúinADJin	ADJ;GEN;PL;STRONG
+béal	a béal	N;VOC;SG
+béal	béan	N;NOM;PL
+béal	béal	N;NOM;SG
+béal	béalethanta	N;GEN;PL
+béal	an béal	N;GEN;SG;DEF
+béal	an béal	N;NOM;SG;DEF
+béal	leis an béal	N;DAT;SG;DEF
+béal	na béan	N;NOM;PL;DEF
+béal	béil	N;GEN;SG
+béal	béal	N;DAT;SG
+béal	a béalaeta	N;VOC;PL
+béal	leis na béan	N;DAT;PL;DEF
+béal	béan	N;DAT;PL
+can	leis an canV1	V;1;PL;COND
+can	a chanVAUTOPRSí	V;AUTO;PRS;IND
+can	a chanV1hSBJVí	V;1;PL;SBJV;PRS
+can	a chanV2hSBJVí	V;2;PL;SBJV;PST
+can	a chanV2PSTí	V;2;SG;PST;IND
+can	canann siad	V;3;PL;PRS;IND
+can	a chanV1PRSí	V;1;SG;PRS;IND
+can	a chanVAUTOí	V;AUTO;COND
+can	go gcana sé	V;3;SG;SBJV;PRS
+can	a chanVAUTOFUTí	V;AUTO;FUT;IND
+can	dá gcanainn	V;1;SG;SBJV;PST
+can	a chanV1PSTí	V;1;SG;PST;IND
+can	leis an canV2	V;2;PL;COND
+can	a chanVRELPRSí	V;REL;PRS;IND
+can	a chanV2:SGSBJVí	V;2:SG;SBJV;PST
+can	a chanV2hFUTí	V;2;PL;FUT;IND
+can	a chanV1SBJVí	V;1;SG;SBJV;PRS
+can	a chanV3hPSTí	V;3;PL;PST;IND
+can	leis an canV3	V;3;PL;IMP
+can	a chanV2hPSTHABí	V;2;PL;PST;HAB;IND
+can	a chanV3SBJVí	V;3;SG;SBJV;PST
+can	a chanV3cPSTí	V;3;SG;PST;HAB;IND
+can	a chanV3hSBJVí	V;3;PL;SBJV;PST
+can	a chanV3hFUTí	V;3;PL;FUT;IND
+can	a chanV1hPRSí	V;1;PL;PRS;IND
+can	can	V;2;SG;IMP
+can	dá gcanaimis	V;1;PL;SBJV;PST
+can	a chanVRELPSTí	V;REL;PST;IND
+can	a chanV2c	V;2;SG;COND
+can	a chanV1hFUTí	V;1;PL;FUT;IND
+can	a chanV2hPSTí	V;2;PL;PST;IND
+can	chanfadh sé	V;3;SG;COND
+can	a chanVAUTOPSTHABí	V;AUTO;PST;HAB;IND
+can	canann tú	V;2;SG;PRS;IND
+can	canaigí	V;2;PL;IMP
+can	a chanV1c	V;1;SG;IMP
+can	a chanV1FUTí	V;1;SG;FUT;IND
+can	a chanVAUTOSBJVí	V;AUTO;SBJV;PST
+can	a chanV2FUTí	V;2;SG;FUT;IND
+can	a chanV2hSBJVí	V;2;PL;SBJV;PRS
+can	chanfainn	V;1;SG;COND
+can	a chanV1cPSTí	V;1;SG;PST;HAB;IND
+can	a chanV2cPSTí	V;2;SG;PST;HAB;IND
+can	a chanV1hPSTí	V;1;PL;PST;IND
+can	a caaVí	V;V.MSDR
+can	a chanV2hPRSí	V;2;PL;PRS;IND
+can	a chanV2:SGSBJVí	V;2:SG;SBJV;PRS
+can	a chanVAUTOí	V;AUTO;IMP
+can	a chanV3PSTí	V;3;SG;PST;IND
+can	a chanVAUTOPSTí	V;AUTO;PST;IND
+can	a chanVRELFUTí	V;REL;FUT;IND
+can	chanfaidís	V;3;PL;COND
+can	a chanVAUTOSBJVí	V;AUTO;SBJV;PRS
+can	a chanVV.PTCPí	V;V.PTCP;PST
+can	a chanadh	V;REL;PST;HAB;IND
+can	a chanV3hSBJVí	V;3;PL;SBJV;PRS
+can	chanaidís	V;3;PL;PST;HAB;IND
+can	leis an canV1	V;1;PL;IMP
+can	a chanV1hPSTHABí	V;1;PL;PST;HAB;IND
+can	a chanV3PRSí	V;3;SG;PRS;IND
+can	a chanVRELí	V;REL;COND
+can	a chanV3FUTí	V;3;SG;FUT;IND
+can	a chanV3c	V;3;SG;IMP
+súil	a súil	N;VOC;SG
+súil	súin	N;NOM;PL
+súil	súil	N;NOM;SG
+súil	súilethanta	N;GEN;PL
+súil	na súile	N;GEN;SG;DEF
+súil	an súil	N;NOM;SG;DEF
+súil	leis an tsúil	N;DAT;SG;DEF
+súil	na súile	N;NOM;PL;DEF
+súil	súin	N;GEN;SG
+súil	súil	N;DAT;SG
+súil	a súilin	N;VOC;PL
+súil	leis na súileth	N;DAT;PL;DEF
+súil	súin	N;DAT;PL
+údar	a údar	N;VOC;SG
+údar	-dareanna	N;NOM;PL
+údar	údar	N;NOM;SG
+údar	údareanna	N;GEN;PL
+údar	an údare	N;GEN;SG;DEF
+údar	an údar	N;NOM;SG;DEF
+údar	leis an údar	N;DAT;SG;DEF
+údar	na húdareanna	N;NOM;PL;DEF
+údar	údair	N;GEN;SG
+údar	údar	N;DAT;SG
+údar	a údareanna	N;VOC;PL
+údar	leis na húdarea	N;DAT;PL;DEF
+údar	leis na húdar	N;DAT;PL
+níolón	a níolóin	N;VOC;SG
+níolón	leis an níolón	N;DAT;SG;DEF
+níolón	níolón	N;NOM;SG
+níolón	an níolón	N;NOM;SG;DEF
+níolón	an níolóin	N;GEN;SG;DEF
+níolón	níolóin	N;GEN;SG
+níolón	níolón	N;DAT;SG
+post	an post	N;VOC;SG
+post	posin	N;NOM;PL
+post	posí	N;NOM;SG
+post	postithe	N;GEN;PL
+post	an posin	N;GEN;SG;DEF
+post	an posí	N;NOM;SG;DEF
+post	leis an posí	N;DAT;SG;DEF
+post	na poist	N;NOM;PL;DEF
+post	posin	N;GEN;SG
+post	posí	N;DAT;SG
+post	a postaeta	N;VOC;PL
+post	leis na poist	N;DAT;PL;DEF
+post	posin	N;DAT;PL
+craiceann	a chraiceanin	N;VOC;SG
+craiceann	craiceanin	N;NOM;PL
+craiceann	craiceann	N;NOM;SG
+craiceann	craiceann	N;GEN;PL
+craiceann	an craiceanin	N;GEN;SG;DEF
+craiceann	an craiceann	N;NOM;SG;DEF
+craiceann	leis an craiceann	N;DAT;SG;DEF
+craiceann	na craicne	N;NOM;PL;DEF
+craiceann	craicinn	N;GEN;SG
+craiceann	craiceann	N;DAT;SG
+craiceann	a chraiceanna	N;VOC;PL
+craiceann	leis na craiceanin	N;DAT;PL;DEF
+craiceann	craiceanin	N;DAT;PL
+cluiche	a chluiche	N;VOC;SG
+cluiche	cluiche	N;NOM;PL
+cluiche	cluiche	N;NOM;SG
+cluiche	cluiche	N;GEN;PL
+cluiche	an cluiche	N;GEN;SG;DEF
+cluiche	an cluiche	N;NOM;SG;DEF
+cluiche	leis an cluiche	N;DAT;SG;DEF
+cluiche	na hcluiche	N;NOM;PL;DEF
+cluiche	cluiche	N;GEN;SG
+cluiche	cluiche	N;DAT;SG
+cluiche	a chluichí	N;VOC;PL
+cluiche	leis na hcluiche	N;DAT;PL;DEF
+cluiche	cluiche	N;DAT;PL
+saighdiúir	a shaighdiúir	N;VOC;SG
+saighdiúir	saighdiúirí	N;NOM;PL
+saighdiúir	saighdiúir	N;NOM;SG
+saighdiúir	saighdiúirí	N;GEN;PL
+saighdiúir	na hsaighdiúire	N;GEN;SG;DEF
+saighdiúir	an saighdiúir	N;NOM;SG;DEF
+saighdiúir	leis an saighdiúir	N;DAT;SG;DEF
+saighdiúir	na hsaighdiúireanna	N;NOM;PL;DEF
+saighdiúir	saighdiúire	N;GEN;SG
+saighdiúir	saighdiúir	N;DAT;SG
+saighdiúir	a saighdiúireanna	N;VOC;PL
+saighdiúir	leis na hsaighdiúireanna	N;DAT;PL;DEF
+saighdiúir	saighdiúireanna	N;DAT;PL
+pobal	a pobal	N;VOC;SG
+pobal	poban	N;NOM;PL
+pobal	pobal	N;NOM;SG
+pobal	pobal	N;GEN;PL
+pobal	an pobal	N;GEN;SG;DEF
+pobal	an pobal	N;NOM;SG;DEF
+pobal	leis an pobal	N;DAT;SG;DEF
+pobal	na pobale	N;NOM;PL;DEF
+pobal	poban	N;GEN;SG
+pobal	pobal	N;DAT;SG
+pobal	a phobala	N;VOC;PL
+pobal	leis na poban	N;DAT;PL;DEF
+pobal	poban	N;DAT;PL
+lár	an láre	N;VOC;SG
+lár	lerean an	N;NOM;PL
+lár	leis	N;NOM;SG
+lár	lerean an l	N;GEN;PL
+lár	an láe	N;GEN;SG;DEF
+lár	an lár	N;NOM;SG;DEF
+lár	a lár	N;DAT;SG;DEF
+lár	na hláe	N;NOM;PL;DEF
+lár	lerean hlár	N;GEN;SG
+lár	leis an lár	N;DAT;SG
+lár	an láreanna	N;VOC;PL
+lár	na h	N;DAT;PL;DEF
+lár	láir	N;DAT;PL
+féile	a fhéile	N;VOC;SG
+féile	féile	N;NOM;PL
+féile	féile	N;NOM;SG
+féile	féile	N;GEN;PL
+féile	an féile	N;GEN;SG;DEF
+féile	an fhéile	N;NOM;SG;DEF
+féile	leis an féile	N;DAT;SG;DEF
+féile	na hféile	N;NOM;PL;DEF
+féile	féile	N;GEN;SG
+féile	féile	N;DAT;SG
+féile	a féilea	N;VOC;PL
+féile	leis na hféile	N;DAT;PL;DEF
+féile	féile	N;DAT;PL
+gnách	leis an gnáchADJc	ADJ;DAT;SG;FEM
+gnách	a gnáchADJaethant	ADJ;VOC;PL
+gnách	níos gnáiche	ADJ;CMPR
+gnách	a gnáchADJí	ADJ;SPRL
+gnách	a gnáchADJNOM+VOCc	ADJ;NOM+VOC;SG;FEM
+gnách	leis na gnáchADJin	ADJ;GEN;PL;WEAK
+gnách	an gnáchADJí	ADJ;GEN;SG;FEM
+gnách	gnácha	ADJ;NOM;PL
+gnách	a gnáchADJVOC+GENc	ADJ;VOC+GEN;SG;MASV
+gnách	leis an gnáchADJc	ADJ;DAT;SG;MASC
+gnách	gnáchis	ADJ;DAT;PL
+gnách	a gnáchADJc	ADJ;NOM;SG;MASC
+gnách	leis na gnáchADJin	ADJ;GEN;PL;STRONG
+crua	leis an cruaADJs	ADJ;DAT;SG;FEM
+crua	a chruaADJaetha	ADJ;VOC;PL
+crua	a chruaADJí	ADJ;CMPR
+crua	is crua	ADJ;SPRL
+crua	a chruaADJNOM+VOCc	ADJ;NOM+VOC;SG;FEM
+crua	crua	ADJ;GEN;PL;WEAK
+crua	an cruaADJí	ADJ;GEN;SG;FEM
+crua	cruaADJithe	ADJ;NOM;PL
+crua	a chruaADJVOC+GENc	ADJ;VOC+GEN;SG;MASV
+crua	leis an cruaADJs	ADJ;DAT;SG;MASC
+crua	cruais	ADJ;DAT;PL
+crua	a chruaADJc	ADJ;NOM;SG;MASC
+crua	leis na cruaADJin	ADJ;GEN;PL;STRONG
+athbheochan	a athbheochain	N;VOC;SG
+athbheochan	leis an athbheochan	N;DAT;SG;DEF
+athbheochan	athbheochan	N;NOM;SG
+athbheochan	an athbheochan	N;NOM;SG;DEF
+athbheochan	an athbheochain	N;GEN;SG;DEF
+athbheochan	athbheochain	N;GEN;SG
+athbheochan	athbheochan	N;DAT;SG
+urchar	a urchar	N;VOC;SG
+urchar	urchareanna	N;NOM;PL
+urchar	urchar	N;NOM;SG
+urchar	urchareanna	N;GEN;PL
+urchar	na hurchare	N;GEN;SG;DEF
+urchar	an urchar	N;NOM;SG;DEF
+urchar	leis an urchar	N;DAT;SG;DEF
+urchar	na hurchareanna	N;NOM;PL;DEF
+urchar	urchare	N;GEN;SG
+urchar	urchar	N;DAT;SG
+urchar	a urchareanna	N;VOC;PL
+urchar	leis na hurchareann	N;DAT;PL;DEF
+urchar	urchareanna	N;DAT;PL
+aonocsaíd	a aonocsaíd	N;VOC;SG
+aonocsaíd	leis an aonocsaíd	N;DAT;SG;DEF
+aonocsaíd	aonocsaíd	N;NOM;SG
+aonocsaíd	an aonocsaíd	N;NOM;SG;DEF
+aonocsaíd	na haonocsaíd	N;GEN;SG;DEF
+aonocsaíd	aonocsaíd	N;GEN;SG
+aonocsaíd	aonocsaíd	N;DAT;SG

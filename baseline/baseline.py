@@ -192,6 +192,7 @@ def main(argv):
 
                 for l in lines: # Read in lines and extract transformation rules from pairs
                     lemma, form, msd = l.split(u'\t')
+                    msd = msd[msd.find(';')+1:]
                     if prefbias > suffbias:
                         lemma = lemma[::-1]
                         form = form[::-1]
@@ -228,6 +229,7 @@ def main(argv):
                 if task == 1:
                     for l in devlines:
                         lemma, correct, msd, = l.split(u'\t')
+                        msd = msd[msd.find(';')+1:]
                         if prefbias > suffbias:
                             lemma = lemma[::-1]
                         outform = apply_best_rule(lemma, msd, allprules, allsrules)
@@ -241,6 +243,7 @@ def main(argv):
                 else:
                     for i in range(len(devalllines)):
                          lemma, form, msd, = devcoveredlines[i].split(u'\t')
+                         msd = msd[msd.find(';')+1:]
                          if form == '': # i.e. form is missing
                              if prefbias > suffbias:
                                  lemma = lemma[::-1]
@@ -269,6 +272,7 @@ def main(argv):
                     numiterHigh += 1                    
                 
                 print(lang + "[task " + str(task) + "/" + quantity + "]" + ": " + str(str(numcorrect/float(numguesses)))[0:7])
+                sys.stdout.flush()
         print("Average[low]:", str(runningavgLow/float(numiterLow)))
         print("Average[medium]:", str(runningavgMed/float(numiterMed)))
         print("Average[high]:", str(runningavgHigh/float(numiterHigh)))

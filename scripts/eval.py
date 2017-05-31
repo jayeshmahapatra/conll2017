@@ -20,8 +20,6 @@ knowntotal = 0
 unknowntotal = 0
 for i in range(len(sysdata)):
     corr += (sysdata[i] == golddata[i])
-    if sysdata[i] != golddata[i]:
-        print(sysdata[i],golddata[i])
     if goldtags[i] in knowntags:
         knowncorr += (sysdata[i] == golddata[i])
         knowntotal += 1

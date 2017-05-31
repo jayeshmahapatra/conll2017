@@ -1,0 +1,790 @@
+apropiere	apropiere	N;VOC;SG
+apropiere	apropierilor	N;GEN/DAT;PL;DEF
+apropiere	apropierea	N;NOM/ACC;PL;DEF
+apropiere	unei apropieri	N;GEN/DAT;SG;INDF
+apropiere	apropierilor	N;VOC;PL
+apropiere	niște apropieri	N;NOM/ACC;SG;INDF
+proiect	proiectule	N;VOC;SG
+proiect	proieculor	N;GEN/DAT;PL;DEF
+proiect	proiecțile	N;NOM/ACC;PL;DEF
+proiect	unui proiecu	N;GEN/DAT;SG;INDF
+proiect	proieculor	N;VOC;PL
+proiect	niște proiecni	N;NOM/ACC;SG;INDF
+ocupa	ocupam	V;IND;PST;1;PL;IPFV
+ocupa	ocupaVINDPST3ci	V;IND;PST;3;SG;PRF
+ocupa	ocupaVSBJVPRSule	V;SBJV;PRS;3;PL
+ocupa	ocupaVPOSIMPcule	V;POS;IMP;2;SG
+ocupa	ocupaVINDPRSule	V;IND;PRS;1;PL
+ocupa	ocupaVINDPRSule	V;IND;PRS;3;PL
+ocupa	ocupaVINDPRSule	V;IND;PRS;2;PL
+ocupa	ocupaVSBJVPRSule	V;SBJV;PRS;1;PL
+ocupa	să ocupi	V;SBJV;PRS;2;SG
+ocupa	ocupaVSBJVPRScule	V;SBJV;PRS;3;SG
+ocupa	ocupaVINDPST1i	V;IND;PST;1;PL;PFV
+ocupa	ocupaVNEGIMPule	V;NEG;IMP;3;PL
+ocupa	ocupară	V;IND;PST;3;PL;PFV
+ocupa	ocupai	V;IND;PST;2;SG;IPFV
+ocupa	ocupaV.CVBci	V.CVB;PRS
+ocupa	ocupaVNEGIMPcule	V;NEG;IMP;2;SG
+ocupa	ocupaVPOSIMPule	V;POS;IMP;3;PL
+ocupa	ocupaV.PTCPci	V.PTCP;PST
+ocupa	ocupaVINDPRScule	V;IND;PRS;1;SG
+ocupa	ocupaVSBJVPRScule	V;SBJV;PRS;1;SG
+ocupa	ocupaVINDPST2ci	V;IND;PST;2;SG;PRF
+ocupa	ocupaVINDPRScule	V;IND;PRS;3;SG
+ocupa	ocupaVSBJVPRSule	V;SBJV;PRS;2;PL
+ocupa	ocupaVci	V;NFIN
+ocupa	ocupaVINDPST1i	V;IND;PST;1;PL;PRF
+ocupa	ocupaVINDPST2i	V;IND;PST;2;PL;PFV
+ocupa	ocupaVINDPST1ci	V;IND;PST;1;SG;PFV
+ocupa	ocupaVINDPST3i	V;IND;PST;3;PL;IPFV
+ocupa	ocupaVINDPRScule	V;IND;PRS;2;SG
+ocupa	ocupaVINDPST2i	V;IND;PST;2;PL;PRF
+ocupa	ocupam	V;IND;PST;1;SG;IPFV
+ocupa	ocupaVINDPST3ci	V;IND;PST;3;SG;PFV
+ocupa	ocupaVINDPST1ci	V;IND;PST;1;SG;PRF
+ocupa	ocupaVINDPST3ci	V;IND;PST;3;SG;IPFV
+ocupa	ocupaVINDPST2i	V;IND;PST;2;PL;IPFV
+ocupa	ocupaVINDPST2ci	V;IND;PST;2;SG;PFV
+ocupa	ocupaseră	V;IND;PST;3;PL;PRF
+proporțional	proporționali	ADJ;DAT/GEN;FEM;SG;INDF
+proporțional	proporționalului	ADJ;DAT/GEN;MASC;SG;DEF
+proporțional	proporționali	ADJ;NOM/ACC;FEM;SG;INDF
+proporțional	proporționale	ADJ;DAT/GEN;PL;INDF
+proporțional	proporționalul	ADJ;NOM/ACC;MASC;SG;DEF
+proporțional	proporțional	ADJ;NOM/ACC;MASC;SG;INDF
+proporțional	proporționalei	ADJ;DAT/GEN;NEUT;SG;DEF
+proporțional	proporționalilor	ADJ;DAT/GEN;FEM;SG;DEF
+proporțional	proporțional	ADJ;DAT/GEN;MASC;SG;INDF
+proporțional	proporționalele	ADJ;NOM/ACC;PL;DEF
+proporțional	proporționala	ADJ;NOM/ACC;NEUT;SG;DEF
+proporțional	proporționalii	ADJ;NOM/ACC;FEM;SG;DEF
+proporțional	proporționalelor	ADJ;DAT/GEN;PL;DEF
+proporțional	proporționale	ADJ;NOM/ACC;PL;INDF
+proporțional	proporțională	ADJ;NOM/ACC;NEUT;SG;INDF
+proporțional	proporționale	ADJ;DAT/GEN;NEUT;SG;INDF
+peristaltic	peristaltifi	ADJ;DAT/GEN;FEM;SG;INDF
+peristaltic	peristalti ului	ADJ;DAT/GEN;MASC;SG;DEF
+peristaltic	peristaltifi	ADJ;NOM/ACC;FEM;SG;INDF
+peristaltic	peristaltife	ADJ;DAT/GEN;PL;INDF
+peristaltic	peristalti l	ADJ;NOM/ACC;MASC;SG;DEF
+peristaltic	peristalti 	ADJ;NOM/ACC;MASC;SG;INDF
+peristaltic	peristaltifei	ADJ;DAT/GEN;NEUT;SG;DEF
+peristaltic	peristalticilor	ADJ;DAT/GEN;FEM;SG;DEF
+peristaltic	peristaltic	ADJ;DAT/GEN;MASC;SG;INDF
+peristaltic	peristaltifele	ADJ;NOM/ACC;PL;DEF
+peristaltic	peristaltiâe	ADJ;NOM/ACC;NEUT;SG;DEF
+peristaltic	peristaltifii	ADJ;NOM/ACC;FEM;SG;DEF
+peristaltic	peristaltifelor	ADJ;DAT/GEN;PL;DEF
+peristaltic	peristaltife	ADJ;NOM/ACC;PL;INDF
+peristaltic	peristaltiâă	ADJ;NOM/ACC;NEUT;SG;INDF
+peristaltic	peristaltifl	ADJ;DAT/GEN;NEUT;SG;INDF
+scară	scarăule	N;VOC;SG
+scară	scarrilor	N;GEN/DAT;PL;DEF
+scară	scarii	N;NOM/ACC;PL;DEF
+scară	unui scarr	N;GEN/DAT;SG;INDF
+scară	scarilor	N;VOC;PL
+scară	niște scarăi	N;NOM/ACC;SG;INDF
+fum	fudului	N;VOC;SG
+fum	fudelor	N;GEN/DAT;PL;DEF
+fum	fusele	N;NOM/ACC;PL;DEF
+fum		N;GEN/DAT;SG;INDF
+fum	fuâelor	N;VOC;PL
+fum	niște	N;NOM/ACC;SG;INDF
+bea	beaVINDPST1i	V;IND;PST;1;PL;IPFV
+bea	beaVINDPST3 ule	V;IND;PST;3;SG;PRF
+bea	beaVSBJVPRSule	V;SBJV;PRS;3;PL
+bea	beaVPOSIMPcule	V;POS;IMP;2;SG
+bea	bem	V;IND;PRS;1;PL
+bea	beaVINDPRSule	V;IND;PRS;3;PL
+bea	beaVINDPRSule	V;IND;PRS;2;PL
+bea	beaVSBJVPRSule	V;SBJV;PRS;1;PL
+bea	beaVSBJVPRScule	V;SBJV;PRS;2;SG
+bea	beaVSBJVPRScule	V;SBJV;PRS;3;SG
+bea	băurăm	V;IND;PST;1;PL;PFV
+bea	beaVNEGIMPule	V;NEG;IMP;3;PL
+bea	beaVINDPST3i	V;IND;PST;3;PL;PFV
+bea	beai	V;IND;PST;2;SG;IPFV
+bea	bând	V.CVB;PRS
+bea	beaVNEGIMPcule	V;NEG;IMP;2;SG
+bea	beaVPOSIMPule	V;POS;IMP;3;PL
+bea	băut	V.PTCP;PST
+bea	beaVINDPRScule	V;IND;PRS;1;SG
+bea	să beau	V;SBJV;PRS;1;SG
+bea	beaVINDPST2 ule	V;IND;PST;2;SG;PRF
+bea	beaVINDPRScule	V;IND;PRS;3;SG
+bea	beaVSBJVPRSule	V;SBJV;PRS;2;PL
+bea	beaVcul	V;NFIN
+bea	beaVINDPST1i	V;IND;PST;1;PL;PRF
+bea	beaVINDPST2i	V;IND;PST;2;PL;PFV
+bea	beaVINDPST1 ule	V;IND;PST;1;SG;PFV
+bea	beaVINDPST3i	V;IND;PST;3;PL;IPFV
+bea	beaVINDPRScule	V;IND;PRS;2;SG
+bea	beaVINDPST2i	V;IND;PST;2;PL;PRF
+bea	beaVINDPST1 ule	V;IND;PST;1;SG;IPFV
+bea	beaVINDPST3 ule	V;IND;PST;3;SG;PFV
+bea	beaVINDPST1 ule	V;IND;PST;1;SG;PRF
+bea	beaVINDPST3 ule	V;IND;PST;3;SG;IPFV
+bea	beaVINDPST2i	V;IND;PST;2;PL;IPFV
+bea	beaVINDPST2 ule	V;IND;PST;2;SG;PFV
+bea	beaVINDPST3i	V;IND;PST;3;PL;PRF
+cocoș	cocoșule	N;VOC;SG
+cocoș	cocoșelor	N;GEN/DAT;PL;DEF
+cocoș	cocoșele	N;NOM/ACC;PL;DEF
+cocoș	unui cocoș	N;GEN/DAT;SG;INDF
+cocoș	cocoșelor	N;VOC;PL
+cocoș	niște cocoși	N;NOM/ACC;SG;INDF
+vizita	vizitam	V;IND;PST;1;PL;IPFV
+vizita	vizitaVINDPST3ci	V;IND;PST;3;SG;PRF
+vizita	vizitaVSBJVPRSule	V;SBJV;PRS;3;PL
+vizita	vizitaVPOSIMPcule	V;POS;IMP;2;SG
+vizita	vizitaVINDPRSule	V;IND;PRS;1;PL
+vizita	vizitaVINDPRSule	V;IND;PRS;3;PL
+vizita	vizitaVINDPRSule	V;IND;PRS;2;PL
+vizita	să vizităm	V;SBJV;PRS;1;PL
+vizita	vizitaVSBJVPRScule	V;SBJV;PRS;2;SG
+vizita	vizitaVSBJVPRScule	V;SBJV;PRS;3;SG
+vizita	vizitaVINDPST1i	V;IND;PST;1;PL;PFV
+vizita	vizitaVNEGIMPule	V;NEG;IMP;3;PL
+vizita	vizitaVINDPST3i	V;IND;PST;3;PL;PFV
+vizita	vizitaVINDPST2ci	V;IND;PST;2;SG;IPFV
+vizita	vizitând	V.CVB;PRS
+vizita	vizitaVNEGIMPcule	V;NEG;IMP;2;SG
+vizita	vizitaVPOSIMPule	V;POS;IMP;3;PL
+vizita	vizitaV.PTCPci	V.PTCP;PST
+vizita	vizitaVINDPRScule	V;IND;PRS;1;SG
+vizita	să vizitez	V;SBJV;PRS;1;SG
+vizita	vizitaVINDPST2ci	V;IND;PST;2;SG;PRF
+vizita	vizitaVINDPRScule	V;IND;PRS;3;SG
+vizita	vizitaVSBJVPRSule	V;SBJV;PRS;2;PL
+vizita	vizitaVci	V;NFIN
+vizita	vizitaVINDPST1i	V;IND;PST;1;PL;PRF
+vizita	vizitaVINDPST2i	V;IND;PST;2;PL;PFV
+vizita	vizitaVINDPST1ci	V;IND;PST;1;SG;PFV
+vizita	vizitaVINDPST3i	V;IND;PST;3;PL;IPFV
+vizita	vizitaVINDPRScule	V;IND;PRS;2;SG
+vizita	vizitaVINDPST2i	V;IND;PST;2;PL;PRF
+vizita	vizitaVINDPST1ci	V;IND;PST;1;SG;IPFV
+vizita	vizitaVINDPST3ci	V;IND;PST;3;SG;PFV
+vizita	vizitaVINDPST1ci	V;IND;PST;1;SG;PRF
+vizita	vizita	V;IND;PST;3;SG;IPFV
+vizita	vizitați	V;IND;PST;2;PL;IPFV
+vizita	vizitaVINDPST2ci	V;IND;PST;2;SG;PFV
+vizita	vizitaVINDPST3i	V;IND;PST;3;PL;PRF
+boală	boalăule	N;VOC;SG
+boală	boalăilor	N;GEN/DAT;PL;DEF
+boală	boalii	N;NOM/ACC;PL;DEF
+boală	unui boalr	N;GEN/DAT;SG;INDF
+boală	boalilor	N;VOC;PL
+boală	niște boalăi	N;NOM/ACC;SG;INDF
+lansa	lansam	V;IND;PST;1;PL;IPFV
+lansa	lansaVINDPST3ci	V;IND;PST;3;SG;PRF
+lansa	lansaVSBJVPRSule	V;SBJV;PRS;3;PL
+lansa	lansaVPOSIMPcule	V;POS;IMP;2;SG
+lansa	lansaVINDPRSule	V;IND;PRS;1;PL
+lansa	lansaVINDPRSule	V;IND;PRS;3;PL
+lansa	lansaVINDPRSule	V;IND;PRS;2;PL
+lansa	lansaVSBJVPRSule	V;SBJV;PRS;1;PL
+lansa	să lansi	V;SBJV;PRS;2;SG
+lansa	lansaVSBJVPRScule	V;SBJV;PRS;3;SG
+lansa	lansaVINDPST1i	V;IND;PST;1;PL;PFV
+lansa	lansaVNEGIMPule	V;NEG;IMP;3;PL
+lansa	lansară	V;IND;PST;3;PL;PFV
+lansa	lansaVINDPST2ci	V;IND;PST;2;SG;IPFV
+lansa	lansaV.CVBci	V.CVB;PRS
+lansa	nu lansa	V;NEG;IMP;2;SG
+lansa	lansaVPOSIMPule	V;POS;IMP;3;PL
+lansa	lansat	V.PTCP;PST
+lansa	lansaVINDPRScule	V;IND;PRS;1;SG
+lansa	lansaVSBJVPRScule	V;SBJV;PRS;1;SG
+lansa	lansaseși	V;IND;PST;2;SG;PRF
+lansa	lansaVINDPRScule	V;IND;PRS;3;SG
+lansa	lansaVSBJVPRSule	V;SBJV;PRS;2;PL
+lansa	lansaVci	V;NFIN
+lansa	lansaVINDPST1i	V;IND;PST;1;PL;PRF
+lansa	lansaVINDPST2i	V;IND;PST;2;PL;PFV
+lansa	lansaVINDPST1ci	V;IND;PST;1;SG;PFV
+lansa	lansaVINDPST3i	V;IND;PST;3;PL;IPFV
+lansa	lansaVINDPRScule	V;IND;PRS;2;SG
+lansa	lansaVINDPST2i	V;IND;PST;2;PL;PRF
+lansa	lansaVINDPST1ci	V;IND;PST;1;SG;IPFV
+lansa	lansaVINDPST3ci	V;IND;PST;3;SG;PFV
+lansa	lansaVINDPST1ci	V;IND;PST;1;SG;PRF
+lansa	lansaVINDPST3ci	V;IND;PST;3;SG;IPFV
+lansa	lansaVINDPST2i	V;IND;PST;2;PL;IPFV
+lansa	lansaVINDPST2ci	V;IND;PST;2;SG;PFV
+lansa	lansaVINDPST3i	V;IND;PST;3;PL;PRF
+uita	uitaVINDPST1i	V;IND;PST;1;PL;IPFV
+uita	uitaVINDPST3 ule	V;IND;PST;3;SG;PRF
+uita	uitaVSBJVPRSule	V;SBJV;PRS;3;PL
+uita	uitaVPOSIMPcule	V;POS;IMP;2;SG
+uita	uitaVINDPRSule	V;IND;PRS;1;PL
+uita	uitaVINDPRSule	V;IND;PRS;3;PL
+uita	uitați	V;IND;PRS;2;PL
+uita	uitaVSBJVPRSule	V;SBJV;PRS;1;PL
+uita	uitaVSBJVPRScule	V;SBJV;PRS;2;SG
+uita	uitaVSBJVPRScule	V;SBJV;PRS;3;SG
+uita	uitaVINDPST1i	V;IND;PST;1;PL;PFV
+uita	uitaVNEGIMPule	V;NEG;IMP;3;PL
+uita	uitaVINDPST3i	V;IND;PST;3;PL;PFV
+uita	uitai	V;IND;PST;2;SG;IPFV
+uita	uitaV.CVBci	V.CVB;PRS
+uita	uitaVNEGIMPcule	V;NEG;IMP;2;SG
+uita	uitaVPOSIMPule	V;POS;IMP;3;PL
+uita	uitat	V.PTCP;PST
+uita	uitaVINDPRScule	V;IND;PRS;1;SG
+uita	uitaVSBJVPRScule	V;SBJV;PRS;1;SG
+uita	uitaseși	V;IND;PST;2;SG;PRF
+uita	uitaVINDPRScule	V;IND;PRS;3;SG
+uita	uitaVSBJVPRSule	V;SBJV;PRS;2;PL
+uita	uitaVci	V;NFIN
+uita	uitaVINDPST1i	V;IND;PST;1;PL;PRF
+uita	uitaVINDPST2i	V;IND;PST;2;PL;PFV
+uita	uitaVINDPST1 ule	V;IND;PST;1;SG;PFV
+uita	uitaVINDPST3i	V;IND;PST;3;PL;IPFV
+uita	uitaVINDPRScule	V;IND;PRS;2;SG
+uita	uitaVINDPST2i	V;IND;PST;2;PL;PRF
+uita	uitaVINDPST1 ule	V;IND;PST;1;SG;IPFV
+uita	uitaVINDPST3 ule	V;IND;PST;3;SG;PFV
+uita	uitaVINDPST1 ule	V;IND;PST;1;SG;PRF
+uita	uitaVINDPST3 ule	V;IND;PST;3;SG;IPFV
+uita	uitaVINDPST2i	V;IND;PST;2;PL;IPFV
+uita	uitași	V;IND;PST;2;SG;PFV
+uita	uitaseră	V;IND;PST;3;PL;PRF
+inexplicabil	inexplicabili	ADJ;DAT/GEN;FEM;SG;INDF
+inexplicabil	inexplicabilului	ADJ;DAT/GEN;MASC;SG;DEF
+inexplicabil	inexplicabili	ADJ;NOM/ACC;FEM;SG;INDF
+inexplicabil	inexplicabile	ADJ;DAT/GEN;PL;INDF
+inexplicabil	inexplicabilul	ADJ;NOM/ACC;MASC;SG;DEF
+inexplicabil	inexplicabil	ADJ;NOM/ACC;MASC;SG;INDF
+inexplicabil	inexplicabilei	ADJ;DAT/GEN;NEUT;SG;DEF
+inexplicabil	inexplicabililor	ADJ;DAT/GEN;FEM;SG;DEF
+inexplicabil	inexplicabil	ADJ;DAT/GEN;MASC;SG;INDF
+inexplicabil	inexplicabilele	ADJ;NOM/ACC;PL;DEF
+inexplicabil	inexplicabila	ADJ;NOM/ACC;NEUT;SG;DEF
+inexplicabil	inexplicabilii	ADJ;NOM/ACC;FEM;SG;DEF
+inexplicabil	inexplicabilelor	ADJ;DAT/GEN;PL;DEF
+inexplicabil	inexplicabile	ADJ;NOM/ACC;PL;INDF
+inexplicabil	inexplicabilă	ADJ;NOM/ACC;NEUT;SG;INDF
+inexplicabil	inexplicabile	ADJ;DAT/GEN;NEUT;SG;INDF
+distanță	distanțăule	N;VOC;SG
+distanță	distanțrilor	N;GEN/DAT;PL;DEF
+distanță	distanții	N;NOM/ACC;PL;DEF
+distanță	unui distanțr	N;GEN/DAT;SG;INDF
+distanță	distanțăilor	N;VOC;PL
+distanță	niște distanțăi	N;NOM/ACC;SG;INDF
+comerț	comerțule	N;VOC;SG
+comerț	comermele	N;NOM/ACC;PL;DEF
+comerț	unui comer	N;GEN/DAT;SG;INDF
+comerț	comerților	N;GEN/DAT;PL;DEF
+comerț	niște comerți	N;NOM/ACC;SG;INDF
+destinat	destinai	ADJ;DAT/GEN;FEM;SG;INDF
+destinat	destinațului	ADJ;DAT/GEN;MASC;SG;DEF
+destinat	destinai	ADJ;NOM/ACC;FEM;SG;INDF
+destinat	destinae	ADJ;DAT/GEN;PL;INDF
+destinat	destinașul	ADJ;NOM/ACC;MASC;SG;DEF
+destinat	destinat	ADJ;NOM/ACC;MASC;SG;INDF
+destinat	destinașei	ADJ;DAT/GEN;NEUT;SG;DEF
+destinat	destinailor	ADJ;DAT/GEN;FEM;SG;DEF
+destinat	destinaț	ADJ;DAT/GEN;MASC;SG;INDF
+destinat	destinatele	ADJ;NOM/ACC;PL;DEF
+destinat	destinașe	ADJ;NOM/ACC;NEUT;SG;DEF
+destinat	destinaii	ADJ;NOM/ACC;FEM;SG;DEF
+destinat	destinaîlor	ADJ;DAT/GEN;PL;DEF
+destinat	destinașe	ADJ;NOM/ACC;PL;INDF
+destinat	destinaa	ADJ;NOM/ACC;NEUT;SG;INDF
+destinat	destinae	ADJ;DAT/GEN;NEUT;SG;INDF
+circula	circulaVINDPST1i	V;IND;PST;1;PL;IPFV
+circula	circulaVINDPST3ci	V;IND;PST;3;SG;PRF
+circula	circulaVSBJVPRSule	V;SBJV;PRS;3;PL
+circula	circulaVPOSIMPcule	V;POS;IMP;2;SG
+circula	circulaVINDPRSule	V;IND;PRS;1;PL
+circula	circulaVINDPRSule	V;IND;PRS;3;PL
+circula	circulaVINDPRSule	V;IND;PRS;2;PL
+circula	circulaVSBJVPRSule	V;SBJV;PRS;1;PL
+circula	să circuli	V;SBJV;PRS;2;SG
+circula	circulaVSBJVPRScule	V;SBJV;PRS;3;SG
+circula	circulaVINDPST1i	V;IND;PST;1;PL;PFV
+circula	circulaVNEGIMPule	V;NEG;IMP;3;PL
+circula	circulaVINDPST3i	V;IND;PST;3;PL;PFV
+circula	circulaVINDPST2ci	V;IND;PST;2;SG;IPFV
+circula	circulaV.CVBci	V.CVB;PRS
+circula	circulaVNEGIMPcule	V;NEG;IMP;2;SG
+circula	circulaVPOSIMPule	V;POS;IMP;3;PL
+circula	circulaV.PTCPci	V.PTCP;PST
+circula	circulaVINDPRScule	V;IND;PRS;1;SG
+circula	circulaVSBJVPRScule	V;SBJV;PRS;1;SG
+circula	circulaVINDPST2ci	V;IND;PST;2;SG;PRF
+circula	circulaVINDPRScule	V;IND;PRS;3;SG
+circula	circulaVSBJVPRSule	V;SBJV;PRS;2;PL
+circula	circulaVci	V;NFIN
+circula	circulaVINDPST1i	V;IND;PST;1;PL;PRF
+circula	circulaVINDPST2i	V;IND;PST;2;PL;PFV
+circula	circulai	V;IND;PST;1;SG;PFV
+circula	circulaVINDPST3i	V;IND;PST;3;PL;IPFV
+circula	circuli	V;IND;PRS;2;SG
+circula	circulaVINDPST2i	V;IND;PST;2;PL;PRF
+circula	circulaVINDPST1ci	V;IND;PST;1;SG;IPFV
+circula	circulă	V;IND;PST;3;SG;PFV
+circula	circulaVINDPST1ci	V;IND;PST;1;SG;PRF
+circula	circulaVINDPST3ci	V;IND;PST;3;SG;IPFV
+circula	circulați	V;IND;PST;2;PL;IPFV
+circula	circulaVINDPST2ci	V;IND;PST;2;SG;PFV
+circula	circulaseră	V;IND;PST;3;PL;PRF
+var	varului	N;VOC;SG
+var	varilor	N;GEN/DAT;PL;DEF
+var	varii	N;NOM/ACC;PL;DEF
+var	unui	N;GEN/DAT;SG;INDF
+var	varilor	N;VOC;PL
+var	niște uari	N;NOM/ACC;SG;INDF
+orchestră	orchestrăule	N;VOC;SG
+orchestră	orchestrrilor	N;GEN/DAT;PL;DEF
+orchestră	orchestrii	N;NOM/ACC;PL;DEF
+orchestră	unei orchestrr	N;GEN/DAT;SG;INDF
+orchestră	orchestrăilor	N;VOC;PL
+orchestră	niște orchestrri	N;NOM/ACC;SG;INDF
+bronz	bronzule	N;VOC;SG
+bronz	bronzilor	N;GEN/DAT;PL;DEF
+bronz	bronzii	N;NOM/ACC;PL;DEF
+bronz	unui bronz	N;GEN/DAT;SG;INDF
+bronz	bronzilor	N;VOC;PL
+bronz	niște bronzi	N;NOM/ACC;SG;INDF
+construi	construiVINDPST1i	V;IND;PST;1;PL;IPFV
+construi	construiVINDPST3ci	V;IND;PST;3;SG;PRF
+construi	construiVSBJVPRSule	V;SBJV;PRS;3;PL
+construi	construiVPOSIMPcule	V;POS;IMP;2;SG
+construi	construiVINDPRSule	V;IND;PRS;1;PL
+construi	construiVINDPRSule	V;IND;PRS;3;PL
+construi	construiVINDPRSule	V;IND;PRS;2;PL
+construi	construiVSBJVPRSule	V;SBJV;PRS;1;PL
+construi	construiVSBJVPRScule	V;SBJV;PRS;2;SG
+construi	construiVSBJVPRScule	V;SBJV;PRS;3;SG
+construi	construiVINDPST1i	V;IND;PST;1;PL;PFV
+construi	construiVNEGIMPule	V;NEG;IMP;3;PL
+construi	construiVINDPST3i	V;IND;PST;3;PL;PFV
+construi	construiVINDPST2ci	V;IND;PST;2;SG;IPFV
+construi	construind	V.CVB;PRS
+construi	construiVNEGIMPcule	V;NEG;IMP;2;SG
+construi	construiVPOSIMPule	V;POS;IMP;3;PL
+construi	construiV.PTCPci	V.PTCP;PST
+construi	construiesc	V;IND;PRS;1;SG
+construi	construiVSBJVPRScule	V;SBJV;PRS;1;SG
+construi	construiVINDPST2ci	V;IND;PST;2;SG;PRF
+construi	construiVINDPRScule	V;IND;PRS;3;SG
+construi	construiVSBJVPRSule	V;SBJV;PRS;2;PL
+construi	a construi	V;NFIN
+construi	construiserăm	V;IND;PST;1;PL;PRF
+construi	construirăți	V;IND;PST;2;PL;PFV
+construi	construiVINDPST1ci	V;IND;PST;1;SG;PFV
+construi	construiVINDPST3i	V;IND;PST;3;PL;IPFV
+construi	construiești	V;IND;PRS;2;SG
+construi	construiVINDPST2i	V;IND;PST;2;PL;PRF
+construi	construiVINDPST1ci	V;IND;PST;1;SG;IPFV
+construi	construiVINDPST3ci	V;IND;PST;3;SG;PFV
+construi	construiVINDPST1ci	V;IND;PST;1;SG;PRF
+construi	construiVINDPST3ci	V;IND;PST;3;SG;IPFV
+construi	construiVINDPST2i	V;IND;PST;2;PL;IPFV
+construi	construiVINDPST2ci	V;IND;PST;2;SG;PFV
+construi	construiVINDPST3i	V;IND;PST;3;PL;PRF
+poziție	poziție	N;VOC;SG
+poziție	pozițiilor	N;GEN/DAT;PL;DEF
+poziție	pozițiile	N;NOM/ACC;PL;DEF
+poziție	unei poziții	N;GEN/DAT;SG;INDF
+poziție	pozițiilor	N;VOC;PL
+poziție	niște poziții	N;NOM/ACC;SG;INDF
+măcel	măcelule	N;VOC;SG
+măcel	măcelelor	N;GEN/DAT;PL;DEF
+măcel	măcela	N;NOM/ACC;PL;DEF
+măcel	unei măcel	N;GEN/DAT;SG;INDF
+măcel	măcelelor	N;VOC;PL
+măcel	măcel	N;NOM/ACC;SG;INDF
+întreg	întreli	ADJ;DAT/GEN;FEM;SG;INDF
+întreg	întregului	ADJ;DAT/GEN;MASC;SG;DEF
+întreg	definite articulation	ADJ;NOM/ACC;FEM;SG;INDF
+întreg	întregul	ADJ;NOM/ACC;MASC;SG;DEF
+întreg	întrel	ADJ;NOM/ACC;MASC;SG;INDF
+întreg	întregei	ADJ;DAT/GEN;NEUT;SG;DEF
+întreg	întreg	ADJ;DAT/GEN;MASC;SG;INDF
+întreg	întregele	ADJ;NOM/ACC;PL;DEF
+întreg	întrega	ADJ;NOM/ACC;NEUT;SG;DEF
+întreg	întrelă	ADJ;NOM/ACC;NEUT;SG;INDF
+întreg	întrelii	ADJ;NOM/ACC;FEM;SG;DEF
+întreg	întrele	ADJ;DAT/GEN;NEUT;SG;INDF
+curat	curai	ADJ;DAT/GEN;FEM;SG;INDF
+curat	curațe	ADJ;DAT/GEN;MASC;SG;DEF
+curat	curai	ADJ;NOM/ACC;FEM;SG;INDF
+curat	curae	ADJ;DAT/GEN;PL;INDF
+curat	curate	ADJ;NOM/ACC;MASC;SG;DEF
+curat	curau	ADJ;NOM/ACC;MASC;SG;INDF
+curat	curatei	ADJ;DAT/GEN;NEUT;SG;DEF
+curat	curailor	ADJ;DAT/GEN;FEM;SG;DEF
+curat	curat	ADJ;DAT/GEN;MASC;SG;INDF
+curat	curașele	ADJ;NOM/ACC;PL;DEF
+curat	curașe	ADJ;NOM/ACC;NEUT;SG;DEF
+curat	curaii	ADJ;NOM/ACC;FEM;SG;DEF
+curat	curaîelor	ADJ;DAT/GEN;PL;DEF
+curat	curașe	ADJ;NOM/ACC;PL;INDF
+curat	curaa	ADJ;NOM/ACC;NEUT;SG;INDF
+curat	curae	ADJ;DAT/GEN;NEUT;SG;INDF
+taină	tainăule	N;VOC;SG
+taină	tainrilor	N;GEN/DAT;PL;DEF
+taină	tainii	N;NOM/ACC;PL;DEF
+taină	unui tainr	N;GEN/DAT;SG;INDF
+taină	tainăilor	N;VOC;PL
+taină	niște tainăi	N;NOM/ACC;SG;INDF
+dubla	dublaVINDPST1i	V;IND;PST;1;PL;IPFV
+dubla	dublase	V;IND;PST;3;SG;PRF
+dubla	dublaVSBJVPRSule	V;SBJV;PRS;3;PL
+dubla	dublează	V;POS;IMP;2;SG
+dubla	dublaVINDPRSule	V;IND;PRS;1;PL
+dubla	dublaVINDPRSule	V;IND;PRS;3;PL
+dubla	dublaVINDPRSule	V;IND;PRS;2;PL
+dubla	dublaVSBJVPRSule	V;SBJV;PRS;1;PL
+dubla	dublaVSBJVPRScule	V;SBJV;PRS;2;SG
+dubla	să dubleze	V;SBJV;PRS;3;SG
+dubla	dublarăm	V;IND;PST;1;PL;PFV
+dubla	dublaVNEGIMPule	V;NEG;IMP;3;PL
+dubla	dublaVINDPST3i	V;IND;PST;3;PL;PFV
+dubla	dublaVINDPST2 i	V;IND;PST;2;SG;IPFV
+dubla	dublaV.CVBci	V.CVB;PRS
+dubla	dublaVNEGIMPcule	V;NEG;IMP;2;SG
+dubla	dublaVPOSIMPule	V;POS;IMP;3;PL
+dubla	dublaV.PTCPci	V.PTCP;PST
+dubla	dublaVINDPRScule	V;IND;PRS;1;SG
+dubla	dublaVSBJVPRScule	V;SBJV;PRS;1;SG
+dubla	dublaVINDPST2 i	V;IND;PST;2;SG;PRF
+dubla	dublaVINDPRScule	V;IND;PRS;3;SG
+dubla	dublaVSBJVPRSule	V;SBJV;PRS;2;PL
+dubla	a dubla	V;NFIN
+dubla	dublaVINDPST1i	V;IND;PST;1;PL;PRF
+dubla	dublaVINDPST2i	V;IND;PST;2;PL;PFV
+dubla	dublaVINDPST1 i	V;IND;PST;1;SG;PFV
+dubla	dublaVINDPST3i	V;IND;PST;3;PL;IPFV
+dubla	dublezi	V;IND;PRS;2;SG
+dubla	dublaVINDPST2i	V;IND;PST;2;PL;PRF
+dubla	dublaVINDPST1 i	V;IND;PST;1;SG;IPFV
+dubla	dublaVINDPST3 i	V;IND;PST;3;SG;PFV
+dubla	dublaVINDPST1 i	V;IND;PST;1;SG;PRF
+dubla	dublaVINDPST3 i	V;IND;PST;3;SG;IPFV
+dubla	dublaVINDPST2i	V;IND;PST;2;PL;IPFV
+dubla	dublaVINDPST2 i	V;IND;PST;2;SG;PFV
+dubla	dublaVINDPST3i	V;IND;PST;3;PL;PRF
+autoritate	autoritate	N;VOC;SG
+autoritate	autorităților	N;GEN/DAT;PL;DEF
+autoritate	autoritățile	N;NOM/ACC;PL;DEF
+autoritate	unei autorități	N;GEN/DAT;SG;INDF
+autoritate	autorităților	N;VOC;PL
+autoritate	niște autorități	N;NOM/ACC;SG;INDF
+zbor	zborule	N;VOC;SG
+zbor	zborilor	N;GEN/DAT;PL;DEF
+zbor	zborii	N;NOM/ACC;PL;DEF
+zbor	unui zbor	N;GEN/DAT;SG;INDF
+zbor	zborilor	N;VOC;PL
+zbor	niște zbori	N;NOM/ACC;SG;INDF
+adăpost	adăpostule	N;VOC;SG
+adăpost	adăposuilor	N;GEN/DAT;PL;DEF
+adăpost	adăpostele	N;NOM/ACC;PL;DEF
+adăpost	unui adăposu	N;GEN/DAT;SG;INDF
+adăpost	adăposulor	N;VOC;PL
+adăpost	niște adăposni	N;NOM/ACC;SG;INDF
+lungi	lungiVINDPST1i	V;IND;PST;1;PL;IPFV
+lungi	lungiVINDPST3ci	V;IND;PST;3;SG;PRF
+lungi	să lungească	V;SBJV;PRS;3;PL
+lungi	lungiVPOSIMPcule	V;POS;IMP;2;SG
+lungi	lungiVINDPRSule	V;IND;PRS;1;PL
+lungi	lungiVINDPRSule	V;IND;PRS;3;PL
+lungi	lungiVINDPRSule	V;IND;PRS;2;PL
+lungi	să lungim	V;SBJV;PRS;1;PL
+lungi	lungiVSBJVPRScule	V;SBJV;PRS;2;SG
+lungi	lungiVSBJVPRScule	V;SBJV;PRS;3;SG
+lungi	lungiVINDPST1i	V;IND;PST;1;PL;PFV
+lungi	nu lungiți	V;NEG;IMP;3;PL
+lungi	lungiVINDPST3i	V;IND;PST;3;PL;PFV
+lungi	lungiVINDPST2ci	V;IND;PST;2;SG;IPFV
+lungi	lungiV.CVBci	V.CVB;PRS
+lungi	lungiVNEGIMPcule	V;NEG;IMP;2;SG
+lungi	lungiVPOSIMPule	V;POS;IMP;3;PL
+lungi	lungiV.PTCPci	V.PTCP;PST
+lungi	lungiVINDPRScule	V;IND;PRS;1;SG
+lungi	lungiVSBJVPRScule	V;SBJV;PRS;1;SG
+lungi	lungiseși	V;IND;PST;2;SG;PRF
+lungi	lungește	V;IND;PRS;3;SG
+lungi	lungiVSBJVPRSule	V;SBJV;PRS;2;PL
+lungi	lungiVci	V;NFIN
+lungi	lungiVINDPST1i	V;IND;PST;1;PL;PRF
+lungi	lungiVINDPST2i	V;IND;PST;2;PL;PFV
+lungi	lungiVINDPST1ci	V;IND;PST;1;SG;PFV
+lungi	lungiVINDPST3i	V;IND;PST;3;PL;IPFV
+lungi	lungiVINDPRScule	V;IND;PRS;2;SG
+lungi	lungiVINDPST2i	V;IND;PST;2;PL;PRF
+lungi	lungiVINDPST1ci	V;IND;PST;1;SG;IPFV
+lungi	lungiVINDPST3ci	V;IND;PST;3;SG;PFV
+lungi	lungiVINDPST1ci	V;IND;PST;1;SG;PRF
+lungi	lungea	V;IND;PST;3;SG;IPFV
+lungi	lungiVINDPST2i	V;IND;PST;2;PL;IPFV
+lungi	lungiVINDPST2ci	V;IND;PST;2;SG;PFV
+lungi	lungiVINDPST3i	V;IND;PST;3;PL;PRF
+unic	unifi	ADJ;DAT/GEN;FEM;SG;INDF
+unic	uni fului	ADJ;DAT/GEN;MASC;SG;DEF
+unic	unifi	ADJ;NOM/ACC;FEM;SG;INDF
+unic	unife	ADJ;DAT/GEN;PL;INDF
+unic	uni g	ADJ;NOM/ACC;MASC;SG;DEF
+unic	unic	ADJ;NOM/ACC;MASC;SG;INDF
+unic	uniâei	ADJ;DAT/GEN;NEUT;SG;DEF
+unic	unifilori	ADJ;DAT/GEN;FEM;SG;DEF
+unic	uni 	ADJ;DAT/GEN;MASC;SG;INDF
+unic	unifele	ADJ;NOM/ACC;PL;DEF
+unic	uniâa	ADJ;NOM/ACC;NEUT;SG;DEF
+unic	unifii	ADJ;NOM/ACC;FEM;SG;DEF
+unic	unifelor	ADJ;DAT/GEN;PL;DEF
+unic	uniâe	ADJ;NOM/ACC;PL;INDF
+unic	uniâe	ADJ;NOM/ACC;NEUT;SG;INDF
+unic	unice	ADJ;DAT/GEN;NEUT;SG;INDF
+stabili	stabieiiVINDPST1i	V;IND;PST;1;PL;IPFV
+stabili	stabiliiVINDPST3	V;IND;PST;3;SG;PRF
+stabili	stabiliVSBJVPRSule	V;SBJV;PRS;3;PL
+stabili	stabiliVPOSIMPcule	V;POS;IMP;2;SG
+stabili	stabiliVINDPRSule	V;IND;PRS;1;PL
+stabili	stabiliVINDPRSule	V;IND;PRS;3;PL
+stabili	stabiliVINDPRSule	V;IND;PRS;2;PL
+stabili	stabiliVSBJVPRSule	V;SBJV;PRS;1;PL
+stabili	să stabilești	V;SBJV;PRS;2;SG
+stabili	să stabilească	V;SBJV;PRS;3;SG
+stabili	stabieiiVINDPST1i	V;IND;PST;1;PL;PFV
+stabili	stabiliVNEGIMPule	V;NEG;IMP;3;PL
+stabili	stabieiiVINDPST3i	V;IND;PST;3;PL;PFV
+stabili	stabiliiVINDPST2	V;IND;PST;2;SG;IPFV
+stabili	stabilind	V.CVB;PRS
+stabili	nu stabili	V;NEG;IMP;2;SG
+stabili	stabiliVPOSIMPule	V;POS;IMP;3;PL
+stabili	stabiliV.PTCPci	V.PTCP;PST
+stabili	stabilesc	V;IND;PRS;1;SG
+stabili	stabiliVSBJVPRScule	V;SBJV;PRS;1;SG
+stabili	stabiliiVINDPST2	V;IND;PST;2;SG;PRF
+stabili	stabiliVINDPRScule	V;IND;PRS;3;SG
+stabili	stabiliVSBJVPRSule	V;SBJV;PRS;2;PL
+stabili	stabiliVci	V;NFIN
+stabili	stabieiiVINDPST1i	V;IND;PST;1;PL;PRF
+stabili	stabilirăți	V;IND;PST;2;PL;PFV
+stabili	stabiliiVINDPST1	V;IND;PST;1;SG;PFV
+stabili	stabieiiVINDPST3i	V;IND;PST;3;PL;IPFV
+stabili	stabiliVINDPRScule	V;IND;PRS;2;SG
+stabili	stabieiiVINDPST2i	V;IND;PST;2;PL;PRF
+stabili	stabiliiVINDPST1	V;IND;PST;1;SG;IPFV
+stabili	stabiliiVINDPST3	V;IND;PST;3;SG;PFV
+stabili	stabiliiVINDPST1	V;IND;PST;1;SG;PRF
+stabili	stabiliiVINDPST3	V;IND;PST;3;SG;IPFV
+stabili	stabieiiVINDPST2i	V;IND;PST;2;PL;IPFV
+stabili	stabiliiVINDPST2	V;IND;PST;2;SG;PFV
+stabili	stabieiiVINDPST3i	V;IND;PST;3;PL;PRF
+mobil	mobili	ADJ;DAT/GEN;FEM;SG;INDF
+mobil	mobilului	ADJ;DAT/GEN;MASC;SG;DEF
+mobil	mobili	ADJ;NOM/ACC;FEM;SG;INDF
+mobil	mobilul	ADJ;NOM/ACC;MASC;SG;DEF
+mobil	mobil	ADJ;NOM/ACC;MASC;SG;INDF
+mobil	mobilelor	ADJ;DAT/GEN;NEUT;SG;DEF
+mobil	mobil	ADJ;DAT/GEN;MASC;SG;INDF
+mobil	mobilele	ADJ;NOM/ACC;PL;DEF
+mobil	mobila	ADJ;NOM/ACC;NEUT;SG;DEF
+mobil	mobilă	ADJ;NOM/ACC;NEUT;SG;INDF
+mobil	mobilii	ADJ;NOM/ACC;FEM;SG;DEF
+mobil	mobile	ADJ;DAT/GEN;NEUT;SG;INDF
+demn	demri	ADJ;DAT/GEN;FEM;SG;INDF
+demn	demue	ADJ;DAT/GEN;MASC;SG;DEF
+demn	demri	ADJ;NOM/ACC;FEM;SG;INDF
+demn	demne	ADJ;DAT/GEN;PL;INDF
+demn	demng	ADJ;NOM/ACC;MASC;SG;DEF
+demn	demn	ADJ;NOM/ACC;MASC;SG;INDF
+demn	demnei	ADJ;DAT/GEN;NEUT;SG;DEF
+demn	demrilor	ADJ;DAT/GEN;FEM;SG;DEF
+demn	demn	ADJ;DAT/GEN;MASC;SG;INDF
+demn	demnele	ADJ;NOM/ACC;PL;DEF
+demn	demna	ADJ;NOM/ACC;NEUT;SG;DEF
+demn	demrii	ADJ;NOM/ACC;FEM;SG;DEF
+demn	demnilor	ADJ;DAT/GEN;PL;DEF
+demn	demr	ADJ;NOM/ACC;PL;INDF
+demn	demri	ADJ;NOM/ACC;NEUT;SG;INDF
+demn	demne	ADJ;DAT/GEN;NEUT;SG;INDF
+cat	cauului	N;VOC;SG
+cat	caule	N;GEN/DAT;PL;DEF
+cat	cățea	N;NOM/ACC;PL;DEF
+cat	unui	N;GEN/DAT;SG;INDF
+cat	căilor	N;VOC;PL
+cat	niște ăi	N;NOM/ACC;SG;INDF
+parc	parcule	N;VOC;SG
+parc	parcilor	N;GEN/DAT;PL;DEF
+parc	par ile	N;NOM/ACC;PL;DEF
+parc	unui par 	N;GEN/DAT;SG;INDF
+parc	par ilor	N;VOC;PL
+parc	niște parci	N;NOM/ACC;SG;INDF
+urca	urcaVINDPST1i	V;IND;PST;1;PL;IPFV
+urca	urcase	V;IND;PST;3;SG;PRF
+urca	urcaVSBJVPRSule	V;SBJV;PRS;3;PL
+urca	urcaVPOSIMPcule	V;POS;IMP;2;SG
+urca	urcaVINDPRSule	V;IND;PRS;1;PL
+urca	urcaVINDPRSule	V;IND;PRS;3;PL
+urca	urcați	V;IND;PRS;2;PL
+urca	urcaVSBJVPRSule	V;SBJV;PRS;1;PL
+urca	urcaVSBJVPRScule	V;SBJV;PRS;2;SG
+urca	să urce	V;SBJV;PRS;3;SG
+urca	urcaVINDPST1i	V;IND;PST;1;PL;PFV
+urca	urcaVNEGIMPule	V;NEG;IMP;3;PL
+urca	urcaVINDPST3i	V;IND;PST;3;PL;PFV
+urca	urcaVINDPST2 i	V;IND;PST;2;SG;IPFV
+urca	urcaV.CVBci	V.CVB;PRS
+urca	urcaVNEGIMPcule	V;NEG;IMP;2;SG
+urca	urcaVPOSIMPule	V;POS;IMP;3;PL
+urca	urcaV.PTCPci	V.PTCP;PST
+urca	urcaVINDPRScule	V;IND;PRS;1;SG
+urca	urcaVSBJVPRScule	V;SBJV;PRS;1;SG
+urca	urcaVINDPST2 i	V;IND;PST;2;SG;PRF
+urca	urcaVINDPRScule	V;IND;PRS;3;SG
+urca	urcaVSBJVPRSule	V;SBJV;PRS;2;PL
+urca	a urca	V;NFIN
+urca	urcaVINDPST1i	V;IND;PST;1;PL;PRF
+urca	urcaVINDPST2i	V;IND;PST;2;PL;PFV
+urca	urcaVINDPST1 i	V;IND;PST;1;SG;PFV
+urca	urcaVINDPST3i	V;IND;PST;3;PL;IPFV
+urca	urcaVINDPRScule	V;IND;PRS;2;SG
+urca	urcaVINDPST2i	V;IND;PST;2;PL;PRF
+urca	urcaVINDPST1 i	V;IND;PST;1;SG;IPFV
+urca	urcaVINDPST3 i	V;IND;PST;3;SG;PFV
+urca	urcasem	V;IND;PST;1;SG;PRF
+urca	urca	V;IND;PST;3;SG;IPFV
+urca	urcaVINDPST2i	V;IND;PST;2;PL;IPFV
+urca	urcaVINDPST2 i	V;IND;PST;2;SG;PFV
+urca	urcaVINDPST3i	V;IND;PST;3;PL;PRF
+bătrânețe	bătrânețe	N;VOC;SG
+bătrânețe	bătrâneților	N;GEN/DAT;PL;DEF
+bătrânețe	bătrânețea	N;NOM/ACC;PL;DEF
+bătrânețe	unei bătrâneți	N;GEN/DAT;SG;INDF
+bătrânețe	bătrâneților	N;VOC;PL
+bătrânețe	bătrânețe	N;NOM/ACC;SG;INDF
+lucrare	lucrare	N;VOC;SG
+lucrare	lucrărilor	N;GEN/DAT;PL;DEF
+lucrare	lucrările	N;NOM/ACC;PL;DEF
+lucrare	unei lucrări	N;GEN/DAT;SG;INDF
+lucrare	lucrărilor	N;VOC;PL
+lucrare	niște lucrări	N;NOM/ACC;SG;INDF
+furie	furie	N;VOC;SG
+furie	furiilor	N;GEN/DAT;PL;DEF
+furie	furiile	N;NOM/ACC;PL;DEF
+furie	unei furii	N;GEN/DAT;SG;INDF
+furie	furiilor	N;VOC;PL
+furie	niște furii	N;NOM/ACC;SG;INDF
+câmp	câmfule	N;VOC;SG
+câmp	câmfelor	N;GEN/DAT;PL;DEF
+câmp	câmpele	N;NOM/ACC;PL;DEF
+câmp	unui câmf	N;GEN/DAT;SG;INDF
+câmp	câmfelor	N;VOC;PL
+câmp	câmpe	N;NOM/ACC;SG;INDF
+român	româri	ADJ;DAT/GEN;FEM;SG;INDF
+român	române	ADJ;DAT/GEN;MASC;SG;DEF
+român	româri	ADJ;NOM/ACC;FEM;SG;INDF
+român	românl	ADJ;NOM/ACC;MASC;SG;DEF
+român	român	ADJ;NOM/ACC;MASC;SG;INDF
+român	românei	ADJ;DAT/GEN;NEUT;SG;DEF
+român	român	ADJ;DAT/GEN;MASC;SG;INDF
+român	românele	ADJ;NOM/ACC;PL;DEF
+român	române	ADJ;NOM/ACC;NEUT;SG;DEF
+român	româri	ADJ;NOM/ACC;NEUT;SG;INDF
+român	niște români	ADJ;NOM/ACC;FEM;SG;DEF
+român	româr	ADJ;DAT/GEN;NEUT;SG;INDF
+guvern	guvernule	N;VOC;SG
+guvern	guvernilor	N;GEN/DAT;PL;DEF
+guvern	guvernii	N;NOM/ACC;PL;DEF
+guvern	unui guvern	N;GEN/DAT;SG;INDF
+guvern	guvernilor	N;VOC;PL
+guvern	niște guverni	N;NOM/ACC;SG;INDF
+implica	implicaVINDPST1i	V;IND;PST;1;PL;IPFV
+implica	implicaVINDPST3ci	V;IND;PST;3;SG;PRF
+implica	implicaVSBJVPRSule	V;SBJV;PRS;3;PL
+implica	implicaVPOSIMPcule	V;POS;IMP;2;SG
+implica	implicaVINDPRSule	V;IND;PRS;1;PL
+implica	implicaVINDPRSule	V;IND;PRS;3;PL
+implica	implicaVINDPRSule	V;IND;PRS;2;PL
+implica	implicaVSBJVPRSule	V;SBJV;PRS;1;PL
+implica	implicaVSBJVPRScule	V;SBJV;PRS;2;SG
+implica	implicaVSBJVPRScule	V;SBJV;PRS;3;SG
+implica	implicaVINDPST1i	V;IND;PST;1;PL;PFV
+implica	implicaVNEGIMPule	V;NEG;IMP;3;PL
+implica	implicaVINDPST3i	V;IND;PST;3;PL;PFV
+implica	implicaVINDPST2ci	V;IND;PST;2;SG;IPFV
+implica	implicaV.CVBci	V.CVB;PRS
+implica	implicaVNEGIMPcule	V;NEG;IMP;2;SG
+implica	implicați	V;POS;IMP;3;PL
+implica	implicaV.PTCPci	V.PTCP;PST
+implica	implicaVINDPRScule	V;IND;PRS;1;SG
+implica	implicaVSBJVPRScule	V;SBJV;PRS;1;SG
+implica	implicaVINDPST2ci	V;IND;PST;2;SG;PRF
+implica	implicaVINDPRScule	V;IND;PRS;3;SG
+implica	să implicați	V;SBJV;PRS;2;PL
+implica	implicaVci	V;NFIN
+implica	implicaVINDPST1i	V;IND;PST;1;PL;PRF
+implica	implicaVINDPST2i	V;IND;PST;2;PL;PFV
+implica	implicai	V;IND;PST;1;SG;PFV
+implica	implicau	V;IND;PST;3;PL;IPFV
+implica	implicaVINDPRScule	V;IND;PRS;2;SG
+implica	implicaVINDPST2i	V;IND;PST;2;PL;PRF
+implica	implicaVINDPST1ci	V;IND;PST;1;SG;IPFV
+implica	implicaVINDPST3ci	V;IND;PST;3;SG;PFV
+implica	implicasem	V;IND;PST;1;SG;PRF
+implica	implicaVINDPST3ci	V;IND;PST;3;SG;IPFV
+implica	implicaVINDPST2i	V;IND;PST;2;PL;IPFV
+implica	implicaVINDPST2ci	V;IND;PST;2;SG;PFV
+implica	implicaseră	V;IND;PST;3;PL;PRF
+căuta	căutaVINDPST1i	V;IND;PST;1;PL;IPFV
+căuta	căutaVINDPST3 i	V;IND;PST;3;SG;PRF
+căuta	căutaVSBJVPRSule	V;SBJV;PRS;3;PL
+căuta	căutaVPOSIMPcule	V;POS;IMP;2;SG
+căuta	căutăm	V;IND;PRS;1;PL
+căuta	căutaVINDPRSule	V;IND;PRS;3;PL
+căuta	căutați	V;IND;PRS;2;PL
+căuta	căutaVSBJVPRSule	V;SBJV;PRS;1;PL
+căuta	căutaVSBJVPRScule	V;SBJV;PRS;2;SG
+căuta	să caute	V;SBJV;PRS;3;SG
+căuta	căutaVINDPST1i	V;IND;PST;1;PL;PFV
+căuta	căutaVNEGIMPule	V;NEG;IMP;3;PL
+căuta	căutaVINDPST3i	V;IND;PST;3;PL;PFV
+căuta	căutaVINDPST2 i	V;IND;PST;2;SG;IPFV
+căuta	căutaV.CVBci	V.CVB;PRS
+căuta	căutaVNEGIMPcule	V;NEG;IMP;2;SG
+căuta	căutaVPOSIMPule	V;POS;IMP;3;PL
+căuta	căutaV.PTCPci	V.PTCP;PST
+căuta	căutaVINDPRScule	V;IND;PRS;1;SG
+căuta	căutaVSBJVPRScule	V;SBJV;PRS;1;SG
+căuta	căutaVINDPST2 i	V;IND;PST;2;SG;PRF
+căuta	căutaVINDPRScule	V;IND;PRS;3;SG
+căuta	căutaVSBJVPRSule	V;SBJV;PRS;2;PL
+căuta	a căuta	V;NFIN
+căuta	căutaVINDPST1i	V;IND;PST;1;PL;PRF
+căuta	căutarăți	V;IND;PST;2;PL;PFV
+căuta	căutaVINDPST1 i	V;IND;PST;1;SG;PFV
+căuta	căutaVINDPST3i	V;IND;PST;3;PL;IPFV
+căuta	căutaVINDPRScule	V;IND;PRS;2;SG
+căuta	căutaserăți	V;IND;PST;2;PL;PRF
+căuta	căutaVINDPST1 i	V;IND;PST;1;SG;IPFV
+căuta	căutaVINDPST3 i	V;IND;PST;3;SG;PFV
+căuta	căutaVINDPST1 i	V;IND;PST;1;SG;PRF
+căuta	căutaVINDPST3 i	V;IND;PST;3;SG;IPFV
+căuta	căutaVINDPST2i	V;IND;PST;2;PL;IPFV
+căuta	căutaVINDPST2 i	V;IND;PST;2;SG;PFV
+căuta	căutaVINDPST3i	V;IND;PST;3;PL;PRF
+bacterie	bacterie	N;VOC;SG
+bacterie	bacteriilor	N;GEN/DAT;PL;DEF
+bacterie	bacteriile	N;NOM/ACC;PL;DEF
+bacterie	unei bacterii	N;GEN/DAT;SG;INDF
+bacterie	bacteriilor	N;VOC;PL
+bacterie	bacterie	N;NOM/ACC;SG;INDF
+romancier	romancierule	N;VOC;SG
+romancier	romancierilor	N;GEN/DAT;PL;DEF
+romancier	romancierii	N;NOM/ACC;PL;DEF
+romancier	unui romancier	N;GEN/DAT;SG;INDF
+romancier	romancierilor	N;VOC;PL
+romancier	niște romancieri	N;NOM/ACC;SG;INDF
+graniță	granițăule	N;VOC;SG
+graniță	granițrilor	N;GEN/DAT;PL;DEF
+graniță	graniția	N;NOM/ACC;PL;DEF
+graniță	unui granițr	N;GEN/DAT;SG;INDF
+graniță	granițăilor	N;VOC;PL
+graniță	niște granițăi	N;NOM/ACC;SG;INDF

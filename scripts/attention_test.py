@@ -18,9 +18,21 @@ if __name__=='__main__':
     O_FN = argv[3]
 
     testdata = [l.strip().split('\t') for l in open(TEST_FN).read().split('\n') if l.strip() != '']
+    if len(testdata[0]) == 3:
+        for x,y,z in testdata:
+            assert(y == '')
+        testdata = [(x,z) for (x,y,z) in testdata]
+        
     itestdata = [([c for c in lemma],tags.split(';')) for lemma, tags in testdata]
 
-    attention.init_models(None,MODEL_FN)
-    attention.load_model(MODEL_FN)
-    attention.test(itestdata, open(O_FN,"w"))
-
+    try:
+        attention.init_models(None,MODEL_FN)
+        attention.load_model(MODEL_FN)
+        attention.test(itestdata, open(O_FN,"w"))
+    except:
+        attention.EMBEDDINGS_SIZE = 100
+        attention.STATE_SIZE = 100
+        attention.ATTENTION_SIZE = 100
+        attention.init_models(None,MODEL_FN)
+        attention.load_model(MODEL_FN)
+        attention.test(itestdata, open(O_FN,"w"))

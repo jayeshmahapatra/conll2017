@@ -1,0 +1,100 @@
+চেষ্টা করা	চেষ্টা করবে	3;FUT;INFM
+চেষ্টা করা	চেষ্টা করেছেন	3;PRS;PRF;POL
+চাওয়া	চাওয়েছিলেন	3;PST;PRF;POL
+ঘুমানো	ঘুমানোো	2;PST;HAB;POL
+ফেলা	ফেলা	2;PST;PROG;POL
+চুম্বন করা	চুম্বন করছি	1;PRS;PROG
+আচরণ করা	আচরণ করছিস	2;PRS;PROG;LGSPEC1
+ভুলে যাওয়া	ভুলে যাওয়েছিলেন	3;PST;PRF;POL
+চাওয়া	চাওয়া	3;PST;POL
+পাওয়া	পাওয়ছিস	2;PRS;PROG;LGSPEC1
+তরঙ্গ	তরঙ্গগুলার	GEN;PL;DEF
+ঘামা	ঘামছিলে	3;PST;PROG;INFM
+ডিফ্র্যাগমেন্ট করা	ডিফ্র্যাগমেন্ট করেছে	2;PRS;PRF;POL
+উল্কি আঁকা	উল্কি আঁকছেন	3;PRS;PROG;POL
+লুকানো	লুকালে	3;PST;INFM
+কেনা	কেনা	2;PST;PROG;POL
+খাওয়া	খাওয়ছিলেন	3;PST;PROG;POL
+অনুরোধ করা	অনুরোধ করেছিলেন	3;PST;PRF;POL
+মারা	মারবি	2;FUT;LGSPEC1
+জ্বালাতন করা	জ্বালাতন করতাম	1;PST;HAB
+ভাঙা	ভাঙবে	2;FUT;POL
+নাচা	নাচেছে	2;PRS;PRF;POL
+চালানো	চালানো	V.PTCP;PROG
+মারা	মারি	1;PRS
+মরা	মরলে	3;PST;INFM
+কারণ	কারণগুলার	GEN;PL;DEF
+হওয়া	হওয়েছিলেন	3;PST;PRF;POL
+ডিফ্র্যাগমেন্ট করা	ডিফ্র্যাগমেন্ট করা	V.MSDR
+আগানো	আগানো	2;PRS;POL
+কারণ	কারণ	LOC;SG;DEF
+ভুলে যাওয়া	ভুলে যাওয়া	V.PTCP;PROG
+চেষ্টা করা	চেষ্টা করা	3;PST;HAB;INFM
+খোঁজা	খোঁজছিস	2;PRS;PROG;LGSPEC1
+অপেক্ষা করা	অপেক্ষা করো	3;PRS;INFM
+দেখানো	দেখানো	2;FUT;LGSPEC1
+খোলা	খোলেছিলো	2;PST;PRF;POL
+শব্দ	শব্দা	NOM;PL;DEF
+অঙ্গ	অঙ্গ	NOM;SG;DEF
+সাহায্য করা	সাহায্য করে	2;PRS;POL
+আগানো	আগানোি	2;PST;LGSPEC1
+ইচ্ছা হওয়া	ইচ্ছা হওয়েছেন	3;PRS;PRF;POL
+ভাবা	ভাবেছিলো	2;PST;PRF;POL
+মাল ফেলা	মাল ফেলবি	2;FUT;LGSPEC1
+ভালোবাসা	ভালোবাসছিলাম	1;PST;PROG
+জাগানো	জাগিয়েছিলি	2;PST;PRF;LGSPEC1
+ধরা	ধরবে	3;FUT;INFM
+বিশেষ করা	বিশেষ করে	2;PRS;POL
+খোঁজা	খোঁজা	2;PRS;PROG;POL
+আগানো	আগানো	3;PST;PRF;INFM
+খোলা	খোলছি	1;PRS;PROG
+মরা	মরছো	3;PRS;PROG;INFM
+জাগানো	জাগানোিলি	2;PST;PROG;LGSPEC1
+ঢোকা	ঢোকেছেন	3;PRS;PRF;POL
+চেষ্টা করা	চেষ্টা করা	3;PST;PRF;INFM
+চুম্বন করা	চুম্বন করেছি	1;PRS;PRF
+জাগানো	জাগানোছিস	2;PRS;PRF;LGSPEC1
+পাছা	পাছা	ACC;PL;DEF
+ঘামানো	ঘামানোেন	3;FUT;POL
+খোঁজা	খোঁজবে	2;FUT;POL
+সাহায্য করা	সাহায্য করেছে	2;PRS;PRF;POL
+নেশাখোর	নেশাখোরগুলার	GEN;PL;DEF
+প্রশ্ন করা	প্রশ্ন করা	2;PST;POL
+ভাঙা	ভাঙতিস	2;PST;HAB;LGSPEC1
+হাগা	হাগেছিস	2;PRS;PRF;LGSPEC1
+দেখানো	দেখানোছেন	3;PRS;PRF;POL
+ধরা	ধরবো	1;FUT
+দেখা	দেখা	2;PST;POL
+ভুলে যাওয়া	ভুলে যাওয়লে	3;PST;INFM
+অনুরোধ করা	অনুরোধ কর্লে	V.PTCP;COND
+বোঝা	বোঝা	3;PST;HAB;INFM
+করা	করতিস	2;PST;HAB;LGSPEC1
+ভালবাসা	ভালবাসেছেন	3;PRS;PRF;POL
+শিশু	শিশু	NOM;SG;DEF
+জানা	জানেছিলো	2;PST;PRF;POL
+ব্যবহার করা	ব্যবহার করেন	3;PRS;POL
+ভরা	ভরেছিলাম	1;PST;PRF
+বান্ধবী	বান্ধবী	ACC;SG;DEF
+হাঁটা	হাঁটছিস	2;PRS;PROG;LGSPEC1
+ফেলা	ফেলতো	2;PST;HAB;POL
+বলা	বলেছিলেন	3;PST;PRF;POL
+জাগানো	জাগানো	2;PST;POL
+ধন	ধনে	LOC;NDEF
+চাটা	চাটা	2;PST;PROG;POL
+চাপা	চাপলে	3;PST;INFM
+টাইপ করা	টাইপ করছিলেন	3;PST;PROG;POL
+উল্কি আঁকা	উল্কি আঁকেছিলি	2;PST;PRF;LGSPEC1
+বোঝা	বোঝা	2;PRS;LGSPEC1
+আসা	আসছি	1;PRS;PROG
+উদ্দেশ্য	উদ্দেশ্য	NOM;SG;DEF
+ঘুমানো	ঘুমানোেন	3;PRS;PROG;POL
+করা	করলাম	1;PST
+নেওয়া	নেওয়া	2;PST;POL
+রাখা	রাখা	V.PTCP;PROG
+যাওয়া	যাওয়ে	V.PTCP;HAB
+পাওয়া	পাওয়া	V.MSDR
+আচরণ করা	আচরণ করা	3;PRS;PRF;INFM
+দেখা	দেখবে	2;FUT;POL
+উল্কি আঁকা	উল্কি আঁকবেন	3;FUT;POL
+ঘামা	ঘামছো	3;PRS;PROG;INFM
+বলা	বলা	V.PTCP;PROG
